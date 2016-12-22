@@ -29,16 +29,17 @@ width: 100px;
   margin-top: 10px;
   float: left;
 }
-#right-header-block {
+#right-header-block  {
   float: right;
-  width: 300px;
+  width: 700px;
   height: 30px;
+  text-align: right;
 }
-#right-header-block .menu, #right-header-block .text-block {
+#right-header-block .menu, #right-header-block  .adress .telefon-header .mail {
   background-color: ffffff;
   width: 150px;
   height: 50px;
   float: right;
   margin-top: 10px;
-  color: #000;
+  line-height: 1;
 }
