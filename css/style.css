@@ -9,8 +9,8 @@
 }
 #navbar {
   background-color: #ffffff;
-}
 width: 100px;
+}
 #left-menu {
   width: 50px;
   position: fixed;
@@ -20,26 +20,46 @@ width: 100px;
 #menu {
   margin-top: 100px;
   height: 30px;
-  background-color: #eee;
+  background-color: #9acd32;
 }
 #logo {
   background-color: #ffffff;
   width: 200px;
-  height: 100px;
+  height: 90px;
   margin-top: 10px;
   float: left;
 }
 #right-header-block  {
   float: right;
-  width: 700px;
+  width: 450px;
   height: 30px;
   text-align: right;
 }
-#right-header-block .menu, #right-header-block  .adress .telefon-header .mail {
+#right-header-block .menu, #right-header-block .telefon-header, #right-header-block .mail {
   background-color: ffffff;
-  width: 150px;
+  width: 200px;
   height: 50px;
   float: right;
   margin-top: 10px;
   line-height: 1;
+}
+#right-header-block .telefon-header {
+  margin-right:  50px;
+ }
+ #adress {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  width: 150px;
+  margin-left: -75px;
+  height: 30px;
+  text-align: center;
+}
+#desc{
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+  width: 200px;
+  font-size: 15px;
+  text-align: center;
 }
