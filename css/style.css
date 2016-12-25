@@ -1,5 +1,8 @@
 #slider {
-  margin-top: 100px;
+  margin-top: 150px;
+}
+#slider .container-fluid {
+  min-height: 400px;
 }
 #slider .container-fluid,  #services .container-fluid {
   background-color: #9acd32;
