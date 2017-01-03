@@ -1,6 +1,9 @@
 .carousel-inner .item, .carousel-control {
   height: 358px;
 }
+.carousel-caption {
+  background-color: rgba(0,0,0,0.5);
+}
 .carousel-inner .item img{
   margin: auto;
 }
