@@ -1,5 +1,8 @@
-.carousel-inner .item {
+.carousel-inner .item, .carousel-control {
   height: 358px;
+}
+.carousel-inner .item img{
+  margin: auto;
 }
 #slider {
   margin-top: 150px;
