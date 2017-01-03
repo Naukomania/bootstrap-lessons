@@ -1,3 +1,6 @@
+.carousel-inner .item {
+  height: 358px;
+}
 #slider {
   margin-top: 150px;
 }
