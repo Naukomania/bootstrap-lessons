@@ -103,26 +103,31 @@ include 'blocks/head.php';
 </section>
 <section id="services">
   <div class="container-fluid">
-  <h2>Наши изделия и услуги</h2>
+   <h2>Наши изделия и услуги</h2>
+    <div id="block-ramki">
+     <div id="ramka"> 
+      <div id="text-ramka">Столешницы для кухни</div>
+    </div>
+    <div id="ramka2"> 
+      <div id="text-ramka">&nbsp &nbsp Столешницы для ванной</div>
+    </div>
+    <div id="ramka3"> 
+      <div id="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbsp Подоконники</div>
+    </div>
+  </div>
   <div id="block-ramki">
-  <div id="ramka">
-  <div id="img-ramka">
-  <img src="images/eskiz-kuhnya.jpg">Столешницы для кухни</div>
-  <div id="text-ramka">Производим на заказ столешницы для кухни из акрилового и кварцевого камня. Более 1000 цветов!
-  Быстро и качественно! Цены от производителя!
-  Подробнее
-  </div>
-  </div>
-  <div id="ramka">
-  </div>
-  <div id="ramka2">
-   <div id="text-ramka2">Столешницы для кухни
-  </div>
-  </div>
+     <div id="ramka4"> 
+      <div id="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbspБарные стойки</div>
+    </div>
+    <div id="ramka5"> 
+      <div id="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ресепшн</div>
+    </div>
+    <div id="ramka6"> 
+      <div id="text-ramka">Столешницы для санузлов</div>
+    </div>
   </div>
   </div>
 </section>
-</div>
     <?php
 include 'blocks/footer.php';
 ?>
