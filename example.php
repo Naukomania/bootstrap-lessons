@@ -4,6 +4,8 @@ include 'blocks/head.php';
 ?>
 <section id="slider">
   <div class="container-fluid">
+   <div id="imgtopslide">
+  </div>
   <div id="carousel" class="carousel slide">
   <!--Индикаторы слайдов-->
    <ol class="carousel-indicators">
@@ -103,7 +105,7 @@ include 'blocks/head.php';
 </section>
 <section id="services">
   <div class="container-fluid">
-   <h2>Наши изделия и услуги</h2>
+   <h3>Прайм-Стоун предлагает изготовить для вас</h3>
     <div id="block-ramki">
      <div id="ramka"> 
       <div id="text-ramka">Столешницы для кухни</div>
@@ -114,7 +116,8 @@ include 'blocks/head.php';
     <div id="ramka3"> 
       <div id="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbsp Подоконники</div>
     </div>
-  </div>
+    </div>
+    <img src="images/line2.png">
   <div id="block-ramki">
      <div id="ramka4"> 
       <div id="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbspБарные стойки</div>
