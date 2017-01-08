@@ -1,5 +1,6 @@
 .carousel-inner .item, .carousel-control {
-  height: 358px;
+  height: 350px;
+  background-image: url('images/fonslide.jpg');
 }
 .carousel-caption {
   background-color: rgba(0,0,0,0.5);
@@ -12,6 +13,10 @@
 }
 #slider .container-fluid {
   min-height: 400px;
+}
+#imgtopslide{
+ height: 25px;
+  background-image: url('images/topslide.png');
 }
 #slider .container-fluid,  #services .container-fluid {
   background-color: #ffffff;
@@ -76,8 +81,12 @@ width: 100px;
   font-size: 15px;
   text-align: center;
 }
+#services{
+  text-align: center;
+}
 #block-ramki{
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
  #ramka{
@@ -85,6 +94,9 @@ width: 100px;
   width: 303px;
   display: inline-block;
   height: 406px;
+  float: left;
+  margin-left: 7%;
+  
 }
 #text-ramka{
   margin-top: 85px;
@@ -106,22 +118,28 @@ width: 100px;
   width: 303px;
   display: inline-block;
   height: 406px;
+  margin-right: 7%;
+  float: right;
  }
 #ramka4{
   background-image: url('images/ramka-bar.png');
   width: 303px;
   display: inline-block;
   height: 406px;
+  margin-left: 7%;
+  float: left;
  }
 #ramka5{
   background-image: url('images/ramka-reception.png');
   width: 303px;
   display: inline-block;
   height: 406px;
- }
+   }
 #ramka6{
   background-image: url('images/ramka-sanuzel.png');
   width: 303px;
   display: inline-block;
   height: 406px;
- }
+  margin-right: 7%;
+  float: right;
+   }
