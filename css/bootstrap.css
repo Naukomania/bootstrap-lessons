@@ -6450,12 +6450,12 @@ button.close {
     margin-right: -10px;
   }
   .carousel-caption {
-    right: 20%;
-    left: 20%;
-    padding-bottom: 30px;
+    right: 30%;
+    left: 30%;
+    padding-bottom: 10px;
   }
   .carousel-indicators {
-    bottom: 20px;
+    bottom: 30px;
   }
 }
 .clearfix:before,
