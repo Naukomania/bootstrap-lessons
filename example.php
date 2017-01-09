@@ -100,16 +100,18 @@ include 'blocks/head.php';
    <a href="#carousel" class="right carousel-control" data-slide="next">
      <span class="glyphicon glyphicon-chevron-right"></span>
    </a>
-    Секция с картинками
+   <div id="imgtopslide">
+  </div>
   </div>
 </section>
 <section id="services">
   <div class="container-fluid">
-   <h3>Прайм-Стоун предлагает изготовить для вас</h3>
+   <h4><font color="212121"> Прайм-Стоун предлагает изготовить для вас</h4>
     <div id="block-ramki">
      <div id="ramka"> 
       <div id="text-ramka">Столешницы для кухни</div>
-    </div>
+      <div id="text-ramka2">Мы изготавливаем кухонные столешницы из искусственного акрилового и кварцевого камня. Оптимальными вариантами для изготовления столешниц >>>></div>
+          </div>
     <div id="ramka2"> 
       <div id="text-ramka">&nbsp &nbsp Столешницы для ванной</div>
     </div>
@@ -129,7 +131,9 @@ include 'blocks/head.php';
       <div id="text-ramka">Столешницы для санузлов</div>
     </div>
   </div>
+   <img src="images/line2.png">
   </div>
+
 </section>
     <?php
 include 'blocks/footer.php';

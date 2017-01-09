@@ -12,7 +12,7 @@
   margin-top: 150px;
 }
 #slider .container-fluid {
-  min-height: 400px;
+  min-height: 350px;
 }
 #imgtopslide{
  height: 25px;
@@ -83,6 +83,7 @@ width: 100px;
 }
 #services{
   text-align: center;
+  margin-top: 60px;
 }
 #block-ramki{
   margin-top: 20px;
@@ -106,6 +107,14 @@ width: 100px;
   font-size: 14px;
   color: green;
   font-weight: 600;
+}
+#text-ramka2{
+  margin-top: 145px;
+  margin-left: 47px;
+  width: 214px;
+  text-align: justify;
+  font-size: 12px;
+  color: black;
 }
  #ramka2{
   background-image: url('images/ramka-vanna.png');
