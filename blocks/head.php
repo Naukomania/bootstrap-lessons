@@ -66,6 +66,7 @@
             <li><a href="#">Hanex</a></li>
             <li><a href="#">Tristone</a></li>
             <li><a href="#">Grandex</a></li>
+            <li><a href="#">Kerrock</a></li>
           </ul>
         </li>
         <li class="dropdown">
