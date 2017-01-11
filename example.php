@@ -106,7 +106,7 @@ include 'blocks/head.php';
 </section>
 <section id="services">
   <div class="container-fluid">
-   <h4><font color="212121"> Прайм-Стоун предлагает изготовить для вас</h4>
+   <h4><font color="212121"> Прайм-Стоун предлагает изготовить для вас</font></h4>
     <div id="block-ramki">
      <div id="ramka"> 
       <div id="text-ramka">Столешницы для кухни</div>
@@ -132,9 +132,58 @@ include 'blocks/head.php';
     </div>
   </div>
    <img src="images/line2.png">
+  </div class="container-fluid">
+  <div id="razdel-content">
+  <h4>Палитра камней, цвета и текстуры</h4>
+  Акриловый камень
   </div>
+  </div>
+  <div id="katalog-kamnya">
+  <div class="tabbable"> <!-- Only required for left/right tabs -->
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#tab1" data-toggle="tab">Samsung Staron</a></li>
+    <li><a href="#tab2" data-toggle="tab">LG Hi Macs</a></li>
+    <li><a href="#tab3" data-toggle="tab">Corian</a></li>
+    <li><a href="#tab4" data-toggle="tab">Hanex</a></li>
+    <li><a href="#tab5" data-toggle="tab">Tristone</a></li>
+    <li><a href="#tab6" data-toggle="tab">Grandex</a></li>
+    <li><a href="#tab7" data-toggle="tab">Kerrock</a></li>
+  </ul>
 
+  <div class="tab-content">
+    <div class="tab-pane active" id="tab1">
+      <div id="a123">
+      <img src="images/formstone1.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone2.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone3.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone4.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone5.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone6.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone7.png">
+      </div>
+    </div>
+    <div class="tab-pane" id="tab2">
+      <p>Привет, я в Разделе 2.</p>
+    </div>
+    <div class="tab-pane" id="tab3">
+      <p>Привет, я в Разделе 3.</p>
+    </div>
+  </div>
+</div>
 </section>
+
     <?php
 include 'blocks/footer.php';
 ?>
