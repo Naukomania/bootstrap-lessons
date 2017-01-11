@@ -4016,7 +4016,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   max-width: none;
 }
 .nav-tabs {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid green;
 }
 .nav-tabs > li {
   float: left;
@@ -4037,7 +4037,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #555;
   cursor: default;
   background-color: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid green;
   border-bottom-color: transparent;
 }
 .nav-tabs.nav-justified {
@@ -6389,7 +6389,7 @@ button.close {
 }
 .carousel-indicators {
   position: absolute;
-  bottom: 10px;
+  bottom: 20px;
   left: 50%;
   z-index: 15;
   width: 60%;
@@ -6397,6 +6397,7 @@ button.close {
   margin-left: -30%;
   text-align: center;
   list-style: none;
+  padding-bottom: 10px;
 }
 .carousel-indicators li {
   display: inline-block;
@@ -6452,7 +6453,7 @@ button.close {
   .carousel-caption {
     right: 30%;
     left: 30%;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
   .carousel-indicators {
     bottom: 30px;
