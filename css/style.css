@@ -101,19 +101,28 @@ width: 100px;
   display: none;
   position: absolute;
   width: 90%;
-  height: 426px;
+  height: 425px;
   background-color: rgba(0,0,0,0.6);
 }
   #bigImg {
   top: 10px;
-  width: 60%;
+  width: 616px;
   height: 406px;
-  border: 2px solid green;
-  border-radius: 15px;
+  border-radius: 7px;
   background-color: #ffffff;
   position: absolute;
-  float: left;
   margin-left: 7%;
+  background-image: url('images/backblackbox.jpg');
+}
+#page1{
+  width: 288px;
+  height: 406px;
+  margin-left: 20px;
+}
+#page2{
+  width: 288px;
+  height: 406px;
+  margin-right: 20px;
 }
 #text-ramka{
   margin-top: 85px;
