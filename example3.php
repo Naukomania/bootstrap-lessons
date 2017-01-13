@@ -104,33 +104,39 @@ include 'blocks/head.php';
   </div>
   </div>
 </section>
+<style>
+  #ramka, #ramka2, #ramka3, #ramka4, #ramka5, #ramka6 {
+    margin-right: 0px;
+    margin-left: 0px;
+    float: left;
+  }
+</style>
 <section id="services">
   <div class="container-fluid">
-   <h4><font color="212121"> Прайм-Стоун предлагает изготовить для вас</font></h4>
-    <div id="block-ramki">
-     <div id="ramka"> 
-      <div id="text-ramka">Столешницы для кухни</div>
-      <div id="text-ramka2">Мы изготавливаем кухонные столешницы из искусственного акрилового и кварцевого камня. Оптимальными вариантами для изготовления столешниц >>>></div>
-          </div>
-    <div id="ramka2"> 
-      <div id="text-ramka">&nbsp &nbsp Столешницы для ванной</div>
-    </div>
-    <div id="ramka3"> 
-      <div id="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbsp Подоконники</div>
-    </div>
-    </div>
-    <img src="images/line2.png">
-  <div id="block-ramki">
-     <div id="ramka4"> 
-      <div id="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbspБарные стойки</div>
-    </div>
-    <div id="ramka5"> 
-      <div id="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ресепшн</div>
-    </div>
-    <div id="ramka6"> 
-      <div id="text-ramka">Столешницы для санузлов</div>
+    <h4><font color="212121"> Прайм-Стоун предлагает изготовить для вас</font></h4>
+    <div class="row">
+      <div id="ramka" class="col-md-4"> 
+        <div id="text-ramka">Столешницы для кухни</div>
+        <div id="text-ramka2">Мы изготавливаем кухонные столешницы из искусственного акрилового и кварцевого камня. Оптимальными вариантами для изготовления столешниц >>>></div>
+      </div>
+      <div id="ramka2" class="col-md-4"> 
+        <div id="text-ramka">&nbsp &nbsp Столешницы для ванной</div>
+      </div>
+      <div id="ramka3" class="col-md-4"> 
+        <div id="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbsp Подоконники</div>
+      </div>
+
+      <div id="ramka4" class="col-md-4"> 
+        <div id="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbspБарные стойки</div>
+      </div>
+      <div id="ramka5" class="col-md-4"> 
+        <div id="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ресепшн</div>
+      </div>
+      <div id="ramka6" class="col-md-4"> 
+        <div id="text-ramka">Столешницы для санузлов</div>
     </div>
   </div>
+
    <img src="images/line2.png">
   </div class="container-fluid">
   <div id="razdel-content">
