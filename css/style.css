@@ -87,16 +87,33 @@ width: 100px;
 #block-ramki{
   margin-top: 20px;
   margin-bottom: 20px;
-}
+  }
 
- #ramka{
+ #ramka1{
   background-image: url('images/ramka-kuhnya.png');
   width: 303px;
   display: inline-block;
   height: 406px;
   float: left;
   margin-left: 7%;
-  
+}
+#blackBox {
+  display: none;
+  position: absolute;
+  width: 90%;
+  height: 426px;
+  background-color: rgba(0,0,0,0.6);
+}
+  #bigImg {
+  top: 10px;
+  width: 60%;
+  height: 406px;
+  border: 2px solid green;
+  border-radius: 15px;
+  background-color: #ffffff;
+  position: absolute;
+  float: left;
+  margin-left: 7%;
 }
 #text-ramka{
   margin-top: 85px;
