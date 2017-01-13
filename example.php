@@ -113,7 +113,10 @@ include 'blocks/head.php';
       <div id="text-ramka2">Мы изготавливаем кухонные столешницы из искусственного акрилового и кварцевого камня. Оптимальными вариантами для изготовления столешниц >>>></div>
     </div>
     <div id="blackBox">
-  <div id="bigImg">Бля бла бля</div>
+  <div id="bigImg">
+  <div id="page1">Фото или текст</div>
+  <div id="page2">Фото или текст</div>
+  </div>
 </div>
     <div id="ramka2"> 
       <div id="text-ramka">&nbsp &nbsp Столешницы для ванной</div>
