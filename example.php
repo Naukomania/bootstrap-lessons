@@ -108,10 +108,13 @@ include 'blocks/head.php';
   <div class="container-fluid">
    <h4><font color="212121"> Прайм-Стоун предлагает изготовить для вас</font></h4>
     <div id="block-ramki">
-     <div id="ramka"> 
+     <div id="ramka1"> 
       <div id="text-ramka">Столешницы для кухни</div>
       <div id="text-ramka2">Мы изготавливаем кухонные столешницы из искусственного акрилового и кварцевого камня. Оптимальными вариантами для изготовления столешниц >>>></div>
-          </div>
+    </div>
+    <div id="blackBox">
+  <div id="bigImg">Бля бла бля</div>
+</div>
     <div id="ramka2"> 
       <div id="text-ramka">&nbsp &nbsp Столешницы для ванной</div>
     </div>
