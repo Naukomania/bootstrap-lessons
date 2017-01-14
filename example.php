@@ -117,9 +117,9 @@ include 'blocks/head.php';
   <div id="page1"><h4>Столешницы для кухни</h4><img src="images/imgbig1.jpg"><br><br>
   <div id="text-page">
   <ul>
-  <li><button type="button"class="btn btn-success"><a href="#">Смотреть фото</a></button></li>
-  <li><button type="button"class="btn btn-primary"><a href="#">Кухонные столешницы</a></button></li>
-  <li><button type="button"class="btn btn-danger"><a href="#">Расчитать стоимость</a></button></li>
+  <li><button type="button"class="btn btn-warning"><a href="#">Смотреть фото</a></button></li>
+  <li><button type="button"class="btn btn-success"><a href="#">Кухонные столешницы</a></button></li>
+  <li><button type="button"class="btn btn-info"><a href="#">Расчитать стоимость</a></button></li>
   </div></div>
   <div id="page2"><div id="text-page2"><p>Мы изготавливаем кухонные столешницы из искусственного акрилового и кварцевого камня. Стоимость столешницы зависит от сложности, конфигурации, модели кромок и  размера столешницы.Цена столешницы также зависит от выбранного цвета, чем крупнее текстура и насыщеннее цвет, тем дороже. И наоборот, самыми недорогими материалами являются светлые монотонные или цвета с мелкой песчаной текстурой.</p>
    </div>
