@@ -147,38 +147,38 @@ include 'blocks/head.php';
     <h4>Прайм-Стоун предлагает изготовить для вас</h4>
     <div class="row">
 
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-6">
         <div id="ramka-1" class="item">
           <div class="text-ramka">Столешницы для кухни</div>
           <div id="text-ramka2">Мы изготавливаем кухонные столешницы из искусственного акрилового и кварцевого камня. Оптимальными вариантами для изготовления столешниц >>>></div>
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-6">
         <div id="ramka-2" class="item">
           <div class="text-ramka">&nbsp &nbsp Столешницы для ванной</div>
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-6">
         <div id="ramka-3" class="item">
           <div class="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbsp Подоконники</div>
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-6">
         <div id="ramka-4" class="item">
           <div class="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbspБарные стойки</div>
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-6">
         <div id="ramka-5" class="item">
           <div class="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ресепшн</div>
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-6">
         <div id="ramka-6" class="item">
           <div class="text-ramka">Столешницы для санузлов</div>
         </div>

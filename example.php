@@ -148,6 +148,18 @@ include 'blocks/head.php';
       <div id="text-ramka">Столешницы для санузлов</div>
     </div>
   </div>
+<p>
+  <a class="btn btn-default" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Другие изделия из искусственного камня
+  </a>
+  </button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-block">
+    Основной продукцией нашего производства являются столешницы для кухни и ванной, а также подоконники. Также мы изготавливаем стеновые кухонные панели, накладки на ванную, мойки, раковины, элементы для лестниц - перила, ступеньи и подступенки. 
+    Акриловый камень также незаменим и для производства изделий для коммерческий целей - прилавки, стенды, ресепшен, стойки для гардеробных и пр.
+  </div>
+</div>
    <img src="images/line2.png">
   </div class="container-fluid">
   <div id="razdel-content">
@@ -166,9 +178,41 @@ include 'blocks/head.php';
     <li><a href="#tab6" data-toggle="tab">Grandex</a></li>
     <li><a href="#tab7" data-toggle="tab">Kerrock</a></li>
   </ul>
-
   <div class="tab-content">
     <div class="tab-pane active" id="tab1">
+    <p>
+    <br>
+  <a class="btn btn-default btn-lg btn-block" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Искусственный камень Samsung Staron
+  </a>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-block">
+    Искусственный камень Staron пользуется огромной популярностью во всем мире. Он обладает превосходной прочностью и имеет чрезвычайно богатую палитру, представленную многообразием цветов, оттенков и текстур.
+Профессиональные дизайнеры интерьеров предпочитают работать именно с изделиями из акрилового камня Staron, поскольку он поддается термоформингу (детали с изогнутыми элементами изготавливаются из плоского листка материала) и характеризуется богатством цветовой палитры Staron. Возможность разработки конструкции любой сложности без видимых швов также является несомненным преимуществом использования искусственного камня Самсунг Старон.
+Все, кто делает выбор в пользу красивого и экологически чистого искусственного камня Samsung Staron, остаются довольны результатом. Широкое распространение материал получил благодаря своим следующим свойствам:
+Бесшовное соединение искусственного камня Самсунг по цене доступной и приемлемой позволяет производить разнообразные по форме поверхности.
+Непористая структура акрилового камня Самсунг Старон гарантирует простой повседневный уход и долговечность конструкций.
+Благодаря кварцевым частицам искусственный камень Старон обладает природной красотой и прочностью. Его эстетика и прекрасные потребительские свойства расширяют дизайнерские возможности при разработке богатых и изысканных интерьеров. Искусственный камень Самсунг используется для изготовления кухонных столешниц Samsung Staron и подоконников, барных стоек, отделки ванных комнат, торгового оборудования и т. д. Не менее привлекательны и мойки Старон, способные привнести в помещение ноту изысканности.
+  </div>
+</div>
+<p>Отбор камней по цвету в Samsung Staron</p>
+<p>Отбор камней по цвету по всем брендам акриловго камня</p>
+<p>Перейти на страницу с каталогом Staron</p>
+<p>Перейти на страницу всех камня акриловго камня</p>
+<div> 
+<ul class="breadcrumb">
+   <li class="active">Solid Color</li>
+  <li><a href="#">Super Color</a> <span class="divider">/</span></li>
+  <li><a href="#">Sanded</a> <span class="divider">/</span></li>
+  <li><a href="#">Aspen</a> <span class="divider">/</span></li>
+  <li><a href="#">Metallic</a> <span class="divider">/</span></li>
+  <li><a href="#">Pebble</a> <span class="divider">/</span></li>
+  <li><a href="#">Quarry</a> <span class="divider">/</span></li>
+  <li><a href="#">Tempest</a> <span class="divider">/</span></li>
+  <li><a href="#">Supreme</a> <span class="divider">/</span></li>
+</ul>
+<p>Solid Color</p>
       <div id="a123">
       <img src="images/formstone1.png">
       </div>
@@ -190,6 +234,73 @@ include 'blocks/head.php';
       <div id="a123">
       <img src="images/formstone7.png">
       </div>
+      <div id="a123">
+      <img src="images/formstone1.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone2.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone3.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone4.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone5.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone6.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone7.png">
+      </div>
+      <button type="button"class="btn btn-success"><a href="#">Показать /Скрыть всю палитру Samsung Staron</a></button>
+      <p>Super Solid</p>
+      <div id="a123">
+      <img src="images/formstone1.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone2.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone3.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone4.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone5.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone6.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone7.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone1.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone2.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone3.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone4.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone5.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone6.png">
+      </div>
+      <div id="a123">
+      <img src="images/formstone7.png">
+      </div>
+      </div>
+        
     </div>
     <div class="tab-pane" id="tab2">
       <p>Привет, я в Разделе 2.</p>
