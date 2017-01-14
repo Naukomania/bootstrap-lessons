@@ -105,35 +105,83 @@ include 'blocks/head.php';
   </div>
 </section>
 <style>
-  #ramka, #ramka2, #ramka3, #ramka4, #ramka5, #ramka6 {
-    margin-right: 0px;
-    margin-left: 0px;
-    float: left;
+  #services h4 {
+    color: #212121;
+  }
+  #services .item {
+    width: 303px;
+    height: 406px;
+    margin: 0 auto;
+  }
+  #services .item .text-ramka {
+    padding-top: 85px;
+    margin-top: 0px;
+    margin-left: 60px;
+    width: 303px;
+    text-align: left;
+    font-size: 14px;
+    color: green;
+    font-weight: 600;
+  }
+  #ramka-1{
+    background-image: url('css/images/ramka-kuhnya.png');
+  }
+  #ramka-2{
+    background-image: url('css/images/ramka-vanna.png');
+  }
+  #ramka-3{
+    background-image: url('css/images/ramka-pod.png');
+  }
+  #ramka-4{
+    background-image: url('css/images/ramka-bar.png');
+  }
+  #ramka-5{
+    background-image: url('css/images/ramka-reception.png');
+  }
+  #ramka-6{
+    background-image: url('css/images/ramka-sanuzel.png');
   }
 </style>
 <section id="services">
   <div class="container-fluid">
-    <h4><font color="212121"> Прайм-Стоун предлагает изготовить для вас</font></h4>
+    <h4>Прайм-Стоун предлагает изготовить для вас</h4>
     <div class="row">
-      <div id="ramka" class="col-md-4"> 
-        <div id="text-ramka">Столешницы для кухни</div>
-        <div id="text-ramka2">Мы изготавливаем кухонные столешницы из искусственного акрилового и кварцевого камня. Оптимальными вариантами для изготовления столешниц >>>></div>
-      </div>
-      <div id="ramka2" class="col-md-4"> 
-        <div id="text-ramka">&nbsp &nbsp Столешницы для ванной</div>
-      </div>
-      <div id="ramka3" class="col-md-4"> 
-        <div id="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbsp Подоконники</div>
+
+      <div class="col-md-4">
+        <div id="ramka-1" class="item">
+          <div class="text-ramka">Столешницы для кухни</div>
+          <div id="text-ramka2">Мы изготавливаем кухонные столешницы из искусственного акрилового и кварцевого камня. Оптимальными вариантами для изготовления столешниц >>>></div>
+        </div>
       </div>
 
-      <div id="ramka4" class="col-md-4"> 
-        <div id="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbspБарные стойки</div>
+      <div class="col-md-4">
+        <div id="ramka-2" class="item">
+          <div class="text-ramka">&nbsp &nbsp Столешницы для ванной</div>
+        </div>
       </div>
-      <div id="ramka5" class="col-md-4"> 
-        <div id="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ресепшн</div>
+
+      <div class="col-md-4">
+        <div id="ramka-3" class="item">
+          <div class="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbsp Подоконники</div>
+        </div>
       </div>
-      <div id="ramka6" class="col-md-4"> 
-        <div id="text-ramka">Столешницы для санузлов</div>
+
+      <div class="col-md-4">
+        <div id="ramka-4" class="item">
+          <div class="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbspБарные стойки</div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div id="ramka-5" class="item">
+          <div class="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ресепшн</div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div id="ramka-6" class="item">
+          <div class="text-ramka">Столешницы для санузлов</div>
+        </div>
     </div>
   </div>
 
