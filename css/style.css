@@ -95,6 +95,14 @@ width: 100px;
   height: 425px;
   background-color: rgba(0,0,0,0.6);
 }
+#closeBox {
+ right: 5px;
+ top: 5px;
+ position: absolute;
+ font-size: 16;
+ color: white;
+}
+
   #bigImg {
   top: 10px;
   width: 616px;
@@ -125,11 +133,16 @@ margin-left: 20px;
   margin-top: 25px;
 }
 #text-page2{
-width: 230px;
+width: 220px;
 text-align: justify;
 font-size: 13px;
-margin-left: 35px;
+margin-left: 40px;
 margin-top: 15px;
+}
+#nextPage {
+color: green;
+left: 50px;
+font-size: 16px;
 }
 #text-ramka{
   margin-top: 85px;
@@ -140,14 +153,7 @@ margin-top: 15px;
   color: green;
   font-weight: 600;
 }
-#text-ramka2{
-  margin-top: 145px;
-  margin-left: 47px;
-  width: 214px;
-  text-align: justify;
-  font-size: 12px;
-  color: black;
-}
+
  #ramka2{
   background-image: url('images/ramka-vanna.png');
   width: 303px;
