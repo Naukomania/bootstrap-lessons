@@ -6,9 +6,8 @@
  	$('#ramka1').on('click',function(){
 	$('#blackBox').show('slow');
 });
- 	$('#blackBox').on('click',function(){
+ 	$('#closeBox').on('click',function(){
 	$('#blackBox').hide('slow');
 });
-
-
+   
 });
