@@ -265,6 +265,8 @@ th {
 
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  font-family: 'old-comedy';
+  src: url('../fonts/old-comedy.ttf');
 }
 .glyphicon {
   position: relative;
@@ -3068,9 +3070,9 @@ fieldset[disabled] a.btn {
   border-color: #8c8c8c;
 }
 .btn-default:hover {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+  color: black;
+  background-color: white;
+  border-color: green;
 }
 .btn-default:active,
 .btn-default.active,
@@ -3434,9 +3436,11 @@ fieldset[disabled] .btn-link:focus {
 .btn-lg,
 .btn-group-lg > .btn {
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.3333333;
   border-radius: 6px;
+  border-color: green;
+  text-align: left;
 }
 .btn-sm,
 .btn-group-sm > .btn {

@@ -150,7 +150,7 @@ include 'blocks/head.php';
       <div class="col-md-4 col-sm-6">
         <div id="ramka-1" class="item">
           <div class="text-ramka">Столешницы для кухни</div>
-          <div id="text-ramka2">Мы изготавливаем кухонные столешницы из искусственного акрилового и кварцевого камня. Оптимальными вариантами для изготовления столешниц >>>></div>
+          <div id="text-ramka2"></div>
         </div>
       </div>
 

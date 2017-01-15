@@ -106,10 +106,12 @@ include 'blocks/head.php';
 </section>
 <section id="services">
   <div class="container-fluid">
-   <h4><font color="212121"> Прайм-Стоун предлагает изготовить для вас</font></h4>
+  <div id="razdel-main">
+   <h1>Прайм-Стоун изготовит для вас</h1>
+   </div>
     <div id="block-ramki">
      <div id="ramka1"> 
-      <div id="text-ramka">Столешницы для кухни</div>
+      <div id="text-ramka">Столешницы <br>&nbspдля кухни</div>
     </div>
     <div id="blackBox">
     <div id="closeBox"><i class="fa fa-remove fa-2x" aria-hidden="true" style="color: #ffffff"></i></div>
@@ -130,22 +132,21 @@ include 'blocks/head.php';
   </div>
 </div>
     <div id="ramka2"> 
-      <div id="text-ramka">&nbsp &nbsp Столешницы для ванной</div>
+      <div id="text-ramka">Столешницы <br>&nbspдля ванной</div>
     </div>
     <div id="ramka3"> 
-      <div id="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbsp Подоконники</div>
+      <div id="text-ramka">Подоконники</div>
     </div>
     </div>
-    <img src="images/line2.png">
   <div id="block-ramki">
      <div id="ramka4"> 
-      <div id="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbspБарные стойки</div>
+      <div id="text-ramka">Барные стойки</div>
     </div>
     <div id="ramka5"> 
-      <div id="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ресепшн</div>
+      <div id="text-ramka">&nbsp &nbsp &nbspРесепшн</div>
     </div>
     <div id="ramka6"> 
-      <div id="text-ramka">Столешницы для санузлов</div>
+      <div id="text-ramka">Столешницы <br>&nbsp для санузлов</div>
     </div>
   </div>
 <p>
@@ -160,10 +161,9 @@ include 'blocks/head.php';
     Акриловый камень также незаменим и для производства изделий для коммерческий целей - прилавки, стенды, ресепшен, стойки для гардеробных и пр.
   </div>
 </div>
-   <img src="images/line2.png">
   </div class="container-fluid">
   <div id="razdel-content">
-  <h4>Палитра камней, цвета и текстуры</h4>
+  <div id="razdel-main"><h1>Палитра камней, цвета и текстуры</h1></div>
   Акриловый камень
   </div>
   </div>
@@ -182,11 +182,16 @@ include 'blocks/head.php';
     <div class="tab-pane active" id="tab1">
     <p>
     <br>
-  <a class="btn btn-default btn-lg btn-block" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    <div id="staron-text">
+    <div id="logostaron">
+      <img src="images/logostaron.jpg">
+    </div>
+    </div>
+  <a class="btn btn-default btn-lg btn-block" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
     Искусственный камень Samsung Staron
   </a>
 </p>
-<div class="collapse" id="collapseExample">
+<div class="collapse" id="collapseExample1">
   <div class="card card-block">
     Искусственный камень Staron пользуется огромной популярностью во всем мире. Он обладает превосходной прочностью и имеет чрезвычайно богатую палитру, представленную многообразием цветов, оттенков и текстур.
 Профессиональные дизайнеры интерьеров предпочитают работать именно с изделиями из акрилового камня Staron, поскольку он поддается термоформингу (детали с изогнутыми элементами изготавливаются из плоского листка материала) и характеризуется богатством цветовой палитры Staron. Возможность разработки конструкции любой сложности без видимых швов также является несомненным преимуществом использования искусственного камня Самсунг Старон.
