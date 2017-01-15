@@ -121,7 +121,7 @@ include 'blocks/head.php';
   <ul>
   <li><button type="button"class="btn btn-warning"><a href="#">Смотреть фото</a></button></li>
   <li><button type="button"class="btn btn-success"><a href="#">Кухонные столешницы</a></button></li>
-  <li><button type="button"class="btn btn-info"><a href="#">Расчитать стоимость</a></button></li>
+  <li><button type="button"class="btn btn-primary"><a href="#">Расчитать стоимость</a></button></li>
   </div></div>
   <div id="page2"><div id="text-page2"><p>Мы изготавливаем кухонные столешницы из искусственного акрилового и кварцевого камня. Стоимость столешницы зависит от сложности, конфигурации, модели кромок и  размера столешницы.Цена столешницы также зависит от выбранного цвета, чем крупнее текстура и насыщеннее цвет, тем дороже. И наоборот, самыми недорогими материалами являются светлые монотонные или цвета с мелкой песчаной текстурой.</p>
    </div>
@@ -208,14 +208,14 @@ include 'blocks/head.php';
 <div> 
 <ul class="breadcrumb">
    <li class="active">Solid Color</li>
-  <li><a href="#">Super Color</a> <span class="divider">/</span></li>
-  <li><a href="#">Sanded</a> <span class="divider">/</span></li>
-  <li><a href="#">Aspen</a> <span class="divider">/</span></li>
-  <li><a href="#">Metallic</a> <span class="divider">/</span></li>
-  <li><a href="#">Pebble</a> <span class="divider">/</span></li>
-  <li><a href="#">Quarry</a> <span class="divider">/</span></li>
-  <li><a href="#">Tempest</a> <span class="divider">/</span></li>
-  <li><a href="#">Supreme</a> <span class="divider">/</span></li>
+  <li><a href="#">Super Color</a></li>
+  <li><a href="#">Sanded</a></li>
+  <li><a href="#">Aspen</a></li>
+  <li><a href="#">Metallic</a></li>
+  <li><a href="#">Pebble</a></li>
+  <li><a href="#">Quarry</a></li>
+  <li><a href="#">Tempest</a></li>
+  <li><a href="#">Supreme</a></li>
 </ul>
 <p>Solid Color</p>
       <div id="a123">

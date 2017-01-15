@@ -3116,9 +3116,9 @@ fieldset[disabled] .btn-default.focus {
   background-color: #333;
 }
 .btn-primary {
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  color: #000000;
+  background-color: #e0b0ff;
+  border-color: #e0b0ff;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -3173,9 +3173,9 @@ fieldset[disabled] .btn-primary.focus {
   background-color: #fff;
 }
 .btn-success {
-  color: #fff;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  color: #000000;
+  background-color: #9acd32;
+  border-color: #9acd32;;
 }
 .btn-success:focus,
 .btn-success.focus {
@@ -3287,9 +3287,9 @@ fieldset[disabled] .btn-info.focus {
   background-color: #fff;
 }
 .btn-warning {
-  color: #fff;
-  background-color: #f0ad4e;
-  border-color: #eea236;
+  color: #000000;
+  background-color: #ffd700;
+  border-color: #ffd700;
 }
 .btn-warning:focus,
 .btn-warning.focus {
@@ -4698,7 +4698,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #f5f5f5;
+  background-color: #width;
   border-radius: 4px;
 }
 .breadcrumb > li {
@@ -4706,11 +4706,14 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .breadcrumb > li + li:before {
   padding: 0 5px;
-  color: #ccc;
+  color: green;
   content: "/\00a0";
 }
 .breadcrumb > .active {
-  color: #777;
+  color: black;
+  border-bottom: 3px solid #9acd32;
+  font-weight: bold;
+
 }
 .pagination {
   display: inline-block;
