@@ -106,14 +106,17 @@ include 'blocks/head.php';
 </section>
 <section id="services">
   <div class="container-fluid">
-  <div id="razdel-main">
-   <h1>Прайм-Стоун изготовит для вас</h1>
-   </div>
-    <div id="block-ramki">
-     <div id="ramka1"> 
-      <div id="text-ramka">Столешницы <br>&nbspдля кухни</div>
+  <div class="container-fluid">
+    <div id="razdel-main">
+      <h1>Прайм-Стоун изготовит для вас</h1>
     </div>
-    <div id="blackBox">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <div id="ramka-1" class="item">
+          <div class="text-ramka">Столешницы<br> для кухни</div>
+        </div>
+      </div>
+<div id="blackBox">
     <div id="closeBox"><i class="fa fa-remove fa-2x" aria-hidden="true" style="color: #ffffff"></i></div>
   <div id="bigImg">
   <div id="page1"><h4>Столешницы для кухни</h4><img src="images/imgbig1.jpg"><br><br>
@@ -122,6 +125,7 @@ include 'blocks/head.php';
   <li><button type="button"class="btn btn-warning"><a href="#">Смотреть фото</a></button></li>
   <li><button type="button"class="btn btn-success"><a href="#">Кухонные столешницы</a></button></li>
   <li><button type="button"class="btn btn-primary"><a href="#">Расчитать стоимость</a></button></li>
+  </ul>
   </div></div>
   <div id="page2"><div id="text-page2"><p>Мы изготавливаем кухонные столешницы из искусственного акрилового и кварцевого камня. Стоимость столешницы зависит от сложности, конфигурации, модели кромок и  размера столешницы.Цена столешницы также зависит от выбранного цвета, чем крупнее текстура и насыщеннее цвет, тем дороже. И наоборот, самыми недорогими материалами являются светлые монотонные или цвета с мелкой песчаной текстурой.</p>
    </div>
@@ -130,31 +134,42 @@ include 'blocks/head.php';
    </div>
   </div>
   </div>
-</div>
-    <div id="ramka2"> 
-      <div id="text-ramka">Столешницы <br>&nbspдля ванной</div>
-    </div>
-    <div id="ramka3"> 
-      <div id="text-ramka">Подоконники</div>
-    </div>
-    </div>
-  <div id="block-ramki">
-     <div id="ramka4"> 
-      <div id="text-ramka">Барные стойки</div>
-    </div>
-    <div id="ramka5"> 
-      <div id="text-ramka">&nbsp &nbsp &nbspРесепшн</div>
-    </div>
-    <div id="ramka6"> 
-      <div id="text-ramka">Столешницы <br>&nbsp для санузлов</div>
+  </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div id="ramka-2" class="item">
+          <div class="text-ramka">Столешницы<br> для ванной</div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div id="ramka-3" class="item">
+          <div class="text-ramka">Подоконники</div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div id="ramka-4" class="item">
+          <div class="text-ramka">Барные стойки</div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div id="ramka-5" class="item">
+          <div class="text-ramka">Ресепшн</div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div id="ramka-6" class="item">
+          <div class="text-ramka">Столешницы<br> для санузлов</div>
+        </div>
     </div>
   </div>
-<p>
-  <a class="btn btn-default" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-    Другие изделия из искусственного камня
-  </a>
-  </button>
-</p>
+    <p class="services-details">
+    <a class="btn btn-default" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Другие изделия из искусственного камня</a>
+  </p>
+
 <div class="collapse" id="collapseExample">
   <div class="card card-block">
     Основной продукцией нашего производства являются столешницы для кухни и ванной, а также подоконники. Также мы изготавливаем стеновые кухонные панели, накладки на ванную, мойки, раковины, элементы для лестниц - перила, ступеньи и подступенки. 

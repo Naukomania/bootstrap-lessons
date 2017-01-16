@@ -71,28 +71,33 @@ width: 100px;
   font-size: 15px;
   text-align: center;
 }
-#services{
-  text-align: center;
-  margin-top: 20px;
-}
-#razdel-main h1 {
-  font-family: old-comedy;
-  font-size: 40px;
-}
-#block-ramki{
-  margin-top: 20px;
-  margin-bottom: 20px;
+#services h4 {
+    color: #212121;
   }
 
- #ramka1{
-  background-image: url('images/ramka-kuhnya2.png');
-  width: 250px;
-  display: inline-block;
-  height: 315px;
-  float: left;
-  margin-left: 7%;
+ #services .item {
+    width: 250px;
+    height: 315px;
+    margin: 20px auto 0;
+  }
+  #services .item .text-ramka {
+    padding-top: 15px;
+    margin-left: 110px;
+    width: 303px;
+    text-align: left;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+  }
+  #razdel-main h1 {
+  font-family: old-comedy;
+  font-size: 40px;
+  text-align: center;
 }
-#blackBox {
+  #ramka-1{
+    background-image: url('images/ramka-kuhnya2.png');
+  }
+  #blackBox {
   display: none;
   position: absolute;
   width: 90%;
@@ -155,52 +160,24 @@ font-weight: bold;
 #nextPage:hover {
   cursor: pointer;
   }
-#text-ramka{
-  margin-top: 15px;
-  margin-left: 110px;
-  width: 303px;
-  text-align: left;
-  font-size: 14px;
-  color: black;
-  font-weight: 600;
-}
-
- #ramka2{
-  background-image: url('images/ramka-vanna4.png');
-  width: 250px;
-  display: inline-block;
-  height: 315px;
-}
-#ramka3{
-  background-image: url('images/ramka-pod2.png');
-  width: 250px;
-  display: inline-block;
-  height: 315px;
-  margin-right: 7%;
-  float: right;
- }
-#ramka4{
-  background-image: url('images/ramka-bar2.png');
-  width: 250px;
-  display: inline-block;
-  height: 315px;
-  margin-left: 7%;
-  float: left;
- }
-#ramka5{
-  background-image: url('images/ramka-reception2.png');
-  width: 250px;
-  display: inline-block;
-  height: 315px;
-   }
-#ramka6{
-  background-image: url('images/ramka-sanuzel2.png');
-  width: 250px;
-  display: inline-block;
-  height: 315px;
-  margin-right: 7%;
-  float: right;
-   }
+  #ramka-2{
+    background-image: url('images/ramka-vanna4.png');
+  }
+  #ramka-3{
+    background-image: url('images/ramka-pod2.png');
+  }
+  #ramka-4{
+    background-image: url('images/ramka-bar2.png');
+  }
+  #ramka-5{
+    background-image: url('images/ramka-reception2.png');
+  }
+  #ramka-6{
+    background-image: url('images/ramka-sanuzel2.png');
+  }
+  .services-details {
+    margin-top: 20px;
+  }
 #razdel-content {
   margin-left: 50px;
 }
