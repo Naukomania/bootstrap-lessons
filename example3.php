@@ -109,86 +109,98 @@ include 'blocks/head.php';
     color: #212121;
   }
   #services .item {
-    width: 303px;
-    height: 406px;
-    margin: 0 auto;
+    width: 250px;
+    height: 315px;
+    margin: 20px auto 0;
   }
   #services .item .text-ramka {
-    padding-top: 85px;
-    margin-top: 0px;
-    margin-left: 60px;
+    padding-top: 15px;
+    margin-left: 110px;
     width: 303px;
     text-align: left;
     font-size: 14px;
-    color: green;
+    color: black;
     font-weight: 600;
   }
   #ramka-1{
-    background-image: url('css/images/ramka-kuhnya.png');
+    background-image: url('css/images/ramka-kuhnya2.png');
   }
   #ramka-2{
-    background-image: url('css/images/ramka-vanna.png');
+    background-image: url('css/images/ramka-vanna4.png');
   }
   #ramka-3{
-    background-image: url('css/images/ramka-pod.png');
+    background-image: url('css/images/ramka-pod2.png');
   }
   #ramka-4{
-    background-image: url('css/images/ramka-bar.png');
+    background-image: url('css/images/ramka-bar2.png');
   }
   #ramka-5{
-    background-image: url('css/images/ramka-reception.png');
+    background-image: url('css/images/ramka-reception2.png');
   }
   #ramka-6{
-    background-image: url('css/images/ramka-sanuzel.png');
+    background-image: url('css/images/ramka-sanuzel2.png');
+  }
+  .services-details {
+    margin-top: 20px;
   }
 </style>
 <section id="services">
   <div class="container-fluid">
-    <h4>Прайм-Стоун предлагает изготовить для вас</h4>
+    <div id="razdel-main">
+      <h1>Прайм-Стоун изготовит для вас</h1>
+    </div>
     <div class="row">
 
       <div class="col-md-4 col-sm-6">
         <div id="ramka-1" class="item">
-          <div class="text-ramka">Столешницы для кухни</div>
+          <div class="text-ramka">Столешницы<br> для кухни</div>
           <div id="text-ramka2"></div>
         </div>
       </div>
 
       <div class="col-md-4 col-sm-6">
         <div id="ramka-2" class="item">
-          <div class="text-ramka">&nbsp &nbsp Столешницы для ванной</div>
+          <div class="text-ramka">Столешницы<br> для ванной</div>
         </div>
       </div>
 
       <div class="col-md-4 col-sm-6">
         <div id="ramka-3" class="item">
-          <div class="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbsp Подоконники</div>
+          <div class="text-ramka">Подоконники</div>
         </div>
       </div>
 
       <div class="col-md-4 col-sm-6">
         <div id="ramka-4" class="item">
-          <div class="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbspБарные стойки</div>
+          <div class="text-ramka">Барные стойки</div>
         </div>
       </div>
 
       <div class="col-md-4 col-sm-6">
         <div id="ramka-5" class="item">
-          <div class="text-ramka">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ресепшн</div>
+          <div class="text-ramka">Ресепшн</div>
         </div>
       </div>
 
       <div class="col-md-4 col-sm-6">
         <div id="ramka-6" class="item">
-          <div class="text-ramka">Столешницы для санузлов</div>
+          <div class="text-ramka">Столешницы<br> для санузлов</div>
         </div>
     </div>
   </div>
-
-   <img src="images/line2.png">
+  <p class="services-details">
+    <a class="btn btn-default" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Другие изделия из искусственного камня</a>
+  </p>
+  <div class="collapse" id="collapseExample">
+    <div class="card card-block">
+    Основной продукцией нашего производства являются столешницы для кухни и ванной, а также подоконники. Также мы изготавливаем стеновые кухонные панели, накладки на ванную, мойки, раковины, элементы для лестниц - перила, ступеньи и подступенки. 
+    Акриловый камень также незаменим и для производства изделий для коммерческий целей - прилавки, стенды, ресепшен, стойки для гардеробных и пр.
+    </div>
+  </div>
+  
   </div class="container-fluid">
   <div id="razdel-content">
-  <h4>Палитра камней, цвета и текстуры</h4>
+  <div id="razdel-main"><h1>Палитра камней, цвета и текстуры</h1></div>
   Акриловый камень
   </div>
   </div>
