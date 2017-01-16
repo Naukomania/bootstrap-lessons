@@ -82,12 +82,11 @@ width: 100px;
   }
   #services .item .text-ramka {
     padding-top: 15px;
-    margin-left: 110px;
-    width: 303px;
     text-align: left;
     font-size: 14px;
     color: black;
     font-weight: 600;
+    margin-left: 110px;
   }
   #razdel-main h1 {
   font-family: old-comedy;
@@ -100,9 +99,10 @@ width: 100px;
   #blackBox {
   display: none;
   position: absolute;
-  width: 90%;
+  width: 85%;
   height: 425px;
   background-color: rgba(0,0,0,0.6);
+  z-index: 1;
 }
 #closeBox {
  right: 5px;
@@ -117,26 +117,26 @@ width: 100px;
 
   #bigImg {
   top: 10px;
+  left: 10px;
   width: 616px;
   height: 406px;
   border-radius: 7px;
   background-color: #ffffff;
   position: absolute;
-  margin-left: 7%;
   background-image: url('images/backblackbox.jpg');
 }
 #page1{
-  width: 288px;
+  width: 260px;
   height: 406px;
   float: left;
   margin-top: 25px;
-  margin-left: 23px;
+  margin-left: 50px;
 }
 #text-page{
 width: 250px;
 text-align: justify;
 font-size: 13px;
-margin-left: 20px;
+margin-left: 30px;
 }
 #page2{
   width: 288px;
@@ -153,9 +153,10 @@ margin-top: 15px;
 }
 #nextPage {
 color: #9acd32;
-left: 50px;
 font-size: 16px;
 font-weight: bold;
+float: right;
+margin-top: 25px;
 }
 #nextPage:hover {
   cursor: pointer;
