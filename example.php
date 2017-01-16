@@ -182,10 +182,13 @@ include 'blocks/head.php';
     <div class="tab-pane active" id="tab1">
     <p>
     <br>
-    <div id="staron-text">
-    <div id="logostaron">
+    <div class="row">
+    
+    <div class="col-md-2 col-sm-4 col-xs-6"><div id="logostaron">
       <img src="images/logostaron.jpg">
-    </div>
+    </div></div>
+    <div class="col-md-10 col-sm-8 col-xs-6">Искусственный камень Staron пользуется огромной популярностью во всем мире. Он обладает превосходной прочностью и имеет чрезвычайно богатую палитру, представленную многообразием цветов, оттенков и текстур.
+Профессиональные дизайнеры интерьеров предпочитают работать именно с изделиями из акрилового камня Staron, поскольку он поддается термоформингу (детали с изогнутыми элементами изготавливаются из плоского листка материала) и характеризуется богатством цветовой палитры Staron. Возможность разработки конструкции любой сложности без видимых швов также является несомненным преимуществом использования искусственного камня Самсунг Старон.</div>
     </div>
   <a class="btn btn-default btn-lg btn-block" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
     Искусственный камень Samsung Staron
@@ -304,8 +307,7 @@ include 'blocks/head.php';
       <div id="a123">
       <img src="images/formstone7.png">
       </div>
-      </div>
-        
+      </div> 
     </div>
     <div class="tab-pane" id="tab2">
       <p>Привет, я в Разделе 2.</p>
@@ -313,9 +315,14 @@ include 'blocks/head.php';
     <div class="tab-pane" id="tab3">
       <p>Привет, я в Разделе 3.</p>
     </div>
+    <section id="map">
+  <div id="razdel-main"><h1>Наш адрес</h1></div>
+  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=eNjdtDg6pbDAtiw0uU9872eeIPL6DAp8&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
   </div>
+</section>
 </div>
 </section>
+
 
     <?php
 include 'blocks/footer.php';

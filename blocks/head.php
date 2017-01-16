@@ -39,6 +39,7 @@
     <div class="menu"><ul class="nav navbar-nav">
         <li<?php if($item==1) {?> class="active"<?php } ?>><a href="example.php">Прайм-Стоун<span class="sr-only">(current)</span></a></li>
         <li<?php if($item==2) {?> class="active"<?php } ?>><a href="example2.php">Акции</a></li>
+        <li><a href="#">Цены</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Продукция <span class="caret"></span></a>
           <ul class="dropdown-menu">

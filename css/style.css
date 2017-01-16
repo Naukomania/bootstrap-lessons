@@ -207,7 +207,8 @@ font-weight: bold;
 #logostaron{
 height: 100px;
 margin-left: 10px;
-width: 100%;
+width: 100px;
+float; left: 
 }
 #katalog-kamnya{
   margin-left: 150px;
@@ -222,7 +223,9 @@ width: 100%;
   background-image: url('images/backstoneform.jpg');
   float: left;
 }
-
+#map {
+    margin-top: 50px;
+  }
 @media (min-width: 768px) {
   #menu {
     margin-top: 100px;
@@ -250,3 +253,4 @@ width: 100%;
     display: none;
   }
 }
+
