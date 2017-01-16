@@ -143,6 +143,9 @@ include 'blocks/head.php';
   .services-details {
     margin-top: 20px;
   }
+  #map {
+    margin-top: 50px;
+  }
 </style>
 <section id="services">
   <div class="container-fluid">
@@ -197,6 +200,14 @@ include 'blocks/head.php';
     Акриловый камень также незаменим и для производства изделий для коммерческий целей - прилавки, стенды, ресепшен, стойки для гардеробных и пр.
     </div>
   </div>
+
+<section id="map">
+  <div id="razdel-main"><h1>Наш адрес</h1></div>
+
+  <div id="ymaps-map-id_136308706727521742743" style="width: 100%; height: 400px;"></div>
+<script type="text/javascript">function fid_136308706727521742743(ymaps) {var map = new ymaps.Map("ymaps-map-id_136308706727521742743", {center: [30.294570199591845, 59.95796655184993], zoom: 14, type: "yandex#map"});map.geoObjects.add(new ymaps.Placemark([30.294534373016333, 59.95961161520233], {balloonContent: ""}, {preset: "twirl#darkblueDotIcon"}));};</script>
+<script type="text/javascript" src="http://api-maps.yandex.ru/2.0-stable/?lang=ru-RU&coordorder=longlat&load=package.full&wizard=constructor&onload=fid_136308706727521742743"></script>
+</section>
   
   </div class="container-fluid">
   <div id="razdel-content">
