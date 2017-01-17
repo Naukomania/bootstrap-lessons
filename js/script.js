@@ -11,7 +11,13 @@
 	$('#nextPage').on('click',function(){
 		$(this).hide();
 		$('#pages-wrapper').animate({
-			marginLeft: '-300px',
+			marginLeft: '-600px',
+		});
+	});
+	$('#backPage').on('click',function(){
+		$(this).hide();
+		$('#pages-wrapper').animate({
+			marginLeft: '0px',
 		});
 	});
 });

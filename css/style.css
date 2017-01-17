@@ -156,20 +156,37 @@ margin-left: 40px;
 margin-top: 15px;
 }
 #page3{
-  width: 220px;
+  width: 210px;
   height: 406px;
   float: left;
-  margin-top: 25px;
-  margin-left: 50px;
+  margin-top: 30px;
+  margin-left: 30px;
+  text-align: justify;
 }
-#nextPage {
+#text-page3{
+width: 230px;
+text-align: justify;
+margin-left: 30px;
+}
+#page4{
+width: 288px;
+  height: 406px;
+  float: left;
+  margin-top: 30px;
+}
+#text-page4{
+width: 200px;
+text-align: justify;
+margin-left: 120px;
+}
+#nextPage, #backPage {
 color: #9acd32;
 font-size: 16px;
 font-weight: bold;
 float: right;
 margin-top: 25px;
 }
-#nextPage:hover {
+#nextPage, #backPage:hover {
   cursor: pointer;
   }
   #ramka-2{

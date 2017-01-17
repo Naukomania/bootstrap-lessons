@@ -18,12 +18,13 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link rel="prime.loc\favicon.ico">
   </head>
   <body>
 
   <header class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
-    <div id="logo"><a href="prime-stone.ru"><img src="images/log.gif"></a></div>
+    <div id="logo"><a href="index.php"><img src="images/log.gif"></a></div>
     <div id="desc"> <p><b>Производство изделий <br>из искусственного камня</b></p></div>
     <div id="adress"><p> Время работы: <br><b>Пн-Пт - 9<sup>00</sup> - 18<sup>00</sup></b><br><span
     <font color="#00b300"><a href="#map">посмотреть на карте</a></font></span></p></div>

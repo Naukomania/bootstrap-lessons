@@ -32,7 +32,13 @@
 
             <div id="page3">
               <div id="text-page3">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur a officia ipsum ducimus velit laudantium, quaerat facere voluptatum rem qui at fuga unde accusamus optio? Non, a sequi soluta culpa odit nesciunt debitis quae voluptas placeat perferendis ut blanditiis possimus odio nostrum voluptatum assumenda nisi atque necessitatibus et mollitia quidem corporis. Maxime architecto dolorum, neque, veritatis quaerat molestiae repellendus minus provident debitis doloribus, atque recusandae nesciunt!</p>
+                <p>Страница 3, consectetur adipisicing elit. Consectetur a officia ipsum ducimus velit laudantium, quaerat facere voluptatum rem qui at fuga unde accusamus optio? Non, a sequi soluta culpa odit nesciunt debitis quae voluptas placeat perferendis ut blanditiis possimus odio nostrum voluptatum assumenda nisi atque necessitatibus et mollitia quidem corporis. Maxime architecto dolorum, neque, veritatis quaerat molestiae repellendus minus provident debitis doloribus, atque recusandae nesciunt!</p>
+              </div>
+            </div>
+            <div id="page4">
+              <div id="text-page4">
+                <p> Страница 4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur a officia ipsum ducimus velit laudantium, quaerat facere voluptatum rem qui at fuga unde accusamus optio? Maxime architecto dolorum, neque, veritatis quaerat molestiae repellendus minus provident debitis</p>
+                <div id="backPage"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>&nbsp &nbspВернуться </div>
               </div>
             </div>
           </div>
