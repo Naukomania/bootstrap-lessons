@@ -7,8 +7,11 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Прайм-Стоун - столешницы и подоконники из искусственного камня</title>
 
+
     <!-- Bootstrap -->
+
      <link href="css/bootstrap.css" rel="stylesheet">
+     <link rel="stylesheet" href="jquery-ui/jquery-ui.css">
      <link href="css/style.css" rel="stylesheet">
      <link href="css/font-awesome.css" rel="stylesheet">
 

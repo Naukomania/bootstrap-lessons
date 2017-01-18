@@ -19,4 +19,7 @@
 			marginLeft: '0px',
 		});
 	});
+	$( function() {
+    $( "#accordion" ).accordion();
+  } );
 });
