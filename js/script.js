@@ -2,21 +2,20 @@
   jquery for prime
  */
  $(document).ready(function(){
- 	$('#ramka-1').on('click',function(){
-		$('#blackBox').show('slow');
+ 	$('#services .item').on('click',function(){
+ 		var target = $(this).attr('data-target');
+ 		$('#' + target).show();
 	});
- 	$('#closeBox').on('click',function(){
-		$('#blackBox').hide('slow');
-	});
-	$('#nextPage').on('click',function(){
-		$(this).hide();
-		$('#pages-wrapper').animate({
+ 	$('.closeBox').on('click',function(){
+		$(this).parents('.lightbox').hide();
+});
+	$('.nextPage').on('click',function(){
+		$(this).parents('.pages-wrapper').animate({
 			marginLeft: '-600px',
 		});
 	});
-	$('#backPage').on('click',function(){
-		$(this).hide();
-		$('#pages-wrapper').animate({
+	$('.backPage').on('click',function(){
+		$(this).parents('.pages-wrapper').animate({
 			marginLeft: '0px',
 		});
 	});

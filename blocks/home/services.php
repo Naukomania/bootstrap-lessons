@@ -5,17 +5,17 @@
     </div>
     <div class="row">
       <div class="col-md-4 col-sm-6">
-        <div id="ramka-1" class="item">
+        <div id="ramka-1" class="item" data-target="first-lightbox"> 
           <div class="text-ramka">Столешницы<br> для кухни</div>
         </div>
       </div>
 
-      <div id="blackBox">
-        <div id="closeBox"><i class="fa fa-remove fa-2x" aria-hidden="true" style="color: #ffffff"></i></div>
-        <div id="bigImg">
-          <div id="pages-wrapper">
-            <div id="page1"><h4>Столешницы для кухни</h4><img src="images/imgbig1.jpg"><br><br>
-              <div id="text-page">
+      <div id="first-lightbox" class="lightbox">
+        <div class="closeBox"><i class="fa fa-remove fa-2x" aria-hidden="true" style="color: #ffffff"></i></div>
+        <div class="bigImg">
+          <div class="pages-wrapper">
+            <div class="page1"><h4>Столешницы для кухни</h4><img src="images/imgbig1.jpg"><br><br>
+              <div class="text-page">
                 <ul>
                   <li><button type="button"class="btn btn-warning"><a href="#">Смотреть фото</a></button></li>
                   <li><button type="button"class="btn btn-success"><a href="#">Кухонные столешницы</a></button></li>
@@ -23,30 +23,61 @@
                 </ul>
               </div>
             </div>
-            <div id="page2">
-              <div id="text-page2">
+            <div class="page2">
+              <div class="text-page2">
                 <p>Мы изготавливаем кухонные столешницы из искусственного акрилового и кварцевого камня. Стоимость столешницы зависит от сложности, конфигурации, модели кромок и  размера столешницы.Цена столешницы также зависит от выбранного цвета, чем крупнее текстура и насыщеннее цвет, тем дороже. И наоборот, самыми недорогими материалами являются светлые монотонные или цвета с мелкой песчаной текстурой.</p>
-                <div id="nextPage">Далее &nbsp &nbsp<i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></div>
+                <div class="nextPage">Далее &nbsp &nbsp<i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></div>
               </div>
             </div>
 
-            <div id="page3">
-              <div id="text-page3">
+            <div class="page3">
+              <div class="text-page3">
                 <p>Страница 3, consectetur adipisicing elit. Consectetur a officia ipsum ducimus velit laudantium, quaerat facere voluptatum rem qui at fuga unde accusamus optio? Non, a sequi soluta culpa odit nesciunt debitis quae voluptas placeat perferendis ut blanditiis possimus odio nostrum voluptatum assumenda nisi atque necessitatibus et mollitia quidem corporis. Maxime architecto dolorum, neque, veritatis quaerat molestiae repellendus minus provident debitis doloribus, atque recusandae nesciunt!</p>
               </div>
             </div>
-            <div id="page4">
-              <div id="text-page4">
+            <div class="page4">
+              <div class="text-page4">
                 <p> Страница 4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur a officia ipsum ducimus velit laudantium, quaerat facere voluptatum rem qui at fuga unde accusamus optio? Maxime architecto dolorum, neque, veritatis quaerat molestiae repellendus minus provident debitis</p>
-                <div id="backPage"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>&nbsp &nbspВернуться </div>
+                <div class="backPage"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>&nbsp &nbspВернуться </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+ <div id="second-lightbox" class="lightbox"> <div class="closeBox"><i class="fa fa-remove fa-2x" aria-hidden="true" style="color: #ffffff"></i></div>
+        <div class="bigImg">
+          <div class="pages-wrapper">
+            <div class="page1"><h4>Столешницы для ванной</h4><img src="images/imgbig1.jpg"><br><br>
+              <div class="text-page">
+                <ul>
+                  <li><button type="button"class="btn btn-warning"><a href="#">Смотреть фото</a></button></li>
+                  <li><button type="button"class="btn btn-success"><a href="#">Кухонные столешницы</a></button></li>
+                  <li><button type="button"class="btn btn-primary"><a href="#">Расчитать стоимость</a></button></li>
+                </ul>
+              </div>
+            </div>
+            <div class="page2">
+              <div class="text-page2">
+                <p>Мы изготавливаем кухонные столешницы из искусственного акрилового и кварцевого камня. Стоимость столешницы зависит от сложности, конфигурации, модели кромок и  размера столешницы.Цена столешницы также зависит от выбранного цвета, чем крупнее текстура и насыщеннее цвет, тем дороже. И наоборот, самыми недорогими материалами являются светлые монотонные или цвета с мелкой песчаной текстурой.</p>
+                <div class="nextPage">Далее &nbsp &nbsp<i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></div>
+              </div>
+            </div>
 
+            <div class="page3">
+              <div class="text-page3">
+                <p>Страница 3, consectetur adipisicing elit. Consectetur a officia ipsum ducimus velit laudantium, quaerat facere voluptatum rem qui at fuga unde accusamus optio? Non, a sequi soluta culpa odit nesciunt debitis quae voluptas placeat perferendis ut blanditiis possimus odio nostrum voluptatum assumenda nisi atque necessitatibus et mollitia quidem corporis. Maxime architecto dolorum, neque, veritatis quaerat molestiae repellendus minus provident debitis doloribus, atque recusandae nesciunt!</p>
+              </div>
+            </div>
+            <div class="page4">
+              <div class="text-page4">
+                <p> Страница 4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur a officia ipsum ducimus velit laudantium, quaerat facere voluptatum rem qui at fuga unde accusamus optio? Maxime architecto dolorum, neque, veritatis quaerat molestiae repellendus minus provident debitis</p>
+                <div class="backPage"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>&nbsp &nbspВернуться </div>
+              </div>
+            </div>
+          </div>
+        </div></div>
       <div class="col-md-4 col-sm-6">
-        <div id="ramka-2" class="item">
+        <div id="ramka-2" class="item" data-target="second-lightbox">
           <div class="text-ramka">Столешницы<br> для ванной</div>
         </div>
       </div>

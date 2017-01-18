@@ -96,28 +96,32 @@ width: 100px;
   #ramka-1{
     background-image: url('images/ramka-kuhnya2.png');
   }
-  #blackBox {
+  .lightbox  {
   display: none;
   position: absolute;
-  width: 85%;
+  margin-left: -350px;
+  width: 700px;
   height: 425px;
   background-color: rgba(0,0,0,0.6);
   z-index: 1;
+  left: 50%;
+
 }
-#closeBox {
+.closeBox {
  right: 5px;
  top: 5px;
  position: absolute;
  font-size: 16;
  color: white;
 }
-#closeBox:hover {
+.closeBox:hover {
   cursor: pointer;
   }
 
-  #bigImg {
+  .bigImg {
   top: 10px;
-  left: 10px;
+  left: 50%;
+  margin-left: -313px;
   width: 616px;
   height: 406px;
   border-radius: 7px;
@@ -126,36 +130,36 @@ width: 100px;
   background-image: url('images/backblackbox.jpg');
   overflow: hidden;
 }
-#pages-wrapper {
+.pages-wrapper {
   width: 1400px;
 }
-#page1{
+.page1{
   width: 260px;
   height: 406px;
   float: left;
   margin-top: 25px;
   margin-left: 50px;
 }
-#text-page{
+.text-page{
 width: 250px;
 text-align: justify;
 font-size: 13px;
 margin-left: 30px;
 }
-#page2{
+.page2{
   width: 288px;
   height: 406px;
   float: left;
   margin-top: 25px;
 }
-#text-page2{
+.text-page2{
 width: 220px;
 text-align: justify;
 font-size: 13px;
 margin-left: 40px;
 margin-top: 15px;
 }
-#page3{
+.page3{
   width: 210px;
   height: 406px;
   float: left;
@@ -163,30 +167,30 @@ margin-top: 15px;
   margin-left: 30px;
   text-align: justify;
 }
-#text-page3{
+.text-page3{
 width: 230px;
 text-align: justify;
 margin-left: 30px;
 }
-#page4{
+.page4{
 width: 288px;
   height: 406px;
   float: left;
   margin-top: 30px;
 }
-#text-page4{
+.text-page4{
 width: 200px;
 text-align: justify;
 margin-left: 120px;
 }
-#nextPage, #backPage {
+.nextPage, .backPage {
 color: #9acd32;
 font-size: 16px;
 font-weight: bold;
 float: right;
 margin-top: 25px;
 }
-#nextPage, #backPage:hover {
+.nextPage, .backPage:hover {
   cursor: pointer;
   }
   #ramka-2{
