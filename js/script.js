@@ -2,7 +2,7 @@
   jquery for prime
  */
  $(document).ready(function(){
- 	$('#services .item').on('click',function(){
+ 	$('#services .item, #left-menu .item').on('click',function(){
  		var target = $(this).attr('data-target');
  		$('#' + target).show();
 	});

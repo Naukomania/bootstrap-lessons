@@ -1,4 +1,6 @@
-include 'blocks/footer.php';<section id="katalog-kamnya">
+
+<section id="katalog-kamnya">
+
   <div class="container-fluid">
     <div id="razdel-content">
       <div id="razdel-main"><h1>Палитра камней, цвета и текстуры</h1></div>

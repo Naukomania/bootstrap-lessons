@@ -98,13 +98,16 @@ width: 100px;
   }
   .lightbox  {
   display: none;
-  position: absolute;
+  position: fixed;
   margin-left: -350px;
   width: 700px;
   height: 425px;
   background-color: rgba(0,0,0,0.6);
   z-index: 1;
   left: 50%;
+  top: 50%;
+  margin-top: -200px;
+  z-index: 1031;
 
 }
 .closeBox {
@@ -171,12 +174,14 @@ margin-top: 15px;
 width: 230px;
 text-align: justify;
 margin-left: 30px;
+font-size: 13px;
 }
 .page4{
 width: 288px;
   height: 406px;
   float: left;
   margin-top: 30px;
+  font-size: 13px;
 }
 .text-page4{
 width: 200px;
@@ -210,6 +215,12 @@ margin-top: 25px;
   }
   .services-details {
     margin-top: 20px;
+    text-align: center;
+  }
+  .card-block{
+    text-align: justify;
+    margin-left: 100px;
+
   }
 #razdel-content {
   margin-left: 50px;
@@ -268,5 +279,11 @@ float; left:
   #slider {
     display: none;
   }
+}
+#left-menu ul li a:hover {
+  text-decoration: none;
+}
+#left-menu ul li:hover {
+  background-color: #A08938;
 }
 
