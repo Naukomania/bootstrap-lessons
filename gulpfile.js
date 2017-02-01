@@ -39,9 +39,8 @@ gulp.task('default', ['less', 'copy']);
 // Configure the browserSync task
 gulp.task('browserSync', function() {
     browserSync.init({
-        server: {
-            baseDir: ''
-        },
+        proxy: "bootstrap-lessons.loc",
+		notify: false
     })
 })
 
@@ -50,6 +49,6 @@ gulp.task('dev', ['browserSync', 'less'], function() {
     gulp.watch('less/*.less', ['less']);
     // Reloads the browser whenever HTML or JS files change
     gulp.watch('*.html', browserSync.reload);
-	gulp.watch('*.php', browserSync.reload);
+	gulp.watch('**/*.php', browserSync.reload);
     gulp.watch('js/**/*.js', browserSync.reload);
 });
