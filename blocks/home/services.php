@@ -115,6 +115,11 @@
           </div>
         </div>
       </div>
+       <div class="col-md-4 col-sm-6">
+        <div id="ramka-3" class="item" data-target="third-lightbox">
+          <div class="text-ramka">Подоконники</div>
+        </div>
+      </div>
       <div id="third-lightbox" class="lightbox"> 
         <div class="closeBox"><i class="fa fa-remove fa-2x" aria-hidden="true" style="color: #ffffff"></i></div>
         <div class="bigImg">
@@ -134,10 +139,10 @@
                   Производство подоконников из искусственного камня одно из главных направлений нашей деятельности.
                 </p>
                 <p>
-                  Подоконники также изготавливаются из качественного акрилового и кварцевого  камней.
+                  Подоконники также как и столешницы изготавливаются из качественного акрилового и кварцевого  камней.
                 </p>
                 <p>
-                  Такие подоконники не выгорают на солнце, не трескаются со временем. Значительно облагораживают оконный проем.
+                  Такие подоконники не выгорают на солнце, не трескаются со временем и значительно облагораживают оконный проем.
                 </p>
                 <div class="nextPage">Далее &nbsp &nbsp<i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></div>
               </div>
@@ -148,21 +153,23 @@
                 <p>Подоконники из искусственного не подвержены появлению бактерий, грибков и прочей "живности". 
                 </p><p>Акриловый камень незаменим при изготовлении эркерных подоконников,
                 так как только этот материал позволяет изготовить такое изделие практически без видимых швов.</p>
+                <p>Подоконники желательно заказывать из нейтральных цветов, не ориентируясь на планируемый цвет стен.</p>
+                <p>  Т.к. обычно цвет стен меняется чаще сами подоконники.
+                </p>
               </div>
             </div>
             <div class="page4">
               <div class="text-page4">
-                <p> Подоконники желательно заказывать из нейтральных цветов, не ориентируясь на планируемый цвет стен. Т.к. обычно цвет стен меняется чаще сами подоконники.
-                </p><p>Перед монтажом подоконников, стоителям дается задание по выравниванию стяжки.</p>
+                <p>Перед монтажом подоконников, стоителям дается задание по выравниванию стяжки.</p>
                 <div class="backPage"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>&nbsp &nbspВернуться </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-sm-6">
-        <div id="ramka-3" class="item" data-target="third-lightbox">
-          <div class="text-ramka">Подоконники</div>
+     <div class="col-md-4 col-sm-6">
+        <div id="ramka-4" class="item" data-target="fourth-lightbox">
+          <div class="text-ramka">Барные<br>стойки</div>
         </div>
       </div>
       <div id="fourth-lightbox" class="lightbox"> <div class="closeBox"><i class="fa fa-remove fa-2x" aria-hidden="true" style="color: #ffffff"></i></div>
@@ -179,8 +186,9 @@
           </div>
           <div class="page2">
             <div class="text-page2">
-              <p>Барные стойки являются не только неотъемлемой частью кафе, баров и ресторанов, но и пользуются огромной популяностью среди частных заказчиков. Барная стойка может быть отдельным элементом
-                - столешницей определенной формы, так и целым отдельным элементом - содержащим мебель и всевозможные аксессуары. Размеры и конфигурации барной стойки могут быть любые. 
+              <p>Барные стойки являются не только неотъемлемой частью кафе, баров и ресторанов, но и пользуются огромной популяностью среди частных заказчиков.</p> 
+              <p>Барная стойка может быть отдельным элементом
+                - столешницей определенной формы, так и целым отдельным элементом - содержащим мебель и всевозможные аксессуары.</p> <p>Размеры и конфигурации барной стойки могут быть любые. 
               </p>
               <div class="nextPage">Далее &nbsp &nbsp<i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></div>
             </div>
@@ -188,14 +196,16 @@
 
           <div class="page3">
             <div class="text-page3">
-              <p>Барная стойка отлично впишется как в небольшую кухоньку так и кухню значительных размеров.  
-                Часто барную стойку совмещают с островом кухни или с ее помощью  разделяют зоны в помещении на жилую и кухонную.
-                Барные стойки чаще заказывают  как часть кухни или обеденной зоны.  </p>
+              <p>Барная стойка отлично впишется как в небольшую кухоньку так и кухонное помещение более значительных размеров.  </p>
+               <p> Часто барную стойку совмещают с островом кухни или с ее помощью  разделяют зоны в помещении на жилую и кухонную.</p>
+               <p> Барные стойки чаще заказывают  как часть кухни или обеденной зоны.  </p>
               </div>
             </div>
             <div class="page4">
               <div class="text-page4">
-                <a href="#>" <p> Фотографии и проекты барный стоек можно посмотреть здесь</p></a>
+                <p>На сегодняшний день в сети можно увидеть
+ огромное количество наработанных дизайнерских решений с использованием барных стоек.
+Некторые из низ вы можете увидеть в нашем разделе - <a href="#"> Барные стойки.</a></p>
                 <div class="backPage"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>&nbsp &nbspВернуться </div>
               </div>
             </div>
@@ -203,8 +213,8 @@
         </div>
       </div>
       <div class="col-md-4 col-sm-6">
-        <div id="ramka-4" class="item" data-target="fourth-lightbox">
-          <div class="text-ramka">Барные<br>стойки</div>
+        <div id="ramka-5" class="item" data-target="fifth-lightbox">
+          <div class="text-ramka">Ресепшен</div>
         </div>
       </div>
       <div id="fifth-lightbox" class="lightbox">
@@ -215,35 +225,37 @@
               <div class="text-page">
                 <ul>
                   <li><button type="button"class="btn btn-warning"><a href="#">Смотреть фото</a></button></li>
-                  <li><button type="button"class="btn btn-success"><a href="#">Кухонные столешницы</a></button></li>
+                  <li><button type="button"class="btn btn-success"><a href="#">Ресепшен</a></button></li>
                   <li><button type="button"class="btn btn-primary"><a href="#">Расчитать стоимость</a></button></li>
                 </ul>
               </div>
             </div>
             <div class="page2">
               <div class="text-page2">
-                <p>Мы изготавливаем кухонные столешницы из искусственного акрилового и кварцевого камня. Стоимость столешницы зависит от сложности, конфигурации, модели кромок и  размера столешницы.Цена столешницы также зависит от выбранного цвета, чем крупнее текстура и насыщеннее цвет, тем дороже. И наоборот, самыми недорогими материалами являются светлые монотонные или цвета с мелкой песчаной текстурой.</p>
+                <p>Ресепшн (ресепшн, ресепшэн) - место для приема посетителей - является важным элементом интерьера коммерческих помещений.</p>
+<p>От первого впечатления может зависеть многое.</p>
+ <p>Здесь встречают гостей, дают им полезную и необходимую информацию, консультируют  об услугах и расценках организации. </p>
                 <div class="nextPage">Далее &nbsp &nbsp<i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></div>
               </div>
             </div>
 
             <div class="page3">
               <div class="text-page3">
-                <p>Страница 3, consectetur adipisicing elit. Consectetur a officia ipsum ducimus velit laudantium, quaerat facere voluptatum rem qui at fuga unde accusamus optio? Non, a sequi soluta culpa odit nesciunt debitis quae voluptas placeat perferendis ut blanditiis possimus odio nostrum voluptatum assumenda nisi atque necessitatibus et mollitia quidem corporis. Maxime architecto dolorum, neque, veritatis quaerat molestiae repellendus minus provident debitis doloribus, atque recusandae nesciunt!</p>
+               <p>Ресепшен мы можем встретить в различных сферах бизнеса - от салонов красоты, стамотологии, гостиниц до банков.</p>
+<p>Ресепшн можно изготовить как в бюджетном варианте - обычная мебель из МДФ или родственных материалов - со столешницей из камня.</p>
+<p>Так и в более дорогом  и презентабельном варианте - полностью из искусственного камня. </p>
+<p>Такой ресепшен - подчеркнет имидж вашей организации и несомненно добавит плюсов в мнении покупателя о вашей компании.</p>
+
               </div>
             </div>
             <div class="page4">
               <div class="text-page4">
-                <p> Страница 4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur a officia ipsum ducimus velit laudantium, quaerat facere voluptatum rem qui at fuga unde accusamus optio? Maxime architecto dolorum, neque, veritatis quaerat molestiae repellendus minus provident debitis</p>
+                <p>Помимо респектабельного вида - ресепшен из искусственного камня достаточно износостойкий - 
+                что немаловажно при повышенном траффике посетилелей.</p>
                 <div class="backPage"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>&nbsp &nbspВернуться </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <div id="ramka-5" class="item" data-target="fifth-lightbox">
-          <div class="text-ramka">Ресепшн</div>
         </div>
       </div>
       <div id="sixth-lightbox" class="lightbox"> <div class="closeBox"><i class="fa fa-remove fa-2x" aria-hidden="true" style="color: #ffffff"></i></div>
@@ -253,26 +265,31 @@
             <div class="text-page">
               <ul>
                 <li><button type="button"class="btn btn-warning"><a href="#">Смотреть фото</a></button></li>
-                <li><button type="button"class="btn btn-success"><a href="#">Кухонные столешницы</a></button></li>
+                <li><button type="button"class="btn btn-success"><a href="#">Столешницы для санузлов</a></button></li>
                 <li><button type="button"class="btn btn-primary"><a href="#">Расчитать стоимость</a></button></li>
               </ul>
             </div>
           </div>
           <div class="page2">
             <div class="text-page2">
-              <p>Мы изготавливаем кухонные столешницы из искусственного акрилового и кварцевого камня. Стоимость столешницы зависит от сложности, конфигурации, модели кромок и  размера столешницы.Цена столешницы также зависит от выбранного цвета, чем крупнее текстура и насыщеннее цвет, тем дороже. И наоборот, самыми недорогими материалами являются светлые монотонные или цвета с мелкой песчаной текстурой.</p>
+              <p>Сегодня трудно представить в современном торговом-центре, аэропорте, бизнес-центре, кинотеартре,
+ ресторане или каком-нибудь сетевом месте общественного питания - санузел с отдельно стоящими раковинами.</p>
+ <p>Уже давно в моде и почете столешницы из искусственного камня с врезными или вклееными раковинами</p>
+ <p>Действительно, более солидно смотрится. </p>
               <div class="nextPage">Далее &nbsp &nbsp<i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></div>
             </div>
           </div>
 
           <div class="page3">
             <div class="text-page3">
-              <p>Страница 3, consectetur adipisicing elit. Consectetur a officia ipsum ducimus velit laudantium, quaerat facere voluptatum rem qui at fuga unde accusamus optio? Non, a sequi soluta culpa odit nesciunt debitis quae voluptas placeat perferendis ut blanditiis possimus odio nostrum voluptatum assumenda nisi atque necessitatibus et mollitia quidem corporis. Maxime architecto dolorum, neque, veritatis quaerat molestiae repellendus minus provident debitis doloribus, atque recusandae nesciunt!</p>
+              <p>Посетителям есть где поставить свои сумки и спокойно привести 
+себя в порядок - женщинам, к примеру, наспех поправить челку, а мужчинам поправить макияж </p>
+<p> Простите, все наоборот=)</p>
             </div>
           </div>
           <div class="page4">
             <div class="text-page4">
-              <p> Страница 4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur a officia ipsum ducimus velit laudantium, quaerat facere voluptatum rem qui at fuga unde accusamus optio? Maxime architecto dolorum, neque, veritatis quaerat molestiae repellendus minus provident debitis</p>
+              <p> Виды раковин для столешниц из искусственного камня</p>
               <div class="backPage"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>&nbsp &nbspВернуться </div>
             </div>
           </div>
@@ -293,7 +310,7 @@
     <div class="collapse" id="collapseExample">
       <div class="card card-block">
         Основной продукцией нашего производства являются столешницы для кухни и ванной, а также подоконники. Также мы изготавливаем стеновые кухонные панели, накладки на ванную, мойки, раковины, элементы для лестниц - перила, ступеньи и подступенки. 
-        Акриловый камень также незаменим и для производства изделий для коммерческий целей - прилавки, стенды, ресепшен, стойки для гардеробных и пр.
+        Акриловый камень также незаменим и для производства изделий для коммерческих целей - прилавки, стенды, ресепшен, стойки для гардеробных, выставочные стенды и многое другое.
       </div>
     </div>
   </div><!-- end container-fluid -->
