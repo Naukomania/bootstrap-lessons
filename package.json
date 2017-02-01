@@ -1,0 +1,27 @@
+{
+  "name": "prime-stone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naukomania/bootstrap-lessons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naukomania/bootstrap-lessons/issues"
+  },
+  "homepage": "https://github.com/Naukomania/bootstrap-lessons#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.18.7",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0",
+    "jquery": "^3.1.1"
+  }
+}
