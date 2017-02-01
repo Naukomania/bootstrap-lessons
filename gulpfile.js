@@ -18,6 +18,9 @@ gulp.task('copy', function() {
 
     gulp.src(['node_modules/jquery/dist/jquery.js', 'node_modules/jquery/dist/jquery.min.js'])
         .pipe(gulp.dest('vendor/jquery'))
+		
+	gulp.src(['node_modules/jquery-ui/jquery-ui.js', 'node_modules/jquery-ui/jquery-ui.min.js', 'node_modules/jquery-ui/jquery-ui.css', 'node_modules/jquery-ui/jquery-ui.min.css'])
+        .pipe(gulp.dest('vendor/jquery-ui'))
 
     gulp.src([
             'node_modules/font-awesome/**',
