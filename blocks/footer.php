@@ -4,9 +4,12 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="vendor/bootstrap/js/bootstrap.js"></script>
     <script src="js/script.js"></script>
+    <div id="background-wrapper">
+
+    </div>
     <section id="footer">
 	    <div class="container">
-	    Подвальчик
+	    Подвальчик!!!!!
 	    </div>
     </section>
   </body>

@@ -42,7 +42,7 @@ gulp.task('default', ['less', 'copy']);
 // Configure the browserSync task
 gulp.task('browserSync', function() {
     browserSync.init({
-        proxy: "bootstrap-lessons.loc",
+        proxy: "prime.loc",
 		notify: false
     })
 })
