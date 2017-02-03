@@ -303,3 +303,25 @@
   z-index: 1030;
   display: none;
 }
+.thumb img {
+  filter: none;
+  /* IE6-9 */
+  -webkit-filter: grayscale(0);
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+.thumb img:hover {
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+}
+.thumb {
+  padding: 5px;
+}
+.img-responsive {
+  border-radius: 5px;
+  padding: 0px;
+  border: 1px solid #9acd32;
+}
