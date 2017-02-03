@@ -90,6 +90,9 @@
   font-weight: 600;
   margin-left: 110px;
 }
+#left-menu .item.active {
+  background-color: #A08938;
+}
 #razdel-main h1 {
   font-family: old-comedy;
   font-size: 40px;
