@@ -101,9 +101,9 @@
 <div class="block">
 <ul class="list-group">
 <br>
-<li><a href="#services"><i class="fa fa-book fa-2x" aria-hidden="true" style="color: #ffffff"></i>
+<li class="page-scroll"><a href="#services"><i class="fa fa-book fa-2x" aria-hidden="true" style="color: #ffffff"></i>
 <p style="font-size: 10px; color: #000000">Продукция</p></a></li>
-<li><a href="#katalog-kamnya"><i class="fa fa fa-picture-o fa-2x" aria-hidden="true" style="color: #ffffff"></i>
+<li class="page-scroll"><a href="#katalog-kamnya"><i class="fa fa fa-picture-o fa-2x" aria-hidden="true" style="color: #ffffff"></i>
 <p style="font-size: 10px; color: #000000">Цвета камня</p></a></li>
 <li><a href="#"  class="item" data-target="first-lightbox"><i class="fa fa-balance-scale fa-2x" aria-hidden="true" style="color: #ffffff"></i>
 <p style="font-size: 10px; color: #000000">Для кухни</p></a></li>
@@ -111,9 +111,9 @@
 <p style="font-size: 10px; color: #000000">Для ванной</p></a></li>
 <li><a href="#"  class="item" data-target="third-lightbox"><i class="fa fa-window-maximize fa-rotate-180 fa-2x" aria-hidden="true" style="color: #ffffff"></i>
 <p style="font-size: 10px; color: #000000">Подоконники</p></a></li>
-<li><a href="#gallery"><i class="fa fa-file-image-o fa-2x" aria-hidden="true" style="color: #ffffff"></i>
+<li class-"page-scroll"><a href="#gallery"><i class="fa fa-file-image-o fa-2x" aria-hidden="true" style="color: #ffffff"></i>
 <p style="font-size: 10px; color: #000000">Фото</p></a></li>
-<li><a href="#price"><i class="fa fa-calculator fa-2x" aria-hidden="true" style="color: #ffffff"></i>
+<li class="page-scroll"><a href="#price"><i class="fa fa-calculator fa-2x" aria-hidden="true" style="color: #ffffff"></i>
 <p style="font-size: 10px; color: #000000">Цены</p></a></li>
 <li><a href="#map"><i class="fa  fa-envelope-o fa-2x" aria-hidden="true" style="color: #ffffff"></i>
 <p style="font-size: 10px; color: #000000">Контакты</p></a></li>

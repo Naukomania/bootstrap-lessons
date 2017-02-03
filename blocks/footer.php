@@ -1,5 +1,6 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="vendor/jquery/jquery.js"></script>
+ <script src="js/scrollspy.js"></script>
     <script src="vendor/jquery-ui/jquery-ui.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="vendor/bootstrap/js/bootstrap.js"></script>
