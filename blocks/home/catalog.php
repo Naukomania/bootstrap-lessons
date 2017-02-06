@@ -57,6 +57,7 @@
                <li><a href="#">Tempest</a></li>
                <li><a href="#">Supreme</a></li>
              </ul>
+          
              <p>Solid Color</p>
              <div id="a123">
               <img src="images/formstone1.png">
