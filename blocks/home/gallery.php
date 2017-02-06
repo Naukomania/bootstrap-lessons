@@ -73,9 +73,8 @@
         <div>
               </div>
 </div>     
-<br>
         <br>
-          <button type="button"class="btn btn-success"><a href="#">Смотреть фото еще фото  кухонных столешниц из искусственного камня</a></button></div>
+          <button type="button"class="btn btn-success"><a href="#">Смотреть еще фото  кухонных столешниц из искусственного камня</a></button></div>
 
             <div class="collapse" id="collapseExample1">
               <div class="card card-block">
@@ -131,7 +130,11 @@
           <img class="img-responsive" src="/images/gallery/bath/gall_bath_8.jpg"> 
         </a> 
         </div>
+        <br>
+        <br>
+          <button type="button"class="btn btn-success"><a href="#">Смотреть  еще фото столешницы для ванной из искусственного камня</a></button>
         </div>
+
         <div class="tab-pane" id="tab3">
            <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
         	<br>
@@ -181,6 +184,9 @@
           <img class="img-responsive" src="/images/gallery/podok/gall_podok_8.JPG"> 
         </a> 
         </div>
+        <br>
+        <br>
+          <button type="button"class="btn btn-success"><a href="#">Смотреть фото еще фото  подоконники из искусственного камня</a></button>
         </div>
           <div class="tab-pane" id="tab4">
            <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
@@ -219,8 +225,51 @@
           <img class="img-responsive" src="/images/gallery/commerce/gall_commerce_6.jpg"> 
         </a> 
         </div>
+         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
+        	<br>
+        <a class="fancyimage" rel="group" href="/images/gallery/commerce/gall_commerce_7.jpg"> 
+          <img class="img-responsive" src="/images/gallery/commerce/gall_commerce_7.jpg"> 
+        </a> 
         </div>
-          <div class="tab-pane" id="tab5">Фото тут</div>
+        </div>
+          <div class="tab-pane" id="tab5">
+          	 <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
+        	<br>
+        <a class="fancyimage" rel="group" href="/images/gallery/different/gall_diff_1.jpg"> 
+          <img class="img-responsive" src="/images/gallery/different/gall_diff_1.jpg"> 
+        </a> 
+        </div>
+         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
+        	<br>
+        <a class="fancyimage" rel="group" href="/images/gallery/different/gall_diff_2.jpg"> 
+          <img class="img-responsive" src="/images/gallery/different/gall_diff_2.jpg"> 
+        </a> 
+        </div>
+         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
+        	<br>
+        <a class="fancyimage" rel="group" href="/images/gallery/different/gall_diff_3.jpg"> 
+          <img class="img-responsive" src="/images/gallery/different/gall_diff_3.jpg"> 
+        </a> 
+        </div>
+         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
+        	<br>
+        <a class="fancyimage" rel="group" href="/images/gallery/different/gall_diff_4.jpg"> 
+          <img class="img-responsive" src="/images/gallery/different/gall_diff_4.jpg"> 
+        </a> 
+        </div>
+         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
+        	<br>
+        <a class="fancyimage" rel="group" href="/images/gallery/different/gall_diff_5.jpg"> 
+          <img class="img-responsive" src="/images/gallery/different/gall_diff_5.jpg"> 
+        </a> 
+        </div>
+         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
+        	<br>
+        <a class="fancyimage" rel="group" href="/images/gallery/different/gall_diff_6.jpg"> 
+          <img class="img-responsive" src="/images/gallery/different/gall_diff_6.jpg"> 
+        </a> 
+        </div>
+          </div>
         </div>
       </div>
 </div>
