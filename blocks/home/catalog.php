@@ -18,7 +18,6 @@
       </ul>
       <div class="tab-content">
         <div class="tab-pane active" id="tab1">
-          <p>
             <br>
             <div class="row">
 
@@ -31,7 +30,7 @@
               <a class="btn btn-default btn-lg btn-block" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
                 Искусственный камень Samsung Staron
               </a>
-            </p>
+            
             <div class="collapse" id="collapseExample1">
               <div class="card card-block">
                 Искусственный камень Staron пользуется огромной популярностью во всем мире. Он обладает превосходной прочностью и имеет чрезвычайно богатую палитру, представленную многообразием цветов, оттенков и текстур.
