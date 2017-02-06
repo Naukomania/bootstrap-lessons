@@ -1,3 +1,6 @@
+body {
+  position: relative;
+}
 .carousel-inner .item,
 .carousel-control {
   height: 350px;
@@ -90,7 +93,7 @@
   font-weight: 600;
   margin-left: 110px;
 }
-#left-menu .item.active {
+#left-menu li.active {
   background-color: #A08938;
 }
 #razdel-main h1 {
@@ -322,6 +325,112 @@
 }
 .img-responsive {
   border-radius: 5px;
+}
+#textstone {
+  margin-left: 10px;
+  text-align: justify;
+}
+#left-menu .nav > li > a {
   padding: 0px;
-  border: 1px solid #9acd32;
+}
+#left-menu .nav > li span {
+  display: block;
+}
+#left-menu .nav > li {
+  padding: 0;
+}
+#left-menu .nav > li > a {
+  padding: 5px 0;
+}
+#left-menu .nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: #A08938;
+}
+#left-menu a {
+  color: #ffffff;
+}
+#left-menu span {
+  font-size: 10px;
+  color: #000000;
+}
+/** Changed Bootstrap styles**/
+@font-face {
+  font-family: 'old-comedy';
+  src: url('../fonts/old-comedy.ttf');
+}
+a {
+  color: #000;
+}
+.btn-default:hover {
+  color: black;
+  background-color: white;
+  border-color: green;
+}
+.btn-primary {
+  color: #000000;
+  background-color: #e0b0ff;
+  border-color: #e0b0ff;
+}
+.btn-success {
+  color: #000000;
+  background-color: #9acd32;
+  border-color: #9acd32;
+}
+.btn-warning {
+  color: #000000;
+  background-color: #ffd700;
+  border-color: #ffd700;
+}
+.btn-group-lg > .btn {
+  font-size: 16px;
+  border-color: green;
+  text-align: left;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  border: 1px solid green;
+}
+.navbar-default {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #000000;
+  background-color: #A08938;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #bdb76b;
+}
+.breadcrumb {
+  background-color: #width;
+  /* ??? */
+}
+.breadcrumb > li + li:before {
+  color: green;
+}
+.breadcrumb > .active {
+  color: black;
+  border-bottom: 3px solid #9acd32;
+  font-weight: bold;
+}
+.carousel-indicators {
+  bottom: 20px;
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .carousel-caption {
+    right: 30%;
+    left: 30%;
+    padding-bottom: 20px;
+  }
+  .carousel-indicators {
+    bottom: 30px;
+  }
 }

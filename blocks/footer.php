@@ -1,6 +1,5 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="vendor/jquery/jquery.js"></script>
- <script src="js/scrollspy.js"></script>
     <script src="vendor/jquery-ui/jquery-ui.js"></script>
     <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>
    

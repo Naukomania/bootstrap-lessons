@@ -10,7 +10,7 @@
 
     <!-- Bootstrap -->
 
-     <link rel="stylesheet" href="css/bootstrap.css" rel="stylesheet">
+     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
      <link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.css">
      <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
      <link rel="stylesheet" href="css/style.css" rel="stylesheet">
@@ -100,26 +100,58 @@
     </div>
   </div>
 </nav>
-<nav id="left-menu">
-<div class="block">
-<ul class="list-group">
-<br>
-<li class="page-scroll"><a href="#services"><i class="fa fa-book fa-2x" aria-hidden="true" style="color: #ffffff"></i>
-<p style="font-size: 10px; color: #000000">Продукция</p></a></li>
-<li class="page-scroll"><a href="#katalog-kamnya"><i class="fa fa fa-picture-o fa-2x" aria-hidden="true" style="color: #ffffff"></i>
-<p style="font-size: 10px; color: #000000">Цвета камня</p></a></li>
-<li><a href="#"  class="item" data-target="first-lightbox"><i class="fa fa-balance-scale fa-2x" aria-hidden="true" style="color: #ffffff"></i>
-<p style="font-size: 10px; color: #000000">Для кухни</p></a></li>
-<li><a href="#"  class="item" data-target="second-lightbox"><i class="fa fa-bath fa-2x" aria-hidden="true" style="color: #ffffff"></i>
-<p style="font-size: 10px; color: #000000">Для ванной</p></a></li>
-<li><a href="#"  class="item" data-target="third-lightbox"><i class="fa fa-window-maximize fa-rotate-180 fa-2x" aria-hidden="true" style="color: #ffffff"></i>
-<p style="font-size: 10px; color: #000000">Подоконники</p></a></li>
-<li class-"page-scroll"><a href="#gallery"><i class="fa fa-file-image-o fa-2x" aria-hidden="true" style="color: #ffffff"></i>
-<p style="font-size: 10px; color: #000000">Фото</p></a></li>
-<li class="page-scroll"><a href="#price"><i class="fa fa-calculator fa-2x" aria-hidden="true" style="color: #ffffff"></i>
-<p style="font-size: 10px; color: #000000">Цены</p></a></li>
-<li><a href="#map"><i class="fa  fa-envelope-o fa-2x" aria-hidden="true" style="color: #ffffff"></i>
-<p style="font-size: 10px; color: #000000">Контакты</p></a></li>
-</ul>
+<div id="left-menu">
+  <nav class="block">
+    <ul class="list-group nav">
+      <br>
+      <li class="page-scroll">
+        <a href="#services">
+          <i class="fa fa-book fa-2x" aria-hidden="true"></i>
+          <span>Продукция</span>
+        </a>
+      </li>
+      <li class="page-scroll">
+        <a href="#katalog-kamnya">
+          <i class="fa fa fa-picture-o fa-2x" aria-hidden="true"></i>
+          <span>Цвета камня</span>
+        </a>
+      </li>
+      <li>
+        <a href="#"  class="item" data-target="first-lightbox">
+          <i class="fa fa-balance-scale fa-2x" aria-hidden="true"></i>
+          <span>Для кухни</span>
+        </a>
+      </li>
+      <li>
+        <a href="#"  class="item" data-target="second-lightbox">
+          <i class="fa fa-bath fa-2x" aria-hidden="true"></i>
+          <span>Для ванной</span>
+        </a>
+      </li>
+      <li>
+        <a href="#"  class="item" data-target="third-lightbox">
+          <i class="fa fa-window-maximize fa-rotate-180 fa-2x" aria-hidden="true"></i>
+          <span>Подоконники</span>
+        </a>
+      </li>
+      <li class="page-scroll">
+        <a href="#gallery">
+          <i class="fa fa-file-image-o fa-2x" aria-hidden="true"></i>
+          <span>Фото</span>
+        </a>
+      </li>
+      <li class="page-scroll">
+        <a href="#price">
+          <i class="fa fa-calculator fa-2x" aria-hidden="true"></i>
+          <span>Цены</span>
+        </a>
+      </li>
+      <li class="page-scroll">
+        <a href="#map">
+          <i class="fa  fa-envelope-o fa-2x" aria-hidden="true"></i>
+          <span>Контакты</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
 </div>
-</nav>
