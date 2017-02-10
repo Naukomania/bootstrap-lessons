@@ -15,6 +15,7 @@
         <li><a href="#tab5" data-toggle="tab">Tristone</a></li>
         <li><a href="#tab6" data-toggle="tab">Grandex</a></li>
         <li><a href="#tab7" data-toggle="tab">Kerrock</a></li>
+          <li><a href="#tab8" data-toggle="tab">Montelli</a></li>
       </ul>
       <div class="tab-content">
         <div class="tab-pane active" id="tab1">
