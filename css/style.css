@@ -264,7 +264,9 @@ body {
     margin-top: 100px;
     height: 30px;
   }
-  #slider {
+  #slider,
+  #artical,
+  #staron {
     margin-top: 150px;
   }
   #adress {
@@ -409,8 +411,7 @@ a {
   background-color: #bdb76b;
 }
 .breadcrumb {
-  background-color: #width;
-  /* ??? */
+  background-color: #ffffff;
 }
 .breadcrumb > li + li:before {
   color: green;
@@ -419,6 +420,7 @@ a {
   color: black;
   border-bottom: 3px solid #9acd32;
   font-weight: bold;
+  background-color: #white;
 }
 .carousel-indicators {
   bottom: 20px;
