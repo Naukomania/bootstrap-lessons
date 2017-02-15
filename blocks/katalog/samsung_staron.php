@@ -56,6 +56,7 @@
        <a class="fancyimage" " rel="group"  title="<?= $page['name'] . ' - ' . $collectionItem['title']; ?>" href="<?= $collectionItem['src']; ?>"> 
            <img class="img-responsive border-drop" src="images/formstone2.png">
                <?= $collectionItem['title']; ?>
+           <img class="background-stone" src="<?= $collectionItem['src']; ?>">
         </a>
     </div>
     <? endforeach; ?>

@@ -434,6 +434,13 @@ a {
   bottom: 20px;
   padding-bottom: 10px;
 }
+.background-stone {
+  position: absolute;
+  top: 1px;
+  left: 20px;
+  width: 130px;
+  z-index: -1;
+}
 @media screen and (min-width: 768px) {
   .carousel-caption {
     right: 30%;
