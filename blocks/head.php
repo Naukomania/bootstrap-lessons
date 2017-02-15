@@ -42,8 +42,8 @@
 <nav class="navbar navbar-default navbar-fixed-top" id="menu">
   <div class="container-fluid">
     <div class="menu"><ul class="nav navbar-nav">
-        <li<?php if($item==1) {?> class="active"<?php } ?>><a href="example.php">Прайм-Стоун<span class="sr-only">(current)</span></a></li>
-        <li<?php if($item==2) {?> class="active"<?php } ?>><a href="example2.php">Акции</a></li>
+        <li><a href="index.php">Прайм-Стоун<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Акции</a></li>
         <li><a href="#">Цены</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Продукция <span class="caret"></span></a>
@@ -65,7 +65,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Акриловый камень <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Samsung Staron</a></li>
+            <li><a href="staron.php">Samsung Staron</a></li>
             <li><a href="#">LG Hi Macs</a></li>
             <li><a href="#">Corian</a></li>
             <li><a href="#">Hanex</a></li>

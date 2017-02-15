@@ -52,5 +52,9 @@ $(document).ready(function(){
                 +'</a></div>';
         }
     });
+    var activeMenuLink = $('#menu a[href="'+window.location.pathname.substr(1)+'"]');
+    if (activeMenuLink) {
+        activeMenuLink.parents('li').addClass('active');
+    }
 });
  

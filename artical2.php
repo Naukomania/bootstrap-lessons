@@ -1,5 +1,4 @@
  <?php
-$item=1;
 $page = [
   	'title' => 'Fr124 Rattan',
     'keywords' => 'Столешницы мск',
