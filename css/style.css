@@ -244,11 +244,18 @@ body {
   margin-top: 50px;
   height: 1500px;
 }
-#a123 {
+.shablon-stone {
   height: 137px;
   width: 150px;
   text-align: center;
   background-image: url('images/backstoneform.jpg');
+  float: left;
+}
+#a124 {
+  height: 137px;
+  width: 150px;
+  text-align: center;
+  background-image: url('/samsung_staron/images/katalog/staron_ab632_aspen_brown.jpg');
   float: left;
 }
 #map {
@@ -266,7 +273,8 @@ body {
   }
   #slider,
   #artical,
-  #staron {
+  #staron,
+  #gallery {
     margin-top: 150px;
   }
   #adress {

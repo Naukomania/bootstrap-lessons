@@ -36,34 +36,36 @@
   <div class="row">
  
   	 <? foreach($page['additional_images'] as $additionalImage): ?>
-   
       <div class="col-md-3 col-sm-4 col-xs-6 thumb">
         <br>
          <div class="kamen">
         <a class="fancyimage" rel="group" href="<?= $additionalImage['src']; ?>">
           <img class="img-responsive" src="<?= $additionalImage['src']; ?>">
-            <div class="infokamen"> </div>
+            <div class="infokamen"><?= $additionalImage['description']; ?></div>
         </a>
-
-  </div>
       </div>
-    <? endforeach; ?>
+    </div>
+<? endforeach; ?>
+
   </div>
 <? endif; ?> 
        </div>
        <div class="gallery-kamen">
        <br>
        <div><h3>Фото столешницы из искусственного камня FR148 Shimmer / Radiance</h3></div>
-        <? if($page['additional_images']): ?>
+        <? if($page['top_stone']): ?>
   <div class="row">
-    <? foreach($page['additional_images'] as $additionalImage): ?>
+    <? foreach($page['top_stone'] as $topStoneImage): ?>
       <div class="col-md-3 col-sm-4 col-xs-6 thumb">
         <br>
-        <a class="fancyimage" rel="group" href="<?= $additionalImage['src']; ?>">
-          <img class="img-responsive" src="<?= $additionalImage['src']; ?>">
+         <div class="kamen">
+        <a class="fancyimage" rel="group" href="<?= $topStoneImage['src']; ?>">
+          <img class="img-responsive" src="<?= $topStoneImage['src']; ?>">
+            <div class="infokamen"><?= $topStoneImage['description']; ?></div>
         </a>
       </div>
-    <? endforeach; ?>
+    </div>
+<? endforeach; ?>
   </div>
 <? endif; ?> 
        </div>

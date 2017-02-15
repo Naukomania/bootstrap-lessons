@@ -47,24 +47,19 @@
                <li><a href="#">Tempest</a></li>
                <li><a href="#">Supreme</a></li>
              </ul>
-              <p>Коллекция Aspen</p>
-              <br>
-             <div class="row">
-             <div class="col-md-2 col-sm-4 col-xs-6"> 
-             <div id="a123">
-           <a class="fancyimage" " rel="group"  title="Samsung Staron AB632 - Aspen Brown" href="/samsung_staron/images/katalog/staron_ab632_aspen_brown.jpg"> 
-               <img   class="img-responsive"   id="layer-2"" src="images/formstone2.png"> Aspen Brown - AB632</a>
-            </div>
-             </div>
-              <div class="col-md-2 col-sm-4 col-xs-6"> 
-             <a class="fancyimage" " rel="group"  title="Samsung Staron AB632 - Aspen Brown" href="/samsung_staron/images/katalog/staron_ab632_aspen_brown.jpg"> 
-              <img   class="img-responsive"  id="layer-1   src="/samsung_staron/images/katalog/staron_ab632_aspen_brown.jpg">
-              <img   class="img-responsive"   id="layer-2"" src="images/formstone2.png"> Aspen Brown - AB632</a>
-          
-             </div>
-             </div>
+            <p><?= $collection['title']; ?></p>
+<br>
+<? if($collection['items']): ?>
+<div class="row">
+    <? foreach($collection['items'] as $collectionItem): ?>
+    <div class="col-md-2 col-sm-4 col-xs-6"> 
+       <a class="fancyimage" " rel="group"  title="<?= $page['name'] . ' - ' . $collectionItem['title']; ?>" href="<?= $collectionItem['src']; ?>"> 
+           <img class="img-responsive border-drop" src="images/formstone2.png">
+               <?= $collectionItem['title']; ?>
+        </a>
+    </div>
+    <? endforeach; ?>
+</div>
+<? endif; ?>
 
-             </div>
-             
-             </div>
        </section>
