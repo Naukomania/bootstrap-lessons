@@ -10,13 +10,11 @@
 
     <!-- Bootstrap -->
 
-     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
      <link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.css">
-     <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
+     <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css">
+     <link rel="stylesheet" href="vendor/fancybox/css/jquery.fancybox.css">
      <link rel="stylesheet" href="css/style.css" rel="stylesheet">
-     <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-     
-
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
