@@ -36,9 +36,21 @@ $(document).ready(function(){
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
-    $(document).ready(function() { 
-        $("a.fancyimage").fancybox(); 
-    }); 
-
+    $('a.fancyimage').fancybox(); 
+    $('a.fancyimage-with-title').fancybox({
+        helpers:  {
+            title : {
+                type : 'inside',
+            }
+        },
+        beforeShow : function(){
+            this.title =
+                '<div class="fancy-title-link"><a href="'
+                +$(this.element).data("target-url")
+                +'">'
+                +this.title
+                +'</a></div>';
+        }
+    });
 });
  
