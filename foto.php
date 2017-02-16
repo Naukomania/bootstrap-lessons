@@ -7,7 +7,7 @@ $page = [
     'description' => 'Галерея, фото, фотографии изделий из искусственного камня - столешницы, подоконники, мойки, раковины и пр.',
     ];
 include 'blocks/head.php';
-include '/blocks/home/gallery.php';
+include 'blocks/home/gallery.php';
 include 'blocks/footer.php';
 
 ?>

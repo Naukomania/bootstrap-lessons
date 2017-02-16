@@ -36,6 +36,23 @@ $(document).ready(function(){
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
+    var activeMenuLink = $('#menu a[href="'+window.location.pathname.substr(1)+'"]');
+    if (activeMenuLink) {
+        activeMenuLink.parents('li').addClass('active');
+    }
+    bindAfterAjax();
+});
+function bindAfterAjax() {
+    $('#ajax-foto-pagination a').on('click', function(){
+        $.ajax({
+          url: $(this).attr('href'),
+          success: function(data){
+            $('.ajax-foto-wrapper').html(data);
+            bindAfterAjax();
+          }
+        });
+        return false;
+    });
     $('a.fancyimage').fancybox(); 
     $('a.fancyimage-with-title').fancybox({
         helpers:  {
@@ -52,8 +69,4 @@ $(document).ready(function(){
                 +'</a></div>';
         }
     });
-    var activeMenuLink = $('#menu a[href="'+window.location.pathname.substr(1)+'"]');
-    if (activeMenuLink) {
-        activeMenuLink.parents('li').addClass('active');
-    }
-});
+}

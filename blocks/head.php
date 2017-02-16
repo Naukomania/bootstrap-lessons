@@ -62,7 +62,7 @@
             <li><a href="#">Изделия для лестницы</a></li>
           </ul>
         </li>
-        <li><a href="#">Наши работы</a></li>
+        <li><a href="foto.php">Наши работы</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Акриловый камень <span class="caret"></span></a>
           <ul class="dropdown-menu">
