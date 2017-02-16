@@ -1,5 +1,4 @@
  <?php
-$item=1;
 $page = [
     'name'=>'Samsung Staron - Прайм-Стоун Ру',
     'title' => 'Fr148 Radiance (Shimmer)',

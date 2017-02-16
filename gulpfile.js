@@ -25,6 +25,15 @@ gulp.task('copy', function() {
 	gulp.src(['node_modules/jquery-ui/images/**/*'])
         .pipe(gulp.dest('vendor/jquery-ui/images'))
 
+    gulp.src(['node_modules/fancybox/dist/css/jquery.fancybox.css'])
+        .pipe(gulp.dest('vendor/fancybox/css'))
+
+    gulp.src(['node_modules/fancybox/dist/img/**/*'])
+        .pipe(gulp.dest('vendor/fancybox/img'))
+
+    gulp.src(['node_modules/fancybox/dist/js/jquery.fancybox.js'])
+        .pipe(gulp.dest('vendor/fancybox/js'))
+
     gulp.src([
             'node_modules/font-awesome/**',
             '!node_modules/font-awesome/**/*.map',

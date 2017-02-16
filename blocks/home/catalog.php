@@ -60,6 +60,7 @@
              </ul>
           
              <p>Solid Color</p>
+             <style>#a123{float: left;}</style>
              <div id="a123">
               <img src="images/formstone1.png">
             </div>

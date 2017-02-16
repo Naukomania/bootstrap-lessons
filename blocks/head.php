@@ -1,23 +1,21 @@
 <!DOCTYPE html>
+<? include 'lib/functions.php'; ?>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title><?= $page['title'] . ' - ' . $page['name'] ?></title>
+    <title><?= getTitle($page); ?></title>
 
 
     <!-- Bootstrap -->
 
-     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
      <link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.css">
-     <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
+     <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css">
+     <link rel="stylesheet" href="vendor/fancybox/css/jquery.fancybox.css">
      <link rel="stylesheet" href="css/style.css" rel="stylesheet">
-     <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-    
-     
-
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,8 +43,8 @@
 <nav class="navbar navbar-default navbar-fixed-top" id="menu">
   <div class="container-fluid">
     <div class="menu"><ul class="nav navbar-nav">
-        <li<?php if($item==1) {?> class="active"<?php } ?>><a href="example.php">Прайм-Стоун<span class="sr-only">(current)</span></a></li>
-        <li<?php if($item==2) {?> class="active"<?php } ?>><a href="example2.php">Акции</a></li>
+        <li><a href="index.php">Прайм-Стоун<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Акции</a></li>
         <li><a href="#">Цены</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Продукция <span class="caret"></span></a>
@@ -68,7 +66,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Акриловый камень <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Samsung Staron</a></li>
+            <li><a href="staron.php">Samsung Staron</a></li>
             <li><a href="#">LG Hi Macs</a></li>
             <li><a href="#">Corian</a></li>
             <li><a href="#">Hanex</a></li>
