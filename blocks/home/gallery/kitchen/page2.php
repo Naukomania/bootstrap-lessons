@@ -58,10 +58,10 @@
 <div class="text-center">
   <div class="pagination">
     <ul class="pagination" id="ajax-foto-pagination">
-      <li class="control"><a href="blocks/home/gallery/page1.php">Первая</a></li>
-      <li class="control"><a href="blocks/home/gallery/page1.php">«</a></li>
-      <li><a href="blocks/home/gallery/page1.php">1</a></li>
-      <li class="active"><a href="blocks/home/gallery/page2.php">2</a></li>
+      <li class="control"><a href="blocks/home/gallery/kitchen/page1.php">Первая</a></li>
+      <li class="control"><a href="blocks/home/gallery/kitchen/page1.php">«</a></li>
+      <li><a href="blocks/home/gallery/kitchen/page1.php">1</a></li>
+      <li class="active"><a href="blocks/home/gallerykitchen/page2.php">2</a></li>
       <li class="disabled"><span>»</span></li>
       <li class="disabled"><span>Последняя</span></li>
     </ul>

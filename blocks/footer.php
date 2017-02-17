@@ -1,8 +1,12 @@
     <div id="background-wrapper">
     </div>
-    
+    <div id="order-form" class="lightbox">
+      Сделать расчет
+    </div>
     <section id="footer">
-     <div id="imgtopslide"></div>
+     <div id="imgtopslide">
+      
+     </div>
      <br>
     <div class="container">
        <div class="row">
@@ -79,7 +83,12 @@
               </ul>
                   </div>
                   </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6"> 
+
+                    <a  class="order-form-link" data-source="footer" href="#">Сделать расчет</a>
+                    </div>
             </div>
+
             <br>
          <div class="row">
                  <div class="col-md-2 col-sm-4 col-xs-6"> 
@@ -107,6 +116,7 @@
                <img src="/images/logomini-footer/samsung-radianz-logo-mini.jpg"></a>
                </div>
                           </div>
+
    </div>
 	      </section>
  <div class="footer-gold">Подвальчик</div>

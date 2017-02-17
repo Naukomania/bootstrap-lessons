@@ -13,111 +13,17 @@
       <div class="tab-content">
         <div class="tab-pane active" id="tab1">
         <div class="row ajax-foto-wrapper">
-            <? include 'blocks/home/gallery/page1.php'; ?>
+            <? include 'blocks/home/gallery/kitchen/page1.php'; ?>
 
 </div>
 
             </div>
                   <div class="tab-pane" id="tab2">
-          <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group"  title="Столешница  для ванной комнаты"  href="/images/gallery/bath/gall_bath_1.jpg"> 
-          <img class="img-responsive" src="/images/gallery/bath/gall_bath_1.jpg">  Столешница в ванную
-        </a> 
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group"  title="Столешница с настольными раковинами"  href="/images/gallery/bath/gall_bath_2.jpg"> 
-          <img class="img-responsive" src="/images/gallery/bath/gall_bath_2.jpg"> Настольные раковины
-        </a> 
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group"  title="Столешница для ванной комнаты"  href="/images/gallery/bath/gall_bath_3.jpg"> 
-          <img class="img-responsive" src="/images/gallery/bath/gall_bath_3.jpg"> Раковина под столешницу
-        </a> 
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group"  title="Раковина для столешницы" href="/images/gallery/bath/gall_bath_4.jpg"> 
-          <img class="img-responsive" src="/images/gallery/bath/gall_bath_4.jpg">Настольная раковина 
-        </a> 
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group" title="Столешница с вклееными раковинами"  href="/images/gallery/bath/gall_bath_5.jpg"> 
-          <img class="img-responsive" src="/images/gallery/bath/gall_bath_5.jpg"> Врезная раковина (фото)
-        </a> 
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group" title="Столешница с раковинами Staron" href="/images/gallery/bath/gall_bath_6.jpg"> 
-          <img class="img-responsive" src="/images/gallery/bath/gall_bath_6.jpg"> Вклееная раковина Staron
-        </a> 
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group" title="Столешница для ванной комнаты (фото)" href="/images/gallery/bath/gall_bath_7.jpg"> 
-          <img class="img-responsive" src="/images/gallery/bath/gall_bath_7.jpg"> Раковины Старон интегрированные
-        </a> 
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group" title="Столешница с раковинами" href="/images/gallery/bath/gall_bath_8.jpg"> 
-          <img class="img-responsive" src="/images/gallery/bath/gall_bath_8.jpg"> Раковины Staron - ванная
-        </a> 
-        </div>
-         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-          <br>
-        <a class="fancyimage" rel="group" title="Фигурная мини-столешница" href="/images/gallery/bath/gall_bath_9.jpg"> 
-          <img class="img-responsive" src="/images/gallery/bath/gall_bath_9.jpg"> Мини-столешница с раковиной
-        </a> 
-        </div>
-         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-          <br>
-        <a class="fancyimage" rel="group" title="Столешница над стиральной машиной" href="/images/gallery/bath/gall_bath_10.jpg"> 
-          <img class="img-responsive" src="/images/gallery/bath/gall_bath_10.jpg"> Столешница с выемкой под ст. машину
-        </a> 
-        </div>
-        <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-          <br>
-        <a class="fancyimage" rel="group" title="Столешница в ванной с вырезом под короб" href="/images/gallery/bath/gall_bath_11.jpg"> 
-          <img class="img-responsive" src="/images/gallery/bath/gall_bath_11.jpg"> Столешница в ванной
-        </a> 
-        </div>
-         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-          <br>
-        <a class="fancyimage" rel="group" title="Столешница вдоль радиусной стены" href="/images/gallery/bath/gall_bath_12.jpg"> 
-          <img class="img-responsive" src="/images/gallery/bath/gall_bath_12.jpg"> Радиусная столешница
-        </a> 
-        </div>
-         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-          <br>
-        <a class="fancyimage" rel="group" title="Столешница в ванной с литой мойкой" href="/images/gallery/bath/gall_bath_13.jpg"> 
-          <img class="img-responsive" src="/images/gallery/bath/gall_bath_13.jpg"> Столешница для ванной
-        </a> 
-        </div>
-         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-          <br>
-        <a class="fancyimage" rel="group" title="Столешница в ванной  под мебель" href="/images/gallery/bath/gall_bath_14.jpg"> 
-          <img class="img-responsive" src="/images/gallery/bath/gall_bath_14.jpg"> Столешница  под мебель
-        </a> 
-        </div>
-         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-          <br>
-        <a class="fancyimage" rel="group" title="Столешница для ванной с полкой" href="/images/gallery/bath/gall_bath_15.jpg"> 
-          <img class="img-responsive" src="/images/gallery/bath/gall_bath_15.jpg"> Столешница с полкой
-        </a> 
-        </div>
-         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-          <br>
-        <a class="fancyimage" rel="group" title="Столешница под стиральную машину" href="/images/gallery/bath/gall_bath_16.jpg"> 
-          <img class="img-responsive" src="/images/gallery/bath/gall_bath_16.jpg"> Столешница  под стиралку
-        </a> 
-        </div>
-        
-        </div>
+             <div class="row ajax-foto-wrapper-bacth">
+            <? include 'blocks/home/gallery/bacth/page1.php'; ?>
 
+</div>
+       </div>
         <div class="tab-pane" id="tab3">
            <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
         	<br>

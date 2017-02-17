@@ -63,10 +63,10 @@
     <ul class="pagination" id="ajax-foto-pagination">
       <li class="disabled"><span>Первая</span></li>
       <li class="disabled"><span>«</span></li>
-      <li class="active"><a href="blocks/home/gallery/page1.php">1</a></li>
-      <li><a href="blocks/home/gallery/page2.php">2</a></li>
-      <li class="control"><a href="blocks/home/gallery/page2.php">»</a></li>
-      <li class="control"><a href="blocks/home/gallery/page2.php">Последняя</a></li>
+      <li class="active"><a href="blocks/home/gallery/kitchen/page1.php">1</a></li>
+      <li><a href="blocks/home/gallery/kitchen/page2.php">2</a></li>
+      <li class="control"><a href="blocks/home/gallery/kitchen/page2.php">»</a></li>
+      <li class="control"><a href="blocks/home/gallery/kitchen/page2.php">Последняя</a></li>
     </ul>
   </div>
 </div>
