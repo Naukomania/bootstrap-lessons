@@ -24,12 +24,12 @@
 
 </div>
        </div>
-        <div class="tab-pane" id="tab3">
-          <div class="row ajax-foto-wrapper-podok">
-            <? include 'blocks/home/gallery/podok/page1.php'; ?>
+       <div class="tab-pane" id="tab3">
+        <div class="row ajax-foto-wrapper-podok">
+          <? include 'blocks/home/gallery/podok/page1.php'; ?>
 
-</div>
-       </div>
+        </div>
+      </div>
           <div class="tab-pane" id="tab4">
            <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
         	<br>
