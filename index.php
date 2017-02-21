@@ -1,16 +1,13 @@
 <?php
-$page = [
-  	'title' => 'Прайм-Стоун - столешницы и подоконники из искусственного камня',
-    'keywords' => 'Столешницы мск',
-    'description' => 'Очень классное и надёжное покрытие.',
-  ];
-include 'blocks/head.php';
-include 'blocks/left-menu.php';
-include 'blocks/home/slider.php';
-include 'blocks/home/services.php';
-include 'blocks/home/catalog.php';
-include 'blocks/home/gallery.php';
-include 'blocks/home/price.php';
-include 'blocks/home/map.php';
-include 'blocks/footer.php';
-?>
+
+// change the following paths if necessary
+$yii=dirname(__FILE__).'/framework/yii.php';
+$config=dirname(__FILE__).'/protected/config/main.php';
+
+// remove the following lines when in production mode
+defined('YII_DEBUG') or define('YII_DEBUG',true);
+// specify how many levels of call stack should be shown in each log message
+defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3);
+
+require_once($yii);
+Yii::createWebApplication($config)->run();

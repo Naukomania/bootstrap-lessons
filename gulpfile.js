@@ -60,7 +60,7 @@ gulp.task('browserSync', function() {
 gulp.task('dev', ['browserSync', 'less'], function() {
     gulp.watch('less/*.less', ['less']);
     // Reloads the browser whenever HTML or JS files change
-    gulp.watch('*.html', browserSync.reload);
-	gulp.watch('**/*.php', browserSync.reload);
+    gulp.watch('themes/*.html', browserSync.reload);
+	gulp.watch('themes/**/*.php', browserSync.reload);
     gulp.watch('js/**/*.js', browserSync.reload);
 });
