@@ -8,7 +8,7 @@
 return array(
 	'theme' => 'prime',
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'Прайм-Стоун - столешницы и подоконники из искусственного камня',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
