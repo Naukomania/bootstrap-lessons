@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="<?= Yii::app()->request->baseUrl; ?>/vendor/jquery-ui/jquery-ui.css">
 	<link rel="stylesheet" href="<?= Yii::app()->request->baseUrl; ?>/vendor/font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" href="<?= Yii::app()->request->baseUrl; ?>/vendor/fancybox/css/jquery.fancybox.css">
+	<link rel="stylesheet" href="<?= Yii::app()->request->baseUrl; ?>/css/transition.css" rel="stylesheet">
 	<link rel="stylesheet" href="<?= Yii::app()->request->baseUrl; ?>/css/style.css" rel="stylesheet">
 	<link rel="<?= Yii::app()->request->baseUrl; ?>/favicon.ico">
 
@@ -95,6 +96,8 @@
     </div>
   </div>
 </nav>
+
+<div class="margin-tmp"></div>
 
 <div id="mainmenu">
 	<?php $this->widget('zii.widgets.CMenu',array(
