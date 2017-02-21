@@ -19,7 +19,7 @@
 
 <header class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
-		<div id="logo"><a href="index.php"><img src="/images/log.gif"></a></div>
+		<div id="logo"><a href="<?= Yii::app()->request->baseUrl; ?>/"><img src="/images/log.gif"></a></div>
 		<div id="desc"> <p><b>Производство изделий <br>из искусственного камня</b></p></div>
 		<div id="adress">
 			<p> Время работы: <br><b>Пн-Пт - 9<sup>00</sup> - 18<sup>00</sup></b><br><span
@@ -27,7 +27,7 @@
 		</div>
 		<div id="right-header-block">
 			<div class="mail">
-				<p><img src="/images/message.jpg"><a href="mailto:info@prime-stone.ru" target="_blank">info@prime-stone.ru</a></p>
+				<p><img src="<?= Yii::app()->request->baseUrl; ?>/images/message.jpg"><a href="mailto:info@prime-stone.ru" target="_blank">info@prime-stone.ru</a></p>
 			</div>
 			<div class="telefon-header">
 				<p><b>+7(495)</b><span><font size="4" ><b>227 49 19</b></font></span></p>
@@ -41,7 +41,7 @@
     <div class="menu"><ul class="nav navbar-nav">
         <li><a href="index.php">Прайм-Стоун<span class="sr-only">(current)</span></a></li>
         <li><a href="#">Акции</a></li>
-        <li><a href="#">Цены</a></li>
+        <li><a href="/price">Цены</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Продукция <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -62,7 +62,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Акриловый камень <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="staron.php">Samsung Staron</a></li>
+            <li><a href="/catalog/staron">Samsung Staron</a></li>
             <li><a href="#">LG Hi Macs</a></li>
             <li><a href="#">Corian</a></li>
             <li><a href="#">Hanex</a></li>
