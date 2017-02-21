@@ -19,7 +19,7 @@
 
 <header class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
-		<div id="logo"><a href="index.php"><img src="images/log.gif"></a></div>
+		<div id="logo"><a href="index.php"><img src="/images/log.gif"></a></div>
 		<div id="desc"> <p><b>Производство изделий <br>из искусственного камня</b></p></div>
 		<div id="adress">
 			<p> Время работы: <br><b>Пн-Пт - 9<sup>00</sup> - 18<sup>00</sup></b><br><span
@@ -27,7 +27,7 @@
 		</div>
 		<div id="right-header-block">
 			<div class="mail">
-				<p><img src="images/message.jpg"><a href="mailto:info@prime-stone.ru" target="_blank">info@prime-stone.ru</a></p>
+				<p><img src="/images/message.jpg"><a href="mailto:info@prime-stone.ru" target="_blank">info@prime-stone.ru</a></p>
 			</div>
 			<div class="telefon-header">
 				<p><b>+7(495)</b><span><font size="4" ><b>227 49 19</b></font></span></p>
