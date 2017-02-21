@@ -31,86 +31,15 @@
         </div>
       </div>
           <div class="tab-pane" id="tab4">
-           <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group" href="/images/gallery/commerce/gall_commerce_1.jpg"> 
-          <img class="img-responsive" src="/images/gallery/commerce/gall_commerce_1.jpg"> 
-        </a> 
+          <div class="row ajax-foto-wrapper-commerce">
+          <? include 'blocks/home/gallery/commerce/page1.php'; ?>
         </div>
-          <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group" href="/images/gallery/commerce/gall_commerce_2.jpg"> 
-          <img class="img-responsive" src="/images/gallery/commerce/gall_commerce_2.jpg"> 
-        </a> 
-        </div>
-          <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group" href="/images/gallery/commerce/gall_commerce_3.jpg"> 
-          <img class="img-responsive" src="/images/gallery/commerce/gall_commerce_3.jpg"> 
-        </a> 
-        </div>
-          <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group" href="/images/gallery/commerce/gall_commerce_4.jpg"> 
-          <img class="img-responsive" src="/images/gallery/commerce/gall_commerce_4.jpg"> 
-        </a> 
-        </div>
-          <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group" href="/images/gallery/commerce/gall_commerce_5.jpg"> 
-          <img class="img-responsive" src="/images/gallery/commerce/gall_commerce_5.jpg"> 
-        </a> 
-        </div>
-          <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group" href="/images/gallery/commerce/gall_commerce_6.jpg"> 
-          <img class="img-responsive" src="/images/gallery/commerce/gall_commerce_6.jpg"> 
-        </a> 
-        </div>
-         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group" href="/images/gallery/commerce/gall_commerce_7.jpg"> 
-          <img class="img-responsive" src="/images/gallery/commerce/gall_commerce_7.jpg"> 
-        </a> 
-        </div>
-        </div>
+      </div>
           <div class="tab-pane" id="tab5">
-          	 <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group" href="/images/gallery/different/gall_diff_1.jpg"> 
-          <img class="img-responsive" src="/images/gallery/different/gall_diff_1.jpg"> 
-        </a> 
+          	<div class="row ajax-foto-wrapper-different">
+          <? include 'blocks/home/gallery/different/page1.php'; ?>
         </div>
-         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group" href="/images/gallery/different/gall_diff_2.jpg"> 
-          <img class="img-responsive" src="/images/gallery/different/gall_diff_2.jpg"> 
-        </a> 
-        </div>
-         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group" href="/images/gallery/different/gall_diff_3.jpg"> 
-          <img class="img-responsive" src="/images/gallery/different/gall_diff_3.jpg"> 
-        </a> 
-        </div>
-         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group" href="/images/gallery/different/gall_diff_4.jpg"> 
-          <img class="img-responsive" src="/images/gallery/different/gall_diff_4.jpg"> 
-        </a> 
-        </div>
-         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group" href="/images/gallery/different/gall_diff_5.jpg"> 
-          <img class="img-responsive" src="/images/gallery/different/gall_diff_5.jpg"> 
-        </a> 
-        </div>
-         <div class="col-md-3 col-sm-4 col-xs-6 thumb"> 
-        	<br>
-        <a class="fancyimage" rel="group" href="/images/gallery/different/gall_diff_6.jpg"> 
-          <img class="img-responsive" src="/images/gallery/different/gall_diff_6.jpg"> 
-        </a> 
-        </div>
+      </div> 
           </div>
         </div>
       </div>
