@@ -63,7 +63,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Акриловый камень <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="/catalog/staron">Samsung Staron</a></li>
-            <li><a href="#">LG Hi Macs</a></li>
+            <li><a href="/catalog/lg_hi_macs">LG Hi Macs</a></li>
             <li><a href="#">Corian</a></li>
             <li><a href="#">Hanex</a></li>
             <li><a href="#">Tristone</a></li>
@@ -111,7 +111,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2 col-sm-4 col-xs-6"> 
-				<a href="#">
+				<a href="/catalog/staron">
 					<img src="/images/logomini-footer/staron-logo-mini.jpg">
 				</a>
 			</div>
@@ -131,7 +131,7 @@
 				</a>
 			</div>
 			<div class="col-md-2 col-sm-4 col-xs-6"> 
-				<a href="#">
+				<a href="/catalog/llg_hi_macs">
 					<img src="/images/logomini-footer/lg-himacs-logo-mini.jpg">
 				</a>
 			</div>
