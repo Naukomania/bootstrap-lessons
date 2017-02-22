@@ -131,7 +131,7 @@
 				</a>
 			</div>
 			<div class="col-md-2 col-sm-4 col-xs-6"> 
-				<a href="/catalog/llg_hi_macs">
+				<a href="/catalog/lg_hi_macs">
 					<img src="/images/logomini-footer/lg-himacs-logo-mini.jpg">
 				</a>
 			</div>
@@ -169,8 +169,8 @@
 				<div class="footer-text"><h5><a href="#">
 					Акриловый искусственный камень</a></h5>
 					<ul>
-						<li><a href="#">Samsung Straron (Ю. Корея)</a></li>
-						<li><a href="#">LG HiMacs (Ю. Корея)</a></li>
+						<li><a href="/catalog/staron">Samsung Straron (Ю. Корея)</a></li>
+						<li><a href="/catalog/lg_hi_macs">LG HiMacs (Ю. Корея)</a></li>
 						<li><a href="#">Corian (США)</a></li>
 						<li><a href="#">Montelli (США-Китай)</a></li>
 						<li><a href="#">Tristone (Ю. Корея)</a></li>
