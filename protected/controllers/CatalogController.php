@@ -12,6 +12,11 @@ class CatalogController extends Controller
 		$this->render('staron');
 	}
 
+	public function actionLg_hi_macs()
+	{
+		$this->render('lg_hi_macs');
+	}
+
 	// Uncomment the following methods and override them if needed
 	/*
 	public function filters()
