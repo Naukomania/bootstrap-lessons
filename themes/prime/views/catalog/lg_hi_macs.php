@@ -1,24 +1,3 @@
-<?php
-$page = [
-    'title' => 'LG Hi Macs - искусственный акриловый камнень - Прайм-Стоун',
-    'name' => 'LG Hi Macs',
-    'keywords' => 'LG Hi macs,  хай макс',
-    'description' => 'Каталог цветов искусственного акрилового камня LG Hi Macs (элджи хай макс).',
-  ];
-$collection = [
-    'title' => 'Коллекция Marmo',
-    'items' => [
-        [
-            'title' => 'Aspen Brown - AB632',
-            'src' => '/samsung_staron/images/katalog/staron_ab632_aspen_brown.jpg',
-        ],
-        [
-            'title' => 'Aspen Brown - AB632',
-            'src' => '/samsung_staron/images/katalog/staron_ab632_aspen_brown.jpg',
-        ],
-    ],
-];
-?>
 <section id="hi-macs">
  <div class="container">
  <br>
@@ -33,7 +12,7 @@ $collection = [
        <div class="row">
 
               <div class="col-md-3 col-sm-4 col-xs-6"><div id="logolg">
-                <img src="images/logo-lg-himacs.png">
+               <img src="<?=$page['logoSrc'];?>">
               </div></div>
               <div class="col-md-9 col-sm-8 col-xs-6">Искусственный камень LG пользуется огромной популярностью во всем мире. Он обладает превосходной прочностью и имеет чрезвычайно богатую палитру, представленную многообразием цветов, оттенков и текстур.
                 Профессиональные дизайнеры интерьеров предпочитают работать именно с изделиями из акрилового камня Staron, поскольку он под   LG LG LG LG LG LG LG  LG LG LG LG LG LG LG  LG LG LG LG LG LG LG  LG LG LG LG LG LG LG.</div>
@@ -68,7 +47,7 @@ $collection = [
     <? foreach($collection['items'] as $collectionItem): ?>
     <div class="col-md-2 col-sm-4 col-xs-6"> 
        <a class="fancyimage-with-title" " rel="group"  title="<?= $page['name'] . ' - ' . $collectionItem['title']; ?>" href="<?= $collectionItem['src']; ?>" data-target-url="artical.php"> 
-           <img class="img-responsive border-drop" src="images/formstone2.png">
+           <img class="img-responsive border-drop" src="/images/formstone2.png">
                <?= $collectionItem['title']; ?>
            <img class="background-stone" src="<?= $collectionItem['src']; ?>">
         </a>

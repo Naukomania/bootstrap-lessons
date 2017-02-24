@@ -12,7 +12,7 @@
        <div class="row">
 
               <div class="col-md-3 col-sm-4 col-xs-6"><div id="logolg">
-                <img src="images/logo-lg-himacs.png">
+                <img src="<?=$page['logoSrc'];?>">
               </div></div>
               <div class="col-md-9 col-sm-8 col-xs-6">Искусственный камень LG пользуется огромной популярностью во всем мире. Он обладает превосходной прочностью и имеет чрезвычайно богатую палитру, представленную многообразием цветов, оттенков и текстур.
                 Профессиональные дизайнеры интерьеров предпочитают работать именно с изделиями из акрилового камня Staron, поскольку он под   LG LG LG LG LG LG LG  LG LG LG LG LG LG LG  LG LG LG LG LG LG LG  LG LG LG LG LG LG LG.</div>
