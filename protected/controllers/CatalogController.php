@@ -9,7 +9,11 @@ class CatalogController extends Controller
 
 	public function actionStaron()
 	{
-		$this->render('staron');
+		$item = Catalog::getItem('staron');
+		$this->render('staron',[
+			'page' => $item,
+			'collection' => $item['collection']
+		]);
 	}
 
 	public function actionLg_hi_macs()

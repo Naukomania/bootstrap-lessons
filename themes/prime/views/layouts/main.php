@@ -59,18 +59,23 @@
           </ul>
         </li>
         <li><a href="foto.php">Наши работы</a></li>
-        <li class="dropdown">
+        <li class="dropdown<?if($this->id == 'catalog'):?> active<?endif;?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Акриловый камень <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="/catalog/staron">Samsung Staron</a></li>
-            <li><a href="/catalog/lg_hi_macs">LG Hi Macs</a></li>
-            <li><a href="#">Corian</a></li>
-            <li><a href="#">Hanex</a></li>
-            <li><a href="#">Tristone</a></li>
-            <li><a href="#">Grandex</a></li>
-            <li><a href="#">Kerrock</a></li>
-            <li><a href="#">Montelli</a></li>
-          </ul>
+          <?php $this->widget('zii.widgets.CMenu',array(
+              'htmlOptions' => array(
+                  'class' => 'dropdown-menu'
+              ),
+              'items'=>array(
+                  array('label'=>'Samsung Staron', 'url'=>array('/catalog/staron')),
+                  array('label'=>'LG Hi Macs', 'url'=>array('/catalog/lg_hi_macs')),
+                  array('label'=>'Corian', 'url'=>array('#')),
+                  array('label'=>'Hanex', 'url'=>array('#')),
+                  array('label'=>'Tristone', 'url'=>array('#')),
+                  array('label'=>'Grandex', 'url'=>array('#')),
+                  array('label'=>'Kerrock', 'url'=>array('#')),
+                  array('label'=>'Montelli', 'url'=>array('#')),
+              ),
+          )); ?>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Кварцевый камень <span class="caret"></span></a>
