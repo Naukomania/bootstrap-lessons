@@ -30,17 +30,20 @@
               </div>
             </div>
             <br>
-                          <ul class="breadcrumb">
-               <li ><a href="#"> <?=$page['breadcrumb1'];?></a></li>
-               <li><a href="#"> <?=$page['breadcrumb2'];?></a></li>
-               <li><a href="#"> <?=$page['breadcrumb3'];?></a></li>
-               <li><a href="#"> <?=$page['breadcrumb4'];?></a></li>
-               <li><a href="#"> <?=$page['breadcrumb5'];?></a></li>
-               <li  class="active"><?=$page['breadcrumb6'];?></li>
-               <li><a href="#"> <?=$page['breadcrumb7'];?></a></li>
-               <li> <a href="#"> <?=$page['breadcrumb8'];?></a></li>
-               <li><a href="#"> <?=$page['breadcrumb9'];?></a></li>
-             </ul>
+                         <ul class="breadcrumb">
+    <? $breadcrumbs = $page['breadcrumbs']; ?>
+    <? foreach($breadcrumbs as $breadcrumb): ?>
+        <li<?if(!empty($breadcrumb['active'])): ?> class="active"<?endif;?>>
+            <a href="<?=$breadcrumb['href'];?>">
+                <?=$breadcrumb['name'];?>
+            </a>
+        </li>
+    <? endforeach; ?>
+</ul>
+
+
+
+
             <p><?= $collection['title']; ?></p>
 <br>
 <? if($collection['items']): ?>

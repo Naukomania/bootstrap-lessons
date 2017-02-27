@@ -20,16 +20,17 @@ class Catalog {
                 Бесшовное соединение искусственного камня Самсунг по цене доступной и приемлемой позволяет производить разнообразные по форме поверхности.
                 Непористая структура акрилового камня Самсунг Старон гарантирует простой повседневный уход и долговечность конструкций.
                 Благодаря кварцевым частицам искусственный камень Старон обладает природной красотой и прочностью. Его эстетика и прекрасные потребительские свойства расширяют дизайнерские возможности при разработке богатых и изысканных интерьеров. Искусственный камень Самсунг используется для изготовления кухонных столешниц Samsung Staron и подоконников, барных стоек, отделки ванных комнат, торгового оборудования и т. д. Не менее привлекательны и мойки Старон, способные привнести в помещение ноту изысканности.',
-                'breadcrumb1'=>'Solid Color',
-                'breadcrumb2'=>'Super Color',
-                'breadcrumb3'=>'Sanded',
-                'breadcrumb4'=>'Aspen',
-                'breadcrumb5'=>'Metallic',
-                'breadcrumb6'=>'Pebble',
-                 'breadcrumb7'=>'Quarry',
-                'breadcrumb8'=>'Tempest',
-                'breadcrumb9'=>'Supreme',
-
+                'breadcrumbs' => [
+                                    ['href' => '#', 'name' => 'Solid Color'],
+                                    ['href' => '#', 'name' => 'Super Color'],
+                                    ['href' => '#', 'name' => 'Sanded'],
+                                    ['href' => '#', 'name' => 'Aspen'],
+                                    ['href' => '#', 'name' => 'Metallic'],
+                                    ['href' => '#', 'name' => 'Pebble', 'active' => true],
+                                    ['href' => '#', 'name' => 'Quarry'],
+                                    ['href' => '#', 'name' => 'Tempest'],
+                                    ['href' => '#', 'name' => 'Supreme'],
+              ],
         ];
 
 
@@ -79,14 +80,20 @@ class Catalog {
                 Непористая структура акрилового камня Самсунг Старон гарантирует простой повседневный уход и долговечность конструкций.
                 Благодаря кварцевым частицам искусственный камень Старон обладает природной красотой и прочностью. Его эстетика и прекрасные потребительские свойства расширяют дизайнерские возможности при разработке богатых и изысканных интерьеров. Искусственный камень Самсунг используется для изготовления кухонных столешниц Samsung Staron и подоконников, барных стоек, отделки ванных комнат, торгового оборудования и т. д. Не менее привлекательны и мойки Старон, способные привнести в помещение ноту изысканности.',
                  'descriptionCollEx' => ' LG LG LG LG LG LG LG LG LG LG LG LG LG LG  LG LG LG LG LG LG LG  LG LG LG LG LG LG LG  LG LG LG LG LG LG LG  LG LG LG LG LG LG LG  LG LG LG LG LG LG LG  LG LG LG LG LG LG LG  LG LG LG LG LG LG LG  LG LG LG LG LG LG LG  LG LG LG LG LG LG LG',
-                 'breadcrumb1'=>'Solid',
-                'breadcrumb2'=>'Sand&Pearl',
-                'breadcrumb3'=>'Quartz&Granit',
-                'breadcrumb4'=>'Lusent',
-                'breadcrumb5'=>'Sparkle&Volcanics',
-                'breadcrumb6'=>'Galaxy',
-                 'breadcrumb7'=>'Marmo',
-                 ];
+               
+'breadcrumbs' => [
+    ['href' => '#', 'name' => 'Solid'],
+    ['href' => '#', 'name' => 'Sand&Pearl'],
+    ['href' => '#', 'name' => 'Quartz&Granit'],
+    ['href' => '#', 'name' => 'Aspen'],
+    ['href' => '#', 'name' => 'Metallic'],
+    ['href' => '#', 'name' => 'Pebble'],
+    ['href' => '#', 'name' => 'Quarry'],
+    ['href' => '#', 'name' => 'Marmo'],
+
+],
+];
+
 $items['lg_hi_macs']['collection'] = [
     'title' => 'Коллекция Galaxy',
     'items' => [
