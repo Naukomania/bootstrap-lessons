@@ -1,5 +1,5 @@
 <?php
-class Stone {
+class StoneCollection {
     public static function getItem($id) {
 
 $pages[1] = [
