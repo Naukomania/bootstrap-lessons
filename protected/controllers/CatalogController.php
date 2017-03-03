@@ -10,9 +10,11 @@ class CatalogController extends Controller
 	public function actionStaron()
 	{
 		$item = Catalog::getItem('staron');
+        $brandModel = Brand::model()->findByAttributes(['name' => 'staron']);
 		$this->render('catalog',[
 			'page' => $item,
-			'collection' => $item['collection']
+			'collection' => $item['collection'],
+            'model' => $brandModel,
 		]);
 	}
 
@@ -27,12 +29,13 @@ class CatalogController extends Controller
 	}
 	public function actionView($id)
 	{
-
+        $stoneModel = Stone::model()->findByPk($id);
 
         $page = StoneCollection::getItem($id);
 		$this->render('stone', [
             'id' => $id,
             'page' => $page,
+            'model' => $stoneModel,
         ]);
 	}
 

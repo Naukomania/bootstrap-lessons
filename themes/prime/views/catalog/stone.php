@@ -72,3 +72,11 @@
        </div>
       </div>
        </section>
+
+<? if($model): ?>
+<div class="container">
+  <pre>
+    <? print_r($model->attributes); ?>
+  </pre>
+</div>
+<? endif; ?>
