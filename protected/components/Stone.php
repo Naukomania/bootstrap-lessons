@@ -4,12 +4,12 @@ class Stone {
 
 $pages[1] = [
     'name'=>'Samsung Staron - Прайм-Стоун Ру',
-    'title' => 'Fr148 Radiance (Shimmer) Первый тайтл',
+    'title' => 'Pebble Blue PB870',
     'keywords' => 'Staron Sumsung Fr148 Shimmer столешницы'  ,
     'description' => 'Staron Sumsung Fr148 Shimmer - искусственный акриловый камень',
-    'image'=>'/images/catalog/staron-fr148.jpg',
-    'imagebig'=>'/images/catalog/staron-small-radiance-fr148.jpg',
-    'logostaron'=>'/images/logostaron.jpg',
+    'image'=>'/samsung_staron/images/katalog/staron_pb870_pebble_blue.jpg',
+    'imagebig'=>'/samsung_staron/images/katalog/staron_pb870_pebble_blue.jpg',
+    'logo'=>'/images/logostaron.jpg',
     'top_stone'=>[
         [
             'src' => '/samsung_staron/images/samsung_staron_tempest_fr148_radiance-1.jpg',
@@ -44,13 +44,13 @@ $pages[1] = [
 ];
 
 $pages[5] = [
-    'name'=>'Samsung Staron - Прайм-Стоун Ру',
-    'title' => 'Fr148 Radiance (Shimmer) Пятый тайтл',
+    'name'=>'LG Hi Macs - Прайм-Стоун Ру',
+    'title' => 'Black Hole T001',
     'keywords' => 'Staron Sumsung Fr148 Shimmer столешницы'  ,
     'description' => 'Staron Sumsung Fr148 Shimmer - искусственный акриловый камень',
-    'image'=>'/images/catalog/staron-fr148.jpg',
-    'imagebig'=>'/images/catalog/staron-small-radiance-fr148.jpg',
-    'logostaron'=>'/images/logostaron.jpg',
+    'image'=>'/lg_hi_macs/images/catalog/lg_hi_macs_galaxy_t001_black_hole.jpg',
+    'imagebig'=>'/lg_hi_macs/images/catalog/lg_hi_macs_galaxy_t001_black_hole.jpg',
+    'logo'=>'/images/logo-lg-himacs.png',
     'top_stone'=>[
         [
             'src' => '/samsung_staron/images/samsung_staron_tempest_fr148_radiance-1.jpg',
@@ -85,7 +85,7 @@ $pages[5] = [
 ];
 
         if (empty($pages[$id])) {
-            retrun $pages[1];
+            return $pages[1];
         }
         return $pages[$id];
     }

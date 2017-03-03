@@ -40,6 +40,7 @@ class Catalog {
                 [
                     'title' => 'Pebble Aqua - PA860',
                     'src' => '/samsung_staron/images/katalog/staron_pa860_pebble_aqua.jpg',
+                    'href'=>'/catalog/1'
                 ],
                 [
                     'title' => 'Pebble Terrain- PT857',
@@ -100,6 +101,7 @@ $items['lg_hi_macs']['collection'] = [
         [
             'title' => 'Black Hole - T001',
             'src' => '/lg_hi_macs/images/catalog/lg_hi_macs_galaxy_t001_black_hole.jpg',
+            'href'=>'/catalog/5'
         ],
         [
             'title' => 'Uranus - T002',

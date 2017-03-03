@@ -14,7 +14,7 @@
        <div class="row">
        <div class="col-md-4 col-sm-6 col-xs-6"> 
        <a href="#">
-        <img src="<?= $page['logostaron']; ?>"></a>
+        <img src="<?= $page['logo']; ?>"></a>
         <a class="fancyimage" title="Samsung Staron FR148 Shimmer / Radiance" href="<?= $page['image']; ?>">
        <img class="img-responsive" <img src="<?= $page['imagebig']; ?>"></a>
        </div>

@@ -29,7 +29,7 @@ class CatalogController extends Controller
 	{
 
 
-        $page = Catalog::getItem($id);
+        $page = Stone::getItem($id);
 		$this->render('stone', [
             'id' => $id,
             'page' => $page,
