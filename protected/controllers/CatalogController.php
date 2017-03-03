@@ -21,9 +21,88 @@ class CatalogController extends Controller
 	public function actionLg_hi_macs()
 	{
 		$item = Catalog::getItem('lg_hi_macs');
+  $brandModel = Brand::model()->findByAttributes(['name' => 'lg_hi_macs']);
 		$this->render('catalog',[
 			'page' => $item,
-			'collection' => $item['collection']
+			'collection' => $item['collection'],
+			  'model' => $brandModel,
+		]);
+
+	}
+	public function actionhanex()
+	{
+		$item = Catalog::getItem('lg_hi_macs');
+  $brandModel = Brand::model()->findByAttributes(['name' => 'hanex']);
+		$this->render('catalog',[
+			'page' => $item,
+			'collection' => $item['collection'],
+			  'model' => $brandModel,
+		]);
+
+	}
+public function actioncorian()
+	{
+		$item = Catalog::getItem('lg_hi_macs');
+  $brandModel = Brand::model()->findByAttributes(['name' => 'corian']);
+		$this->render('catalog',[
+			'page' => $item,
+			'collection' => $item['collection'],
+			  'model' => $brandModel,
+		]);
+
+	}
+	public function actiontristone()
+	{
+		$item = Catalog::getItem('lg_hi_macs');
+  $brandModel = Brand::model()->findByAttributes(['name' => 'tristone']);
+		$this->render('catalog',[
+			'page' => $item,
+			'collection' => $item['collection'],
+			  'model' => $brandModel,
+		]);
+
+	}
+	public function actiongrandex()
+	{
+		$item = Catalog::getItem('lg_hi_macs');
+  $brandModel = Brand::model()->findByAttributes(['name' => 'grandex']);
+		$this->render('catalog',[
+			'page' => $item,
+			'collection' => $item['collection'],
+			  'model' => $brandModel,
+		]);
+
+	}
+public function actionkerrock()
+	{
+		$item = Catalog::getItem('lg_hi_macs');
+  $brandModel = Brand::model()->findByAttributes(['name' => 'kerrock']);
+		$this->render('catalog',[
+			'page' => $item,
+			'collection' => $item['collection'],
+			  'model' => $brandModel,
+		]);
+
+	}
+	public function actionmontelli()
+	{
+		$item = Catalog::getItem('lg_hi_macs');
+  $brandModel = Brand::model()->findByAttributes(['name' => 'montelli']);
+		$this->render('catalog',[
+			'page' => $item,
+			'collection' => $item['collection'],
+			  'model' => $brandModel,
+		]);
+
+	}
+	public function actiongetacore()
+	{
+		$item = Catalog::getItem('lg_hi_macs');
+  $brandModel = Brand::model()->findByAttributes(['name' => 'getacore']);
+		$this->render('catalog',[
+			'page' => $item,
+			'collection' => $item['collection'],
+			  'model' => $brandModel,
 		]);
 
 	}

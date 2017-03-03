@@ -68,12 +68,13 @@
               'items'=>array(
                   array('label'=>'Samsung Staron', 'url'=>array('/catalog/staron')),
                   array('label'=>'LG Hi Macs', 'url'=>array('/catalog/lg_hi_macs')),
-                  array('label'=>'Corian', 'url'=>array('#')),
-                  array('label'=>'Hanex', 'url'=>array('#')),
-                  array('label'=>'Tristone', 'url'=>array('#')),
-                  array('label'=>'Grandex', 'url'=>array('#')),
-                  array('label'=>'Kerrock', 'url'=>array('#')),
-                  array('label'=>'Montelli', 'url'=>array('#')),
+                  array('label'=>'Corian', 'url'=>array('/catalog/corian')),
+                  array('label'=>'Hanex', 'url'=>array('/catalog/hanex')),
+                  array('label'=>'Tristone', 'url'=>array('catalog/tristone')),
+                  array('label'=>'Grandex', 'url'=>array('catalog/grandex')),
+                  array('label'=>'Kerrock', 'url'=>array('catalog/kerrock')),
+                  array('label'=>'Montelli', 'url'=>array('catalog/montelli')),
+                  array('label'=>'Geta Core', 'url'=>array('catalog/getacore'))
               ),
           )); ?>
         </li>

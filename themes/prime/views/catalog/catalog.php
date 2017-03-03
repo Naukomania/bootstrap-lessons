@@ -12,9 +12,9 @@
        <div class="row">
 
               <div class="col-md-3 col-sm-4 col-xs-6"><div id="logostaron">
-                <img src="<?=$page['logoSrc'];?>">
+                <img src="/images/<?=$model->image;?>">
               </div></div>
-              <div class="col-md-9 col-sm-8 col-xs-6"><?=$page['descriptionText'];?></div>
+              <div class="col-md-9 col-sm-8 col-xs-6"><?=$model->description;?></div>
               </div>
               <br>
               <br>
