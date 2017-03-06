@@ -7,21 +7,22 @@
               <ul class="breadcrumb">
                  <li><a href="#">Искусственный камень</a></li>
                  <li><a href="#">Акриловый камень</a></li>
-               <li><a href="#">Samsung Staron</a></li>
-               <li class="active"><?= $page['title']; ?></li>
+               <li><a href="#"><?= $model->collection->brand->name;?></a></li>
+               <li class="active"><?= $model->name; ?></li>
              </ul>
              </div>
        <div class="row">
        <div class="col-md-4 col-sm-6 col-xs-6"> 
        <a href="#">
-        <img src="<?= $page['logo']; ?>"></a>
-        <a class="fancyimage" title="Samsung Staron FR148 Shimmer / Radiance" href="<?= $page['image']; ?>">
-       <img class="img-responsive" <img src="<?= $page['imagebig']; ?>"></a>
+        <img src="/images/<?= $model->collection->brand->image; ?>"></a>
+        <a class="fancyimage" title="<?= $model->collection->brand->name;?> <?= $model->name; ?> " href="<?= $model->image; ?>">
+       <img class="img-responsive" <img src="<?= $model->image; ?>"></a>
        </div>
        <div class="col-md-8 col-sm-6 col-xs-6"> 
-         <h2>Samsung Staron&nbsp<?= $page['title']; ?></h2>
+         <h2><?= $model->collection->brand->name;?>&nbsp<?= $model->name; ?></h2>
+
          <p>
-       Коллекция: Tempest (темпест) -   текстура с крупными вкраплениями. Ю.Корея
+       Коллекция: <?= $model->collection->name;?>
        </p>
        <p>
        Цвет: FR148 Radiance (Shimmer) (радианс, шимер)
