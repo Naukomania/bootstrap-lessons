@@ -105,4 +105,38 @@ class Collection extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+	public static function getList($brandId = null)
+	{
+		$criteria = new CDbCriteria();
+		if ($brandId) {
+			$criteria->addCondition('brand_id', $brandId);
+		}
+		$models = self::model()->findAll($criteria);
+		if (!$models) {
+			return array('' => '');
+		}
+		$arList = array('' => '');
+		foreach ($models as $model) {
+			$arList[$model->id] = $model->name;
+		}
+		return $arList;
+	}
+
+	public static function getItemsForCatalog($id)
+	{
+		$items = [];
+		$catalogModel = self::model()->findByPk($id);
+		if(!$catalogModel || !$catalogModel->stones) {
+			return [];
+		}
+		foreach ($catalogModel->stones as $stone) {
+			$items[] = [
+				'title' => $stone->name,
+				'src' => $stone->image,
+				'href' => '/catalog/'.$stone->id,
+			];
+		}
+		return $items;
+	}
 }

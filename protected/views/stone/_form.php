@@ -33,7 +33,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'collection_id'); ?>
-		<?php echo $form->textField($model,'collection_id'); ?>
+		<?php echo $form->dropDownList($model, 'collection_id', Collection::getList()); ?>
 		<?php echo $form->error($model,'collection_id'); ?>
 	</div>
 

@@ -111,4 +111,36 @@ class Brand extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+	public static function getList()
+	{
+		$models = self::model()->findAll();
+		if (!$models) {
+			return array('' => '');
+		}
+		$arList = array('' => '');
+		foreach ($models as $model) {
+			$arList[$model->id] = $model->name;
+		}
+		return $arList;
+	}
+
+	public function getCollectionItems()
+	{
+		$items = Collection::getList($this->id);
+		unset($items['']);
+		if (!$items) {
+			return [];
+		}
+		$result = [];
+		foreach ($items as $id => $itemName) {
+			$result[] = [
+				'name' => $itemName,
+				'href' => '#',
+				'id' => $id
+			];
+		}
+		$result[0]['active'] = true;
+		return $result;
+	}
 }

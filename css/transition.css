@@ -1,0 +1,8 @@
+#admin-content .form label {
+  width: 200px;
+  text-align: right;
+}
+#admin-content .form .buttons input {
+  margin-left: 204px;
+  margin-top: 5px;
+}

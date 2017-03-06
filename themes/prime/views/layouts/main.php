@@ -103,8 +103,6 @@
   </div>
 </nav>
 
-<div class="margin-tmp"></div>
-
 <?php echo $content; ?>
 
 <div id="background-wrapper"></div>

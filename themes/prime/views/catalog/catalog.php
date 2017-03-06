@@ -31,7 +31,7 @@
             </div>
             <br>
                          <ul class="breadcrumb">
-    <? $breadcrumbs = $page['breadcrumbs']; ?>
+    <? $breadcrumbs = $model ? $model->getCollectionItems(): $page['breadcrumbs']; ?>
     <? foreach($breadcrumbs as $breadcrumb): ?>
         <li<?if(!empty($breadcrumb['active'])): ?> class="active"<?endif;?>>
             <a href="<?=$breadcrumb['href'];?>">
@@ -46,9 +46,19 @@
 
             <p><?= $collection['title']; ?></p>
 <br>
-<? if($collection['items']): ?>
+<?
+$collectionItems = [];
+if (!empty($breadcrumbs[0]['id'])) {
+  $collectionItems = Collection::getItemsForCatalog($breadcrumbs[0]['id']);
+}
+if (!$collectionItems && $collection['items']) {
+  $collectionItems = $collection['items'];
+}
+?>
+
+<? if($collectionItems): ?>
 <div class="row">
-    <? foreach($collection['items'] as $collectionItem): ?>
+    <? foreach($collectionItems as $collectionItem): ?>
     <div class="col-md-2 col-sm-4 col-xs-6"> 
     <a class="fancyimage-with-title" " rel="group"  title="<?= $page['name'] . ' - ' . $collectionItem['title']; ?>" href="<?= $collectionItem['src']; ?>" data-target-url="<?= $collectionItem['href']; ?>"> 
            <img class="img-responsive border-drop" src="/images/formstone2.png">
