@@ -26,7 +26,7 @@
               <div class="card card-block">
               <br>
               <br>
-                 <?=$page['descriptionCollEx'];?>
+                 <?=$model->descriptionCollEx;?>
               </div>
             </div>
             <br>

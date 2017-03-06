@@ -5,6 +5,7 @@
       <li class="page-scroll">
         <a href="#services">
           <i class="fa fa-book fa-2x" aria-hidden="true"></i>
+          <br>
           <span>Продукция</span>
         </a>
       </li>

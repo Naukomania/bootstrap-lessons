@@ -29,7 +29,7 @@ class CatalogController extends Controller
 		]);
 
 	}
-	public function actionhanex()
+	public function actionHanex()
 	{
 		$item = Catalog::getItem('lg_hi_macs');
   $brandModel = Brand::model()->findByAttributes(['name' => 'hanex']);
@@ -40,7 +40,7 @@ class CatalogController extends Controller
 		]);
 
 	}
-public function actioncorian()
+public function actionCorian()
 	{
 		$item = Catalog::getItem('lg_hi_macs');
   $brandModel = Brand::model()->findByAttributes(['name' => 'corian']);
@@ -51,7 +51,7 @@ public function actioncorian()
 		]);
 
 	}
-	public function actiontristone()
+	public function actionTristone()
 	{
 		$item = Catalog::getItem('lg_hi_macs');
   $brandModel = Brand::model()->findByAttributes(['name' => 'tristone']);
@@ -62,7 +62,7 @@ public function actioncorian()
 		]);
 
 	}
-	public function actiongrandex()
+	public function actionGrandex()
 	{
 		$item = Catalog::getItem('lg_hi_macs');
   $brandModel = Brand::model()->findByAttributes(['name' => 'grandex']);
@@ -73,7 +73,7 @@ public function actioncorian()
 		]);
 
 	}
-public function actionkerrock()
+public function actionKerrock()
 	{
 		$item = Catalog::getItem('lg_hi_macs');
   $brandModel = Brand::model()->findByAttributes(['name' => 'kerrock']);
@@ -84,7 +84,7 @@ public function actionkerrock()
 		]);
 
 	}
-	public function actionmontelli()
+	public function actionMontelli()
 	{
 		$item = Catalog::getItem('lg_hi_macs');
   $brandModel = Brand::model()->findByAttributes(['name' => 'montelli']);
@@ -95,7 +95,7 @@ public function actionkerrock()
 		]);
 
 	}
-	public function actiongetacore()
+	public function actionGetacore()
 	{
 		$item = Catalog::getItem('lg_hi_macs');
   $brandModel = Brand::model()->findByAttributes(['name' => 'getacore']);
