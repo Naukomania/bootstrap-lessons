@@ -35,7 +35,7 @@ class Catalog {
 
 
         $items['staron']['collection'] = [
-            'title' => 'Коллекция Pebble',
+            'title' => 'Коллекция Solid',
             'items' => [
                 [
                     'title' => 'Pebble Aqua - PA860',
