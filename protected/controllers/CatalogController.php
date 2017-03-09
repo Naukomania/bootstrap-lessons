@@ -117,6 +117,15 @@ public function actionKerrock()
             'model' => $stoneModel,
         ]);
 	}
+	public function actionAjaxcollection($id)
+	{
+		$collection = Collection::model()->findByPk($id);
+		$collectionItems = Collection::getItemsForCatalog($collection->id);
+		$this->renderPartial('ajaxcollection',[
+			'collection' => $collection,
+			'collectionItems' => $collectionItems,
+		]);
+	}
 
 	// Uncomment the following methods and override them if needed
 	/*

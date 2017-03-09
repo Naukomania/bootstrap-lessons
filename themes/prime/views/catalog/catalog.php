@@ -30,11 +30,11 @@
               </div>
             </div>
             <br>
-                         <ul class="breadcrumb">
+                         <ul class="breadcrumb collection-chooser">
     <? $breadcrumbs = $model ? $model->getCollectionItems(): $page['breadcrumbs']; ?>
     <? foreach($breadcrumbs as $breadcrumb): ?>
         <li<?if(!empty($breadcrumb['active'])): ?> class="active"<?endif;?>>
-            <a href="<?=$breadcrumb['href'];?>">
+            <a href="<?=$breadcrumb['href'];?>" data-id="<?=$breadcrumb['id'];?>">
                 <?=$breadcrumb['name'];?>
             </a>
         </li>
@@ -43,7 +43,7 @@
 
 
 
-
+<div id="collection-content">
             <p><?= $collection['title']; ?></p>
 <br>
 <?
@@ -69,7 +69,7 @@ if (!$collectionItems && $collection['items']) {
     <? endforeach; ?>
 </div>
 <? endif; ?>
-
+</div><!-- end #collection-content -->
        </section>
        
 <? if($model): ?>

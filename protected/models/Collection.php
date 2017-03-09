@@ -110,7 +110,8 @@ class Collection extends CActiveRecord
 	{
 		$criteria = new CDbCriteria();
 		if ($brandId) {
-			$criteria->addCondition('brand_id', $brandId);
+			$criteria->params = array(':brand_id' =>  $brandId);
+			$criteria->addCondition('brand_id = :brand_id');
 		}
 		$models = self::model()->findAll($criteria);
 		if (!$models) {

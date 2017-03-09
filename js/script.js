@@ -6,8 +6,8 @@ $(document).ready(function(){
     $('#services .item, #left-menu .item').on('click',function(){
         $(this).parents('li').addClass('active');
         var target = $(this).attr('data-target');
-       $('#' + target  +', #background-wrapper' ).fadeIn('slow'); // показываем лайтбокс
-        return false; 
+    $('#' + target  +', #background-wrapper' ).fadeIn('slow'); // показываем лайтбокс
+    return false; 
     });
     // закрываем лайтбокс при клике на крестик
     $('.closeBox').on('click',function(){
@@ -36,6 +36,25 @@ $(document).ready(function(){
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
+    // Выбор коллекции на странице каталога камня
+    $('.collection-chooser a').on('click', function(){
+        var collectionId = $(this).attr('data-id');
+        var me = this;
+        $.ajax({
+            url: '/catalog/ajaxcollection/'+collectionId,
+            success: function(data){
+                $('#collection-content').html(data);
+                $('.collection-chooser li').removeClass('active');
+                $(me).parents('li').addClass('active');
+                bindAfterAjax();
+            },
+            error: function(data) {
+                console.log(data);
+                alert('Произошла ошибка');
+            }
+        });
+        return false;
+    });
     var activeMenuLink = $('#menu a[href="'+window.location.pathname.substr(1)+'"]');
     if (activeMenuLink) {
         activeMenuLink.parents('li').addClass('active');
@@ -43,55 +62,55 @@ $(document).ready(function(){
     bindAfterAjax();
 });
 function bindAfterAjax() {
-  $('.order-form-link').on('click', function() {
-  $('#order-form, #background-wrapper').fadeIn('slow');
-  var source = $(this).attr('data-source');
-  alert(source);
-});
+    $('.order-form-link').on('click', function() {
+        $('#order-form, #background-wrapper').fadeIn('slow');
+        var source = $(this).attr('data-source');
+        alert(source);
+    });
 
     $('#ajax-foto-pagination a').on('click', function(){
         $.ajax({
-          url: $(this).attr('href'),
-          success: function(data){
-            $('.ajax-foto-wrapper').html(data);
-            bindAfterAjax();
-          }
+            url: $(this).attr('href'),
+            success: function(data){
+                $('.ajax-foto-wrapper').html(data);
+                bindAfterAjax();
+            }
         });
         return false;
     });
-     $('#ajax-foto-pagination-bacth a').on('click', function(){
+    $('#ajax-foto-pagination-bacth a').on('click', function(){
         $.ajax({
-          url: $(this).attr('href'),
-          success: function(data){
-            $('.ajax-foto-wrapper-bacth').html(data);
-            bindAfterAjax();
-          }
+            url: $(this).attr('href'),
+            success: function(data){
+                $('.ajax-foto-wrapper-bacth').html(data);
+                bindAfterAjax();
+            }
         });
         return false;
     });
     $('a.fancyimage').fancybox(); 
     $('a.fancyimage-with-title').fancybox({
-  helpers:  {
-    title : {
-      type : 'inside',
-    }
-  },
-  beforeShow : function(){
-    this.title =
-      '<div class="fancy-title-link"><a href="'
-      +$(this.element).data("target-url")
-      +'">'
-      +this.title
-      +'</a><br>'
-      +'<a href="#" class="order-form-link" data-source="'
-      +this.title
-      +'">Расчитать</a>'
-      +'</div>';
-      $('.order-form-link').on('click', function() {
-  $('#order-form, #background-wrapper').fadeIn('slow');
-  var source = $(this).attr('data-source');
-  alert(source);
-});
-  }
-});
+        helpers:  {
+            title : {
+                type : 'inside',
+            }
+        },
+        beforeShow : function(){
+            this.title =
+            '<div class="fancy-title-link"><a href="'
+            +$(this.element).data("target-url")
+            +'">'
+            +this.title
+            +'</a><br>'
+            +'<a href="#" class="order-form-link" data-source="'
+            +this.title
+            +'">Расчитать</a>'
+            +'</div>';
+            $('.order-form-link').on('click', function() {
+                $('#order-form, #background-wrapper').fadeIn('slow');
+                var source = $(this).attr('data-source');
+                alert(source);
+            });
+        }
+    });
 }
