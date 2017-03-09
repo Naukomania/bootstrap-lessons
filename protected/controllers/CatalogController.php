@@ -9,7 +9,7 @@ class CatalogController extends Controller
 
 	public function actionStaron()
 	{
-		$item = Catalog::getItem('staron');
+		//$item = Catalog::getItem('staron');
         $brandModel = Brand::model()->findByAttributes(['name' => 'staron']);
 		$this->render('catalog',[
 			'page' => $item,

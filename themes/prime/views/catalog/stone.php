@@ -7,7 +7,8 @@
               <ul class="breadcrumb">
                  <li><a href="#">Искусственный камень</a></li>
                  <li><a href="#">Акриловый камень</a></li>
-               <li><a href="#"><?= $model->collection->brand->name;?></a></li>
+               <li><a href="/catalog/<?= $model->collection->brand->name;?>"><?= $model->collection->brand->name;?></a></li>
+                 <li><a href="/catalog/<?= $model->collection->brand->name;?>"><?= $model->collection->name;?></a></li>
                <li class="active"><?= $model->name; ?></li>
              </ul>
              </div>
