@@ -25,5 +25,7 @@ $this->menu=array(
 		'name',
 		'description',
 		'brand_id',
+		'price',
+		'priority',
 	),
 )); ?>

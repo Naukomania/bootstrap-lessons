@@ -21,5 +21,13 @@
 	<?php echo CHtml::encode($data->brand_id); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('price')); ?>:</b>
+	<?php echo CHtml::encode($data->price); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('priority')); ?>:</b>
+	<?php echo CHtml::encode($data->priority); ?>
+	<br />
+
 
 </div>

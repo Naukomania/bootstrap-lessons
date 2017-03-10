@@ -27,5 +27,7 @@ $this->menu=array(
 		'description',
 		'descriptionCollEx',
 		'meta_id',
+		'title',
+		'country',
 	),
 )); ?>

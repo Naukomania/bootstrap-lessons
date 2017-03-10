@@ -29,5 +29,15 @@
 	<?php echo CHtml::encode($data->description); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('texture')); ?>:</b>
+	<?php echo CHtml::encode($data->texture); ?>
+	<br />
+
+	<?php /*
+	<b><?php echo CHtml::encode($data->getAttributeLabel('tone')); ?>:</b>
+	<?php echo CHtml::encode($data->tone); ?>
+	<br />
+
+	*/ ?>
 
 </div>

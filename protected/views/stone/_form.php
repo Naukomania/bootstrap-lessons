@@ -49,6 +49,18 @@
 		<?php echo $form->error($model,'description'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->labelEx($model,'texture'); ?>
+		<?php echo $form->textField($model,'texture'); ?>
+		<?php echo $form->error($model,'texture'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'tone'); ?>
+		<?php echo $form->textField($model,'tone'); ?>
+		<?php echo $form->error($model,'tone'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>

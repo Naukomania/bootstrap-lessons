@@ -41,6 +41,16 @@
 		<?php echo $form->textField($model,'meta_id'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->label($model,'title'); ?>
+		<?php echo $form->textField($model,'title',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'country'); ?>
+		<?php echo $form->textField($model,'country'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Search'); ?>
 	</div>

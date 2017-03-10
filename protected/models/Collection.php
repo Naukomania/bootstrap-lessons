@@ -118,6 +118,7 @@ class Collection extends CActiveRecord
 		if ($brandId) {
 			$criteria->params = array(':brand_id' =>  $brandId);
 			$criteria->addCondition('brand_id = :brand_id');
+			$criteria->order = 'priority DESC';
 		}
 		$models = self::model()->findAll($criteria);
 		if (!$models) {

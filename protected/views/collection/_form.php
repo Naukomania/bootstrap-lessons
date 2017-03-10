@@ -37,6 +37,18 @@
 		<?php echo $form->error($model,'brand_id'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->labelEx($model,'price'); ?>
+		<?php echo $form->textField($model,'price'); ?>
+		<?php echo $form->error($model,'price'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'priority'); ?>
+		<?php echo $form->textField($model,'priority'); ?>
+		<?php echo $form->error($model,'priority'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>

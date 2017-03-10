@@ -29,5 +29,15 @@
 	<?php echo CHtml::encode($data->meta_id); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('title')); ?>:</b>
+	<?php echo CHtml::encode($data->title); ?>
+	<br />
+
+	<?php /*
+	<b><?php echo CHtml::encode($data->getAttributeLabel('country')); ?>:</b>
+	<?php echo CHtml::encode($data->country); ?>
+	<br />
+
+	*/ ?>
 
 </div>

@@ -41,6 +41,16 @@
 		<?php echo $form->textArea($model,'description',array('rows'=>6, 'cols'=>50)); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->label($model,'texture'); ?>
+		<?php echo $form->textField($model,'texture'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'tone'); ?>
+		<?php echo $form->textField($model,'tone'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Search'); ?>
 	</div>

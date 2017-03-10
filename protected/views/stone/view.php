@@ -27,5 +27,7 @@ $this->menu=array(
 		'collection_id',
 		'meta_id',
 		'description',
+		'texture',
+		'tone',
 	),
 )); ?>

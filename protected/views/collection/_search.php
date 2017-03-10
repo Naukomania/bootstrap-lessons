@@ -31,6 +31,16 @@
 		<?php echo $form->textField($model,'brand_id'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->label($model,'price'); ?>
+		<?php echo $form->textField($model,'price'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'priority'); ?>
+		<?php echo $form->textField($model,'priority'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Search'); ?>
 	</div>
