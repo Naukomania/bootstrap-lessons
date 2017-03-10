@@ -59,9 +59,10 @@ $page = [
 <div class="ramka-img">
       <div class="row">
   
-  <!-- 1 Изображение -->
+  <!-- Столешницы для кухни -->
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
+    
       <img src="/images/izd/izd-kuhnya.jpg" alt="...">
       <div class="caption">
         <h3>Столешницы для кухни</h3>
@@ -72,9 +73,10 @@ $page = [
       </div>
     </div>
   </div>
-   <!-- 1 Изображение -->
+   <!-- Столешницы для ванной-->
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
+     
       <img src="/images/izd/izd-vanna.jpg" alt="...">
       <div class="caption">
         <h3>Столешницы для ванной</h3>
@@ -85,9 +87,10 @@ $page = [
     </div>
   </div>
   <!--...-->
-   <!-- 1 Изображение -->
+   <!-- Подоконники-->
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
+     
       <img src="/images/izd/izd-podok.jpg" alt="...">
       <div class="caption">
         <h3>Подоконники</h3>
@@ -98,64 +101,83 @@ $page = [
     </div>
   </div>
   <!--...-->
-  <!-- 12 Изображение -->
+  <!-- Ресепшн-->
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="..." alt="...">
+   
+      <img src="/images/izd/izd-rec.jpg" alt="...">
       <div class="caption">
         <h3>Ресепшн</h3>
-        <p>Контент...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        <p>Ресепшн  или административная стойка – весьма важный элемент обстановки не только таких представительских организаций как банки, фешенебельные гостиницы,  крупные корпорации, головные государственные учреждения, фирмы с мировым брендом. </p>
+        <p>Но и таких организаций  где большой поток посетителей – салоны красоты, медицинские центры, туристические организации, салоны связи, фитнес-клубах......</p>
+        <p><a href="#" class="btn btn-default" role="button">Читать далее</a></p>
       </div>
     </div>
   </div>
+  <!---Столешницы для санузлов-->
    <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="..." alt="...">
+    
+      <img src="/images/izd/izd-sanuz.jpg" alt="...">
       <div class="caption">
         <h3>Столешницы для санузлов</h3>
-        <p>Контент...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        <p>Практически любое современное заведение будь то торговый центр, спортивное учреждение,  бизнес-центр, клуб, ресторан, кинотеатр, бар или кафе отдает предпочтение при оборудовании санузлов – столешницам из искусственного камня.  </p>
+        <p>В отличие от отдельно-стоящих рукомойников – такие столешницы более практичны, эргономичны, презентабельны. На сплошной столешнице ....  </p>
+        
+        <p><a href="#" class="btn btn-default" role="button">Читать далее</a></p>
       </div>
     </div>
   </div>
+  <!--- Изделия для лестниц-->
    <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="..." alt="...">
+     
+      <img src="/images/izd/izd-lest.jpg" alt="...">
       <div class="caption">
         <h3>Изделия для лестниц</h3>
-        <p>Контент...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        
+        <p>В наши дни лестница становится не только средством передвижения в пространстве, но и одним из центральных элементов интерьера, внешний вид которой создает и атмосферу, и настроение в доме.</p>
+       <p>Элементы для лестниц из искусственного камня в большей степени используются для интерьерных решений. Такие лестницы выглядят изящно и стильно.  Они весьма практичны, а благодаря ...</p> 
+            <p><a href="#" class="btn btn-default" role="button">Читать далее</a></p>
       </div>
     </div>
   </div>
+  <!--Мойки для кухни-->
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="..." alt="...">
+   
+      <img src="/images/izd/izd-moyka.jpg" alt="...">
       <div class="caption">
         <h3>Мойки для кухни</h3>
-        <p>Контент...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        <p>Разнообразие моек в наши дни потрясает. Сейчас покупателю на выбор великое множество моек для кухни из всевозможных материалов. Будь то нержавеющая сталь, специально обработанный метал, медь, фаянс, искусственный гранит, называющийся по бренду производителя или же искусственный камень. Мойки могут быть врезные (накладные) и подстольного монтажа.</p>
+        <p>Наша компания также, предлагает вашему вниманию.....</p>
+        <p><a href="#" class="btn btn-default" role="button">Читать далее</a></p>
       </div>
     </div>
   </div>
+  <!--Раковины-->
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="..." alt="...">
+     
+      <img src="/images/izd/izd-rak.jpg" alt="...">
       <div class="caption">
         <h3>Раковины</h3>
-        <p>Контент...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        <p>Наша компания изготавливает столешницы в ванную не только под раковины собственного производства, о которых пойдет речь ниже, но и под раковины заказчиков. Поскольку человек, в среднем, заказывает такие изделия один или два раза в жизни,  то нередко допускаются досадные ошибки.</p>
+        <p>При выборе раковины под столешницу необходимо учитывать несколько факторов.....</p>
+        <p><a href="#" class="btn btn-default" role="button">Читать далее</a></p>
+        
       </div>
     </div>
   </div>
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="..." alt="...">
+      <img src="/images/izd/izd-dr.jpg" alt="...">
       <div class="caption">
         <h3>Прочие изделия</h3>
-        <p>Контент...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        <p>Искусственный камень современный материал и по многим показателям превосходит другие.  Такой материал, благодаря своим свойствам, позволяет использовать его в изготовлении изделий интерьера во многих сферах нашей жизни.  Богатая палитра, которая с каждым годом обновляется и пополняется и разрабатываются новые технологии и дизайн текстур.</p>
+        <p>Виды изделий, которые ....</p>
+        <p><a href="#" class="btn btn-default" role="button">Читать далее</a></p>
+       
       </div>
     </div>
   </div>
