@@ -8,6 +8,8 @@
  * @property string $name
  * @property string $description
  * @property integer $brand_id
+ * @property integer $price
+ * @property integer $priority
  *
  * The followings are the available model relations:
  * @property Brand $brand
@@ -32,12 +34,12 @@ class Collection extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('name, brand_id', 'required'),
-			array('brand_id', 'numerical', 'integerOnly'=>true),
+			array('brand_id, price, priority', 'numerical', 'integerOnly'=>true),
 			array('name', 'length', 'max'=>255),
 			array('description', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, name, description, brand_id', 'safe', 'on'=>'search'),
+			array('id, name, description, brand_id, price, priority', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -64,6 +66,8 @@ class Collection extends CActiveRecord
 			'name' => 'Name',
 			'description' => 'Description',
 			'brand_id' => 'Brand',
+			'price' => 'Price',
+			'priority' => 'Priority',
 		);
 	}
 
@@ -89,6 +93,8 @@ class Collection extends CActiveRecord
 		$criteria->compare('name',$this->name,true);
 		$criteria->compare('description',$this->description,true);
 		$criteria->compare('brand_id',$this->brand_id);
+		$criteria->compare('price',$this->price);
+		$criteria->compare('priority',$this->priority);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

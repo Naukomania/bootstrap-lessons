@@ -10,6 +10,8 @@
  * @property integer $collection_id
  * @property integer $meta_id
  * @property string $description
+ * @property integer $texture
+ * @property integer $tone
  *
  * The followings are the available model relations:
  * @property Collection $collection
@@ -34,11 +36,11 @@ class Stone extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('name, image, collection_id, description', 'required'),
-			array('collection_id, meta_id', 'numerical', 'integerOnly'=>true),
+			array('collection_id, meta_id, texture, tone', 'numerical', 'integerOnly'=>true),
 			array('name, image', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, name, image, collection_id, meta_id, description', 'safe', 'on'=>'search'),
+			array('id, name, image, collection_id, meta_id, description, texture, tone', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -67,6 +69,8 @@ class Stone extends CActiveRecord
 			'collection_id' => 'Collection',
 			'meta_id' => 'Meta',
 			'description' => 'Description',
+			'texture' => 'Texture',
+			'tone' => 'Tone',
 		);
 	}
 
@@ -94,6 +98,8 @@ class Stone extends CActiveRecord
 		$criteria->compare('collection_id',$this->collection_id);
 		$criteria->compare('meta_id',$this->meta_id);
 		$criteria->compare('description',$this->description,true);
+		$criteria->compare('texture',$this->texture);
+		$criteria->compare('tone',$this->tone);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

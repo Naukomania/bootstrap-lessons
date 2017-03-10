@@ -10,6 +10,8 @@
  * @property string $description
  * @property string $descriptionCollEx
  * @property integer $meta_id
+ * @property string $title
+ * @property integer $country
  *
  * The followings are the available model relations:
  * @property Meta $meta
@@ -34,12 +36,12 @@ class Brand extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('name', 'required'),
-			array('meta_id', 'numerical', 'integerOnly'=>true),
-			array('name, image', 'length', 'max'=>255),
+			array('meta_id, country', 'numerical', 'integerOnly'=>true),
+			array('name, image, title', 'length', 'max'=>255),
 			array('description, descriptionCollEx', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, name, image, description, descriptionCollEx, meta_id', 'safe', 'on'=>'search'),
+			array('id, name, image, description, descriptionCollEx, meta_id, title, country', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -68,6 +70,8 @@ class Brand extends CActiveRecord
 			'description' => 'Description',
 			'descriptionCollEx' => 'Description Coll Ex',
 			'meta_id' => 'Meta',
+			'title' => 'Title',
+			'country' => 'Country',
 		);
 	}
 
@@ -95,6 +99,8 @@ class Brand extends CActiveRecord
 		$criteria->compare('description',$this->description,true);
 		$criteria->compare('descriptionCollEx',$this->descriptionCollEx,true);
 		$criteria->compare('meta_id',$this->meta_id);
+		$criteria->compare('title',$this->title,true);
+		$criteria->compare('country',$this->country);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
