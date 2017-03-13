@@ -39,12 +39,15 @@
 <nav class="navbar navbar-default navbar-fixed-top" id="menu">
   <div class="container-fluid">
     <div class="menu"><ul class="nav navbar-nav">
-        <li><a href="index.php">Прайм-Стоун<span class="sr-only">(current)</span></a></li>
+        <li><a href="/site/index">Прайм-Стоун<span class="sr-only">(current)</span></a></li>
         <li><a href="#">Акции</a></li>
         <li><a href="/price">Цены</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Продукция <span class="caret"></span></a>
           <ul class="dropdown-menu">
+
+          <li><a href="/site/izd">Изделия из искусственного камня</a></li>
+            <li role="separator" class="divider"></li>
             <li><a href="#">Столешницы для кухни</a></li>
             <li><a href="#">Столешницы для ванной комнаты</a></li>
             <li><a href="#">Подоконники</a></li>
@@ -58,7 +61,7 @@
             <li><a href="#">Изделия для лестницы</a></li>
           </ul>
         </li>
-        <li><a href="foto.php">Наши работы</a></li>
+        <li><a href="/site/foto">Наши работы</a></li>
         <li class="dropdown<?if($this->id == 'catalog'):?> active<?endif;?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Акриловый камень <span class="caret"></span></a>
           <?php $this->widget('zii.widgets.CMenu',array(
@@ -67,14 +70,15 @@
               ),
               'items'=>array(
                   array('label'=>'Samsung Staron', 'url'=>array('/catalog/staron')),
+                  array('label'=>'Kerrock', 'url'=>array('catalog/kerrock')),
                   array('label'=>'LG Hi Macs', 'url'=>array('/catalog/lg_hi_macs')),
                   array('label'=>'Corian', 'url'=>array('/catalog/corian')),
                   array('label'=>'Hanex', 'url'=>array('/catalog/hanex')),
+                  array('label'=>'Geta Core', 'url'=>array('catalog/getacore')),
                   array('label'=>'Tristone', 'url'=>array('catalog/tristone')),
-                  array('label'=>'Grandex', 'url'=>array('catalog/grandex')),
-                  array('label'=>'Kerrock', 'url'=>array('catalog/kerrock')),
                   array('label'=>'Montelli', 'url'=>array('catalog/montelli')),
-                  array('label'=>'Geta Core', 'url'=>array('catalog/getacore'))
+                  array('label'=>'Grandex', 'url'=>array('catalog/grandex'))
+                  
               ),
           )); ?>
         </li>
