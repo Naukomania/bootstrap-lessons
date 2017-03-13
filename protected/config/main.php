@@ -31,6 +31,11 @@ return array(
 
 	// application components
 	'components'=>array(
+		'assetManager' => array(
+            'class'			=> 'CAssetManager',
+            'linkAssets'    => false,
+            'baseUrl'		=> '/assets',
+        ),
 
 		'user'=>array(
 			// enable cookie-based authentication
