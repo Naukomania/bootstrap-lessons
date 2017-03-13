@@ -13,6 +13,7 @@
 					array('label'=>'Бренды', 'url'=>array('/brand/index')),
 					array('label'=>'Коллекции', 'url'=>array('/collection/index')),
 					array('label'=>'Камни', 'url'=>array('/stone/index')),
+					array('label'=>'Изделия', 'url'=>array('/product/index')),
 				),
 				'htmlOptions'=>array('class'=>'admin-menu'),
 			));

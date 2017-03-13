@@ -12,8 +12,10 @@
  * @property string $description
  * @property integer $texture
  * @property integer $tone
+ * @property integer $status
  *
  * The followings are the available model relations:
+ * @property Product[] $products
  * @property Collection $collection
  * @property Meta $meta
  */
@@ -85,11 +87,11 @@ class Stone extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('name, image, collection_id, description', 'required'),
-			array('collection_id, meta_id, texture, tone', 'numerical', 'integerOnly'=>true),
+			array('collection_id, meta_id, texture, tone, status', 'numerical', 'integerOnly'=>true),
 			array('name, image', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, name, image, collection_id, meta_id, description, texture, tone', 'safe', 'on'=>'search'),
+			array('id, name, image, collection_id, meta_id, description, texture, tone, status', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -101,6 +103,7 @@ class Stone extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'products' => array(self::HAS_MANY, 'Product', 'stone_id'),
 			'collection' => array(self::BELONGS_TO, 'Collection', 'collection_id'),
 			'meta' => array(self::BELONGS_TO, 'Meta', 'meta_id'),
 		);
@@ -120,6 +123,7 @@ class Stone extends CActiveRecord
 			'description' => 'Description',
 			'texture' => 'Texture',
 			'tone' => 'Tone',
+			'status' => 'Status',
 		);
 	}
 
@@ -149,6 +153,7 @@ class Stone extends CActiveRecord
 		$criteria->compare('description',$this->description,true);
 		$criteria->compare('texture',$this->texture);
 		$criteria->compare('tone',$this->tone);
+		$criteria->compare('status',$this->status);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
