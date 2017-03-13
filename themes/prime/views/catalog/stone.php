@@ -7,7 +7,8 @@
               <ul class="breadcrumb">
                  <li><a href="#">Искусственный камень</a></li>
                  <li><a href="#">Акриловый камень</a></li>
-               <li><a href="#"><?= $model->collection->brand->name;?></a></li>
+               <li><a href="/catalog/<?= $model->collection->brand->name;?>"><?= $model->collection->brand->title;?></a></li>
+                 <li><a href="/catalog/<?= $model->collection->brand->name;?>"><?= $model->collection->name;?></a></li>
                <li class="active"><?= $model->name; ?></li>
              </ul>
              </div>
@@ -15,12 +16,15 @@
        <div class="col-md-4 col-sm-6 col-xs-6"> 
        <a href="#">
         <img src="/images/<?= $model->collection->brand->image; ?>"></a>
-        <a class="fancyimage" title="<?= $model->collection->brand->name;?> <?= $model->name; ?> " href="<?= $model->image; ?>">
+        <a class="fancyimage" title="<?= $model->collection->brand->title;?> <?= $model->name; ?> " href="<?= $model->image; ?>">
        <img class="img-responsive" <img src="<?= $model->image; ?>"></a>
        </div>
        <div class="col-md-8 col-sm-6 col-xs-6"> 
-         <h2><?= $model->collection->brand->name;?>&nbsp<?= $model->name; ?></h2>
+         <h2><?= $model->collection->brand->title;?>&nbsp<?= $model->name; ?></h2>
 
+        <p>
+       Цена: <?= $model->collection->price;?> руб
+       </p>
          <p>
        Коллекция: <?= $model->collection->name;?>
        </p>

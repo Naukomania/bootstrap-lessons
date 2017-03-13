@@ -6,7 +6,7 @@
               <ul class="breadcrumb">
                  <li><a href="#">Искусственный камень</a></li>
                  <li><a href="#">Акриловый камень</a></li>
-               <li class="active"><?=$page['name'];?></li>
+               <li class="active"><?=$model->title;?></li>
              </ul>
              </div>
        <div class="row">
@@ -19,7 +19,7 @@
               <br>
               <br>
               <a class="btn btn-default btn-lg btn-block" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-               <?=$page['descriptionCollName'];?>
+              Искусственный камень <?=$model->title;?>
               </a>
             
             <div class="collapse" id="collapseExample1">
@@ -60,12 +60,15 @@ if (!$collectionItems && $collection['items']) {
 <div class="row">
     <? foreach($collectionItems as $collectionItem): ?>
     <div class="col-md-2 col-sm-4 col-xs-6"> 
-    <a class="fancyimage-with-title" " rel="group"  title="<?= $page['name'] . ' - ' . $collectionItem['title']; ?>" href="<?= $collectionItem['src']; ?>" data-target-url="<?= $collectionItem['href']; ?>"> 
+   
+    <a class="fancyimage-with-title" " rel="group"  title="<?= $model->title . ' - ' . $collectionItem['title']; ?>" href="<?= $collectionItem['src']; ?>" data-target-url="<?= $collectionItem['href']; ?>"> 
            <img class="img-responsive border-drop" src="/images/formstone2.png">
-               <?= $collectionItem['title']; ?>
+            <div id="stone-name">
+               <?= $collectionItem['title']; ?></div>
            <img class="background-stone" src="<?= $collectionItem['src']; ?>">
         </a>
     </div>
+    
     <? endforeach; ?>
 </div>
 <? endif; ?>

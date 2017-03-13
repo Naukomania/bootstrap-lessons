@@ -8,28 +8,14 @@ $page = [
     'description' => 'Прайм-Стоун - производитель изделий из искусственного камня. Производим изделия из кварцевого и акрилового камней',
   ];
 ?>
-<div class="modal fade" id="image-modal" tabindex="-1" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-        <div class="modal-title">Просмотр изображения</div>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive center-block" src="" alt="">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
-      </div>
-    </div>
-  </div>
-</div>
+
 <section id="isdeliya">
 <br>
  <div class="container-fluid">
+
   <div> 
               <ul class="breadcrumb">
-                 <li><a href="#">Прайм-Стоун</a></li>
+                 <li><a href="/site/index">Прайм-Стоун</a></li>
                <li class="active">Изделия из искусственного камня</li>
              </ul>
              </div>
@@ -56,13 +42,15 @@ $page = [
 
 </div>
 <br>
+
 <div class="ramka-img">
       <div class="row">
   
-  <!-- 1 Изображение -->
+  <!-- Столешницы для кухни -->
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="/images/izd/izd-kuhnya.jpg" alt="...">
+     
+      <a class="fancyimage" rel="group"  title="Кухонная столешница из искусственного камня" href="/images/izd/izd-kuhnya.jpg"><img class="img-responsive" src="/images/izd/izd-kuhnya.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешницы для кухни</h3>
 
@@ -72,10 +60,12 @@ $page = [
       </div>
     </div>
   </div>
-   <!-- 1 Изображение -->
+   <!-- Столешницы для ванной-->
+   
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="/images/izd/izd-vanna.jpg" alt="...">
+     
+      <a class="fancyimage" rel="group"  title="Столешница  для ванной комнаты"  href="/images/izd/izd-vanna.jpg"><img  img class="img-responsive" src="/images/izd/izd-vanna.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешницы для ванной</h3>
         <p>Практически в большинстве квартир с современным ремонтом можно увидеть в ванной столешницу из искусственного камня.</p>
@@ -84,11 +74,12 @@ $page = [
       </div>
     </div>
   </div>
-  <!--...-->
-   <!-- 1 Изображение -->
+   <!-- Подоконники-->
+
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="/images/izd/izd-podok.jpg" alt="...">
+     
+      <a class="fancyimage" rel="group"  title="Подоконник из искусственного камня с вырезом под решетку"  href="/images/izd/izd-podok.jpg"><img class="img-responsive" src="/images/izd/izd-podok.jpg" alt="..."></a>
       <div class="caption">
         <h3>Подоконники</h3>
         <p>С приходом  искусственного камня как отделочного интерьерного материала появилась огромная возможность разнообразить цвета, конфигурацию и даже функцию подоконников.</p>
@@ -98,64 +89,84 @@ $page = [
     </div>
   </div>
   <!--...-->
-  <!-- 12 Изображение -->
+  <!-- Ресепшн-->
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="..." alt="...">
+   
+      <a class="fancyimage" rel="group"  title="Ресептион с подсветкой из камня LG Hi Macs"  href="/images/izd/izd-rec.jpg"><img class="img-responsive" src="/images/izd/izd-rec.jpg" alt="..."></a>
       <div class="caption">
         <h3>Ресепшн</h3>
-        <p>Контент...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        <p>Ресепшн  или административная стойка – весьма важный элемент обстановки не только таких представительских организаций как банки, фешенебельные гостиницы,  крупные корпорации, головные государственные учреждения, фирмы с мировым брендом. </p>
+        <p>Но и таких организаций  где большой поток посетителей – салоны красоты, медицинские центры, туристические организации, салоны связи, фитнес-клубах......</p>
+        <p><a href="#" class="btn btn-default" role="button">Читать далее</a></p>
       </div>
     </div>
   </div>
+  <!---Столешницы для санузлов-->
    <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="..." alt="...">
+  
+      <a class="fancyimage" rel="group"  title="Столешница в санузел с двумя раковинами "  href="/images/izd/izd-sanuz.jpg"><img class="img-responsive"  src="/images/izd/izd-sanuz.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешницы для санузлов</h3>
-        <p>Контент...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        <p>Практически любое современное заведение будь то торговый центр, спортивное учреждение,  бизнес-центр, клуб, ресторан, кинотеатр, бар или кафе отдает предпочтение при оборудовании санузлов – столешницам из искусственного камня.  </p>
+        <p>В отличие от отдельно-стоящих рукомойников – такие столешницы более практичны, эргономичны, презентабельны. На сплошной столешнице ....  </p>
+        
+        <p><a href="#" class="btn btn-default" role="button">Читать далее</a></p>
       </div>
     </div>
   </div>
+  <!--- Изделия для лестниц-->
    <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="..." alt="...">
+       
+      <a class="fancyimage" rel="group"  title="Лестница из искусственного камня"  href="/images/izd/izd-lest.jpg"><img class="img-responsive" src="/images/izd/izd-lest.jpg" alt="..."></a>
       <div class="caption">
         <h3>Изделия для лестниц</h3>
-        <p>Контент...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        
+        <p>В наши дни лестница становится не только средством передвижения в пространстве, но и одним из центральных элементов интерьера, внешний вид которой создает и атмосферу, и настроение в доме.</p>
+       <p>Элементы для лестниц из искусственного камня в большей степени используются для интерьерных решений. Такие лестницы выглядят изящно и стильно.  Они весьма практичны, а благодаря ...</p> 
+            <p><a href="#" class="btn btn-default" role="button">Читать далее</a></p>
       </div>
     </div>
   </div>
+  <!--Мойки для кухни-->
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="..." alt="...">
+   
+      <a class="fancyimage" rel="group"  title="Кухонная мойка из искусственного камня Corian Clam Shell"  href="/images/izd/izd-moyka.jpg"><img class="img-responsive" src="/images/izd/izd-moyka.jpg" alt="..."></a>
       <div class="caption">
         <h3>Мойки для кухни</h3>
-        <p>Контент...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        <p>Разнообразие моек в наши дни потрясает. Сейчас покупателю на выбор великое множество моек для кухни из всевозможных материалов. Будь то нержавеющая сталь, специально обработанный метал, медь, фаянс, искусственный гранит, называющийся по бренду производителя или же искусственный камень. Мойки могут быть врезные (накладные) и подстольного монтажа.</p>
+        <p>Наша компания также, предлагает вашему вниманию.....</p>
+        <p><a href="#" class="btn btn-default" role="button">Читать далее</a></p>
       </div>
     </div>
   </div>
+  <!--Раковины-->
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="..." alt="...">
+     
+      <a class="fancyimage" rel="group"  title="Акриловая раковина для ванной / санузлов"  href="/images/izd/izd-rak.jpg"><img  class="img-responsive" src="/images/izd/izd-rak.jpg" alt="..."></a>
       <div class="caption">
         <h3>Раковины</h3>
-        <p>Контент...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        <p>Наша компания изготавливает столешницы в ванную не только под раковины собственного производства, о которых пойдет речь ниже, но и под раковины заказчиков. Поскольку человек, в среднем, заказывает такие изделия один или два раза в жизни,  то нередко допускаются досадные ошибки.</p>
+        <p>При выборе раковины под столешницу необходимо учитывать несколько факторов.....</p>
+        <p><a href="#" class="btn btn-default" role="button">Читать далее</a></p>
+        
       </div>
     </div>
   </div>
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="..." alt="...">
+    
+      <a class="fancyimage" rel="group"  title="Изделия из камня Kerrock серии Luminate"  href="/images/izd/izd-dr.jpg"><img src="/images/izd/izd-dr.jpg" alt="..."></a>
       <div class="caption">
         <h3>Прочие изделия</h3>
-        <p>Контент...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        <p>Искусственный камень современный материал и по многим показателям превосходит другие.  Такой материал, благодаря своим свойствам, позволяет использовать его в изготовлении изделий интерьера во многих сферах нашей жизни.  Богатая палитра, которая с каждым годом обновляется и пополняется и разрабатываются новые технологии и дизайн текстур.</p>
+        <p>Виды изделий, которые ....</p>
+        <p><a href="#" class="btn btn-default" role="button">Читать далее</a></p>
+       
       </div>
     </div>
   </div>
