@@ -19,6 +19,55 @@
  */
 class Stone extends CActiveRecord
 {
+	private static $_textureList = [
+		''=>'Текстура не выбрана',
+		1=>'Монотонная',
+		2=>'Песчаная',
+		3=>'Гранитная',
+		4=>'Светопроводящая',
+		5=>'Металлическая / с блестками',
+		6=>'Мраморная',
+		7=>'3D –частицы',
+		8=>'Крупная текстура',
+		9=>'Древесная',
+	];
+	private static $_toneList = [
+		''=>'Тон не выбран',
+		1=>'Белый',
+		2=>'Светло-бежевый',
+		3=>'Бежевый',
+		4=>'Темно-бежевый / Коричневый',
+		5=>'Серый',
+		6=>'Красный /Розовый/Фиолетовый',
+		7=>'Зеленый/Оттенки зеленого',
+		8=>'Желтый',
+		9=>'Синий / Голубой/ Оттенки голубого',
+		10=>'Оранжевый',
+		11=>'Черный',
+	];
+	public static function getTextureList()
+	{
+		return self::$_textureList;
+	}
+	public static function getToneList()
+	{
+		return self::$_toneList;
+	}
+	public function textureName()
+	{
+		if($this->texture && self::$_textureList[$this->texture]) {
+			return self::$_textureList[$this->texture];
+		}
+		return '';
+	}
+	public function toneName()
+	{
+		if($this->tone && self::$_toneList[$this->tone]) {
+			return self::$_toneList[$this->tone];
+		}
+		return '';
+	}
+
 	/**
 	 * @return string the associated database table name
 	 */

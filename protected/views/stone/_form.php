@@ -51,13 +51,13 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'texture'); ?>
-		<?php echo $form->textField($model,'texture'); ?>
+		<?php echo $form->dropDownList($model, 'texture', Stone::getTextureList()); ?>
 		<?php echo $form->error($model,'texture'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'tone'); ?>
-		<?php echo $form->textField($model,'tone'); ?>
+		<?php echo $form->dropDownList($model, 'tone', Stone::getToneList()); ?>
 		<?php echo $form->error($model,'tone'); ?>
 	</div>
 

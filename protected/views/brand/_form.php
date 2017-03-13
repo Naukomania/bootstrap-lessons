@@ -57,7 +57,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'country'); ?>
-		<?php echo $form->textField($model,'country'); ?>
+		<?php echo $form->dropDownList($model, 'country', Brand::getCountriesList()); ?>
 		<?php echo $form->error($model,'country'); ?>
 	</div>
 

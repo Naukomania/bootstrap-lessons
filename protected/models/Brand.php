@@ -19,6 +19,30 @@
  */
 class Brand extends CActiveRecord
 {
+	private static $_countryList = [
+		''=>'Страна не выбрана',
+		1=>'Ю. Корея',
+		2=>'США',
+		3=>'Германия',
+		4=>'США-Китай',
+		5=>'Словения',
+		6=>'Италия',
+		7=>'Израиль',
+		8=>'Россия',
+		9=>'Китай',
+	];
+	public static function getCountriesList()
+	{
+		return self::$_countryList;
+	}
+	public function countryName()
+	{
+		if($this->country && self::$_countryList[$this->country]) {
+			return self::$_countryList[$this->country];
+		}
+		return '';
+	}
+
 	/**
 	 * @return string the associated database table name
 	 */
