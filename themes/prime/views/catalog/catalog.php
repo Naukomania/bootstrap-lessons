@@ -63,7 +63,7 @@ if (!$collectionItems && $collection['items']) {
    
     <a class="fancyimage-with-title" " rel="group"  title="<?= $model->title . ' - ' . $collectionItem['title']; ?>" href="<?= $collectionItem['src']; ?>" data-target-url="<?= $collectionItem['href']; ?>"> 
            <img class="img-responsive border-drop" src="/images/formstone2.png">
-            <div id="stone-name">
+            <div class="stone-name">
                <?= $collectionItem['title']; ?></div>
            <img class="background-stone" src="<?= $collectionItem['src']; ?>">
         </a>

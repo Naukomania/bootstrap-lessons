@@ -495,7 +495,7 @@ a {
   -o-border-image: url('/css/images/topslide2.png') 19 0 19 repeat;
   border-image: url('/css/images/topslide2.png') 19 0 19 fill repeat;
 }
-#stone-name {
+.stone-name {
   text-align: center;
   display: block;
   border: 0 none;
