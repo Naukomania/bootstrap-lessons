@@ -40,8 +40,7 @@
   <div class="container-fluid">
     <div class="menu"><ul class="nav navbar-nav">
         <li><a href="/site/index">Прайм-Стоун<span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Акции</a></li>
-        <li><a href="/price">Цены</a></li>
+        
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Продукция <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -61,7 +60,17 @@
             <li><a href="#">Изделия для лестницы</a></li>
           </ul>
         </li>
-        <li><a href="/site/foto">Наши работы</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Цены <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+
+          <li><a href="#">Цены на изделия</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Акции</a></li>
+            </ul></li>
+        <li  <?if($this->id=='site' && $this->action->id=='foto'):?>class="active"<?endif;?>><a href="/site/foto">Наши работы</a></li>
+
+
         <li class="dropdown<?if($this->id == 'catalog'):?> active<?endif;?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Акриловый камень <span class="caret"></span></a>
           <?php $this->widget('zii.widgets.CMenu',array(
@@ -92,6 +101,7 @@
             <li><a href="#">Scorino</a></li>
           </ul>
         </li>
+        <li><a href="#">Контакты</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Еще<span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -100,7 +110,22 @@
             <li><a href="#">Стеновые панели</a></li>
             <li><a href="#">Накладки для ванных</a></li>
             <li><a href="#">Тумбы для ванных комнат</a></li>
+
           </ul>
+        </li>
+
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Админка<span class="caret"></span></a>
+          <?php
+          $this->widget('zii.widgets.CMenu', array(
+    'items'=>array(
+     array('label'=>'Бренды', 'url'=>array('/brand/admin')),
+     array('label'=>'Коллекции', 'url'=>array('/collection/admin')),
+     array('label'=>'Камни', 'url'=>array('/stone/admin')),
+     array('label'=>'Изделия', 'url'=>array('/product/admin')),
+    ),
+    'htmlOptions'=>array('class'=>'dropdown-menu'),
+   ));?>
         </li>
       </ul>
     </div>

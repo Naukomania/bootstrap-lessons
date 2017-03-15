@@ -31,7 +31,7 @@ class Stone extends CActiveRecord
 		6=>'Мраморная',
 		7=>'3D –частицы',
 		8=>'Крупная текстура',
-		9=>'Древесная',
+		9=>'Слоистая',
 	];
 	private static $_toneList = [
 		''=>'Тон не выбран',

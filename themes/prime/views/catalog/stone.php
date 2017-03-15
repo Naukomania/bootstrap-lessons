@@ -22,6 +22,7 @@
        <div class="col-md-8 col-sm-6 col-xs-6"> 
          <h2><?= $model->collection->brand->title;?>&nbsp<?= $model->name; ?></h2>
 
+       <p> Производство:<?=$model->collection->brand->countryName();?></p>
         <p>
        Цена: <?= $model->collection->price;?> руб
        </p>
@@ -32,11 +33,16 @@
        Цвет: <?= $model->name; ?>
        </p>
        <p>
+       Тон: <?= $model->toneName(); ?></p>
+       <p>
+       Текстура: <?= $model->textureName(); ?></p>
+       <p>
        Рекомендуемая полировка: глянец / полуглянец
        </p>
        <p>
        Аналогичные / похожие цвета  других производителей:
        </p>
+
         <? if($page['additional_images']): ?>
         
   <div class="row">
@@ -59,15 +65,15 @@
        <div class="gallery-kamen">
        <br>
        <div><h3>Фото столешницы из искусственного камня FR148 Shimmer / Radiance</h3></div>
-        <? if($page['top_stone']): ?>
+        <? if($model->products): ?>
   <div class="row">
-    <? foreach($page['top_stone'] as $topStoneImage): ?>
+   <? foreach($model->products as $product): ?>
       <div class="col-md-3 col-sm-4 col-xs-6 thumb">
         <br>
          <div class="kamen">
-        <a class="fancyimage" rel="group" href="<?= $topStoneImage['src']; ?>">
-          <img class="img-responsive" src="<?= $topStoneImage['src']; ?>">
-            <div class="infokamen"><?= $topStoneImage['description']; ?></div>
+       <a class="fancyimage" rel="group" href="<?= $product->image; ?>">
+<img class="img-responsive" src="<?= $product->image; ?>">
+<div class="infokamen"><?= $product->title; ?></div>
         </a>
       </div>
     </div>
@@ -80,8 +86,11 @@
 
 <? if($model): ?>
 <div class="container">
-  <pre>
+ <pre>
     <? print_r($model->attributes); ?>
+ <? foreach($model->products as $product): ?>
+  <? print_r($product->attributes); ?>
+ <? endforeach; ?>
   </pre>
 </div>
 <? endif; ?>
