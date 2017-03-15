@@ -19,18 +19,29 @@
 
 <header class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
-		<div id="logo"><a href="<?= Yii::app()->request->baseUrl; ?>/"><img src="/images/log.gif"></a></div>
-		<div id="desc"> <p><b>Производство изделий <br>из искусственного камня</b></p></div>
-		<div id="adress">
-			<p> Время работы: <br><b>Пн-Пт - 9<sup>00</sup> - 18<sup>00</sup></b><br><span
-			<font color="#00b300"><a href="#map">посмотреть на карте</a></font></span></p>
-		</div>
-		<div id="right-header-block">
-			<div class="mail">
-				<p><img src="<?= Yii::app()->request->baseUrl; ?>/images/message.jpg"><a href="mailto:info@prime-stone.ru" target="_blank">info@prime-stone.ru</a></p>
+		<div class="row">
+			<div class="col-md-2 col-sm-3">
+				<div id="logo"><a href="<?= Yii::app()->request->baseUrl; ?>/"><img src="/images/log.gif"></a></div>
+				<div id="call" class="visible-xs"><i class="fa fa-phone fa-3x"></i></div>
 			</div>
-			<div class="telefon-header">
-				<p><b>+7(495)</b><span><font size="4" ><b>227 49 19</b></font></span></p>
+			<div class="col-md-2 col-sm-3 hidden-xs">
+				<div id="desc"> <p><b>Производство изделий <br>из искусственного камня</b></p></div>
+			</div>
+			<div class="col-md-2 col-md-offset-1 visible-md visible-lg">
+				<div id="adress">
+					<p> Время работы: <br><b>Пн-Пт - 9<sup>00</sup> - 18<sup>00</sup></b><br><span>
+					<font color="#00b300"><a href="#map">посмотреть на карте</a></font></span></p>
+				</div>
+			</div>
+			<div class="col-md-2 col-md-offset-1 col-sm-3 hidden-xs">
+				<div class="telefon-header">
+					+7(495)<span class="number">227 49 19</span>
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-3 hidden-xs">
+				<div class="mail">
+					<p><img src="<?= Yii::app()->request->baseUrl; ?>/images/message.jpg"><a href="mailto:info@prime-stone.ru" target="_blank">info@prime-stone.ru</a></p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -64,7 +75,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Цены <span class="caret"></span></a>
           <ul class="dropdown-menu">
 
-          <li><a href="#">Цены на изделия</a></li>
+          <li><a href="/price/index">Цены на изделия</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="#">Акции</a></li>
             </ul></li>

@@ -17,10 +17,15 @@
        <a href="#">
         <img src="/images/<?= $model->collection->brand->image; ?>"></a>
         <a class="fancyimage" title="<?= $model->collection->brand->title;?> <?= $model->name; ?> " href="<?= $model->image; ?>">
+
        <img class="img-responsive" <img src="<?= $model->image; ?>"></a>
        </div>
        <div class="col-md-8 col-sm-6 col-xs-6"> 
          <h2><?= $model->collection->brand->title;?>&nbsp<?= $model->name; ?></h2>
+         <?if($model->isDiscountinued()):?>
+         <div class="alert alert-warning">
+  Снят с производства</div>
+<?endif;?>
 
        <p> Производство:<?=$model->collection->brand->countryName();?></p>
         <p>
