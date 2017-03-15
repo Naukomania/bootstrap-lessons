@@ -51,7 +51,7 @@ gulp.task('default', ['less', 'copy']);
 // Configure the browserSync task
 gulp.task('browserSync', function() {
     browserSync.init({
-        proxy: "prime.loc/artical.php",
+        proxy: "prime.loc/index.php",
 		notify: false
     })
 })
