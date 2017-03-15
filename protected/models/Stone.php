@@ -21,6 +21,8 @@
  */
 class Stone extends CActiveRecord
 {
+	const STATUS_IN_STOCK		= 1;
+	const STATUS_DISCONTINUED	= 2;
 	private static $_textureList = [
 		''=>'Текстура не выбрана',
 		1=>'Монотонная',
@@ -47,6 +49,10 @@ class Stone extends CActiveRecord
 		10=>'Оранжевый',
 		11=>'Черный',
 	];
+	private static $_statuses = [
+		1=>'В наличии',
+		2=>'Снят с производства',
+	];
 	public static function getTextureList()
 	{
 		return self::$_textureList;
@@ -54,6 +60,10 @@ class Stone extends CActiveRecord
 	public static function getToneList()
 	{
 		return self::$_toneList;
+	}
+	public static function getStatusList()
+	{
+		return self::$_statuses;
 	}
 	public function textureName()
 	{
@@ -68,6 +78,10 @@ class Stone extends CActiveRecord
 			return self::$_toneList[$this->tone];
 		}
 		return '';
+	}
+	public function isDiscountinued()
+	{
+		return $this->status == self::STATUS_DISCONTINUED;
 	}
 
 	/**

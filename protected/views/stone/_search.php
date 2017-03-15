@@ -51,6 +51,11 @@
 		<?php echo $form->textField($model,'tone'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->label($model,'status'); ?>
+		<?php echo $form->textField($model,'status'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Search'); ?>
 	</div>

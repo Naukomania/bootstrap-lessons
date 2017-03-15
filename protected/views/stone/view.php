@@ -29,5 +29,6 @@ $this->menu=array(
 		'description',
 		'texture',
 		'tone',
+		'status',
 	),
 )); ?>
