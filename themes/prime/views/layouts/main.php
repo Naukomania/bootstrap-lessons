@@ -22,7 +22,7 @@
 		<div class="row">
 			<div class="col-md-2 col-sm-3">
 				<div id="logo"><a href="<?= Yii::app()->request->baseUrl; ?>/"><img src="/images/log.gif"></a></div>
-				<div id="call" class="visible-xs"><i class="fa fa-phone fa-3x"></i></div>
+				<div id="call" class="visible-xs"><a href="tel:+79852274919"><i class="fa fa-phone fa-3x"></a></i></div>
 			</div>
 			<div class="col-md-2 col-sm-3 hidden-xs">
 				<div id="desc"> <p><b>Производство изделий <br>из искусственного камня</b></p></div>
@@ -75,7 +75,9 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Цены <span class="caret"></span></a>
           <ul class="dropdown-menu">
 
-          <li><a href="/price/index">Цены на изделия</a></li>
+          <li><a href="/price/index">Цены на изделия (акрил)</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Цены на изделия (кварц)</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="#">Акции</a></li>
             </ul></li>

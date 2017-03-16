@@ -50,12 +50,80 @@ body {
 max- width: 100%;
 width: 196px;
 }
-#call{
+#call .fa{
+  color:@menu-bg-color;
+}
+#call {
   position: absolute;
   top: 10px;
   right:10px;
   width: 50px;
   heght: 50px;
+  color: green;  
+   -webkit-animation: 0.5s tremor ease-out infinite;  
+    animation: 0.5s tremor ease-out infinite;   
+}
+@-webkit-keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        top:-1px;
+        -webkit-transform: translateX(-4%);
+        transform: translateX(-4%);
+    }
+    50%, 100% {
+        left: 1px;
+        top: 1px;
+        -webkit-transform: translateX(4%);
+        transform: translateX(4%);
+    }
+}
+@-moz-keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        -webkit-transform: translateX(-4%);
+        transform: translateX(-4%);
+    }
+    50%, 100% {
+        left: 1px;
+        -webkit-transform: translateX(4%);
+        transform: translateX(4%);
+    }
+}
+@-ms-keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        -webkit-transform: translateX(-4%);
+        transform: translateX(-4%);
+    }
+    50%, 100% {
+        left: 1px;
+        -webkit-transform: translateX(4%);
+        transform: translateX(4%);
+    }
+}
+@-o-keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        -webkit-transform: translateX(-4%);
+        transform: translateX(-4%);
+    }
+    50%, 100% {
+        left: 1px;
+        -webkit-transform: translateX(4%);
+        transform: translateX(4%);
+    }
+}
+@keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        -webkit-transform: translateX(-4%);
+        transform: translateX(-4%);
+    }
+    50%, 100% {
+        left: 1px;
+        -webkit-transform: translateX(4%);
+        transform: translateX(4%);
+    }
 }
 .telefon-header {
 font-weight: bold;
@@ -418,8 +486,7 @@ a {
 }
 .breadcrumb > .active {
   color: black;
-  border-bottom: 3px solid #9acd32;
-  font-weight: bold;
+  border-bottom: 2px solid #9acd32;
   background-color: #white; 
 }
 .carousel-indicators {
@@ -473,8 +540,8 @@ a {
   
 }
 .text-site{
-  padding: 15px;
-   font-size: 16px;
+  padding: 20px;
+   font-size: 14px;
    text-align: justify;
    text-indent: 15px;
    :focus {
@@ -512,5 +579,5 @@ border-bottom: 1px #ebebeb solid;
 display: block;
 }
 .price-container .table th{
-  background-color: @menu-bg-color;
+  background-color: #f5f5f5;
 }
