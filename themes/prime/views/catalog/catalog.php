@@ -1,84 +1,63 @@
 <section id="staron">
- <div class="container">
- <br>
-
- <div> 
-              <ul class="breadcrumb">
-                 <li><a href="#">Искусственный камень</a></li>
-                 <li><a href="#">Акриловый камень</a></li>
-               <li class="active"><?=$model->title;?></li>
-             </ul>
-             </div>
-       <div class="row">
-
-              <div class="col-md-3 col-sm-4 col-xs-6"><div id="logostaron">
+    <div class="container">
+        <br>
+        <div> 
+            <ul class="breadcrumb">
+                <li><a href="#">Искусственный камень</a></li>
+                <li><a href="#">Акриловый камень</a></li>
+                <li class="active"><?=$model->title;?></li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-4 col-xs-6"><div id="logostaron">
                 <img src="/images/<?=$model->image;?>">
-              </div></div>
-              <div class="col-md-9 col-sm-8 col-xs-6"><?=$model->description;?></div>
-              </div>
-              <br>
-              <br>
-              <a class="btn btn-default btn-lg btn-block" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-              Искусственный камень <?=$model->title;?>
-              </a>
-            
-            <div class="collapse" id="collapseExample1">
-              <div class="card card-block">
-              <br>
-              <br>
-                 <?=$model->descriptionCollEx;?>
-              </div>
             </div>
+        </div>
+        <div class="col-md-9 col-sm-8 col-xs-6"><?=$model->description;?></div>
+    </div>
+    <br>
+    <br>
+    <a class="btn btn-default btn-lg btn-block" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+        Искусственный камень <?=$model->title;?>
+    </a>
+
+    <div class="collapse" id="collapseExample1">
+        <div class="card card-block">
             <br>
-                         <ul class="breadcrumb collection-chooser">
-    <? $breadcrumbs = $model ? $model->getCollectionItems(): $page['breadcrumbs']; ?>
-    <? foreach($breadcrumbs as $breadcrumb): ?>
-        <li<?if(!empty($breadcrumb['active'])): ?> class="active"<?endif;?>>
+            <br>
+            <?=$model->descriptionCollEx;?>
+        </div>
+    </div>
+    <br>
+    <ul class="breadcrumb collection-chooser">
+        <? $breadcrumbs = $model->getCollectionItems($activeCollectionId); ?>
+        <? foreach($breadcrumbs as $breadcrumb): ?>
+        <li<?if($breadcrumb['active']): ?> class="active"<?endif;?>>
             <a href="<?=$breadcrumb['href'];?>" data-id="<?=$breadcrumb['id'];?>">
                 <?=$breadcrumb['name'];?>
             </a>
         </li>
-    <? endforeach; ?>
-</ul>
+        <? endforeach; ?>
+    </ul>
 
+    <div id="collection-content">
+        <? 
+        $id = empty($breadcrumbs[0]['id']) ? null : $breadcrumbs[0]['id'];
+        if ($activeCollectionId) {
+            $id = $activeCollectionId;
+        }
+        $this->renderPartial('_collection',[
+            'brandModel'      => $model,
+            'collection'      => Collection::model()->findByPk($id),
+            'collectionItems' => Collection::getItemsForCatalog($id),
+        ]); ?>
+    </div><!-- end #collection-content -->
+</section>
 
-
-<div id="collection-content">
-            <p><?= $collection['title']; ?></p>
-<br>
-<?
-$collectionItems = [];
-if (!empty($breadcrumbs[0]['id'])) {
-  $collectionItems = Collection::getItemsForCatalog($breadcrumbs[0]['id']);
-}
-if (!$collectionItems && $collection['items']) {
-  $collectionItems = $collection['items'];
-}
-?>
-
-<? if($collectionItems): ?>
-<div class="row">
-    <? foreach($collectionItems as $collectionItem): ?>
-    <div class="col-md-2 col-sm-4 col-xs-6"> 
-   
-    <a class="fancyimage-with-title" " rel="group"  title="<?= $model->title . ' - ' . $collectionItem['title']; ?>" href="<?= $collectionItem['src']; ?>" data-target-url="<?= $collectionItem['href']; ?>"> 
-           <img class="img-responsive border-drop" src="/images/formstone2.png">
-            <div class="stone-name">
-               <?= $collectionItem['title']; ?></div>
-           <img class="background-stone" src="<?= $collectionItem['src']; ?>">
-        </a>
-    </div>
-    
-    <? endforeach; ?>
-</div>
-<? endif; ?>
-</div><!-- end #collection-content -->
-       </section>
-       
 <? if($model): ?>
-<div class="container">
-  <pre>
-    <? print_r($model->attributes); ?>
-  </pre>
-</div>
+    <div class="container">
+        <pre>
+            <? print_r($model->attributes); ?>
+        </pre>
+    </div>
 <? endif; ?>

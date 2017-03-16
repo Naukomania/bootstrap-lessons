@@ -9,103 +9,49 @@ class CatalogController extends Controller
 
 	public function actionStaron()
 	{
-		//$item = Catalog::getItem('staron');
-        $brandModel = Brand::model()->findByAttributes(['name' => 'staron']);
-		$this->render('catalog',[
-			'page' => $item,
-			'collection' => $item['collection'],
-            'model' => $brandModel,
-		]);
+		$this->catalogView('staron');
 	}
-
 	public function actionLg_hi_macs()
 	{
-		$item = Catalog::getItem('lg_hi_macs');
-  $brandModel = Brand::model()->findByAttributes(['name' => 'lg_hi_macs']);
-		$this->render('catalog',[
-			'page' => $item,
-			'collection' => $item['collection'],
-			  'model' => $brandModel,
-		]);
-
+		$this->catalogView('lg_hi_macs');
 	}
 	public function actionHanex()
 	{
-		$item = Catalog::getItem('lg_hi_macs');
-  $brandModel = Brand::model()->findByAttributes(['name' => 'hanex']);
-		$this->render('catalog',[
-			'page' => $item,
-			'collection' => $item['collection'],
-			  'model' => $brandModel,
-		]);
-
+		$this->catalogView('hanex');
 	}
-public function actionCorian()
+	public function actionCorian()
 	{
-		$item = Catalog::getItem('lg_hi_macs');
-  $brandModel = Brand::model()->findByAttributes(['name' => 'corian']);
-		$this->render('catalog',[
-			'page' => $item,
-			'collection' => $item['collection'],
-			  'model' => $brandModel,
-		]);
-
+		$this->catalogView('corian');
 	}
 	public function actionTristone()
 	{
-		$item = Catalog::getItem('lg_hi_macs');
-  $brandModel = Brand::model()->findByAttributes(['name' => 'tristone']);
-		$this->render('catalog',[
-			'page' => $item,
-			'collection' => $item['collection'],
-			  'model' => $brandModel,
-		]);
-
+		$this->catalogView('tristone');
 	}
 	public function actionGrandex()
 	{
-		$item = Catalog::getItem('lg_hi_macs');
-  $brandModel = Brand::model()->findByAttributes(['name' => 'grandex']);
-		$this->render('catalog',[
-			'page' => $item,
-			'collection' => $item['collection'],
-			  'model' => $brandModel,
-		]);
-
+		$this->catalogView('grandex');
 	}
-public function actionKerrock()
+	public function actionKerrock()
 	{
-		$item = Catalog::getItem('lg_hi_macs');
-  $brandModel = Brand::model()->findByAttributes(['name' => 'kerrock']);
-		$this->render('catalog',[
-			'page' => $item,
-			'collection' => $item['collection'],
-			  'model' => $brandModel,
-		]);
-
+		$this->catalogView('kerrock');
 	}
 	public function actionMontelli()
 	{
-		$item = Catalog::getItem('lg_hi_macs');
-  $brandModel = Brand::model()->findByAttributes(['name' => 'montelli']);
-		$this->render('catalog',[
-			'page' => $item,
-			'collection' => $item['collection'],
-			  'model' => $brandModel,
-		]);
-
+		$this->catalogView('montelli');
 	}
 	public function actionGetacore()
 	{
-		$item = Catalog::getItem('lg_hi_macs');
-  $brandModel = Brand::model()->findByAttributes(['name' => 'getacore']);
-		$this->render('catalog',[
-			'page' => $item,
-			'collection' => $item['collection'],
-			  'model' => $brandModel,
-		]);
-
+		$this->catalogView('getacore');
 	}
+
+	private function catalogView($brandName)
+	{
+		$this->render('catalog',[
+			'activeCollectionId' => Yii::app()->request->getParam('activeId'),
+			'model' => Brand::model()->findByAttributes(['name' => $brandName]),
+		]);
+	}
+
 	public function actionView($id)
 	{
         $stoneModel = Stone::model()->findByPk($id);
@@ -117,11 +63,13 @@ public function actionKerrock()
             'model' => $stoneModel,
         ]);
 	}
+
 	public function actionAjaxcollection($id)
 	{
 		$collection = Collection::model()->findByPk($id);
 		$collectionItems = Collection::getItemsForCatalog($collection->id);
-		$this->renderPartial('ajaxcollection',[
+		$this->renderPartial('_collection',[
+			'brandModel' => $collection->brand,
 			'collection' => $collection,
 			'collectionItems' => $collectionItems,
 		]);

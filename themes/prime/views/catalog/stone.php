@@ -8,7 +8,9 @@
                  <li><a href="#">Искусственный камень</a></li>
                  <li><a href="#">Акриловый камень</a></li>
                <li><a href="/catalog/<?= $model->collection->brand->name;?>"><?= $model->collection->brand->title;?></a></li>
-                 <li><a href="/catalog/<?= $model->collection->brand->name;?>"><?= $model->collection->name;?></a></li>
+                 <li><a href="<?= $this->createUrl('catalog/'.$model->collection->brand->name, [
+                    'activeId' => $model->collection->id
+                  ]); ?>"><?= $model->collection->name;?></a></li>
                <li class="active"><?= $model->name; ?></li>
              </ul>
              </div>

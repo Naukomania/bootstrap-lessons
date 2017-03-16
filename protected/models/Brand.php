@@ -155,7 +155,7 @@ class Brand extends CActiveRecord
 		return $arList;
 	}
 
-	public function getCollectionItems()
+	public function getCollectionItems($activeId = null)
 	{
 		$items = Collection::getList($this->id);
 		unset($items['']);
@@ -167,10 +167,13 @@ class Brand extends CActiveRecord
 			$result[] = [
 				'name' => $itemName,
 				'href' => '#',
-				'id' => $id
+				'id' => $id,
+				'active' => $id == $activeId,
 			];
 		}
-		$result[0]['active'] = true;
+		if (!$activeId) {
+			$result[0]['active'] = true;
+		}
 		return $result;
 	}
 }
