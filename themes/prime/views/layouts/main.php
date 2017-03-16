@@ -49,9 +49,20 @@
 
 <nav class="navbar navbar-default navbar-fixed-top" id="menu">
   <div class="container-fluid">
-    <div class="menu"><ul class="nav navbar-nav">
-        <li><a href="/site/index">Прайм-Стоун<span class="sr-only">(current)</span></a></li>
-        
+  <div class="row">
+    <div class="navbar-header hidden-sm">
+        <a class="navbar-brand" href="/site/index">Прайм-Стоун<span class="sr-only">(current)</span></a>
+        <button type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target="#main-menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="main-menu" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Продукция <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -115,7 +126,7 @@
           </ul>
         </li>
         <li><a href="#">Контакты</a></li>
-        <li class="dropdown">
+        <li class="dropdown hidden-sm hidden-md">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Еще<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Наше производство</a></li>
@@ -127,7 +138,7 @@
           </ul>
         </li>
 
-         <li class="dropdown">
+         <li class="dropdown hidden-sm hidden-md">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Админка<span class="caret"></span></a>
           <?php
           $this->widget('zii.widgets.CMenu', array(
@@ -141,6 +152,8 @@
    ));?>
         </li>
       </ul>
+      </div>
+    </div>
     </div>
   </div>
 </nav>

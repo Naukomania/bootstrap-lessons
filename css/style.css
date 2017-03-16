@@ -359,13 +359,18 @@ body {
     text-align: center;
   }
 }
+#menu .navbar-header a {
+  font-size: 1em;
+  color: #ffffff;
+  margin-left: 0px;
+}
+#menu .navbar-header a:focus,
+#menu .navbar-header a:hover {
+  color: #333;
+}
 @media (max-width: 768px) {
   header.navbar-fixed-top,
-  #menu,
-  #logo,
-  #desc,
-  #adress,
-  #right-header-block {
+  #menu {
     position: relative;
   }
   #slider {
