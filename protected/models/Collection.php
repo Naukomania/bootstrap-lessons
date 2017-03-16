@@ -139,11 +139,13 @@ class Collection extends CActiveRecord
 			return [];
 		}
 		foreach ($catalogModel->stones as $stone) {
-			$items[] = [
-				'title' => $stone->name,
-				'src' => $stone->image,
-				'href' => '/catalog/'.$stone->id,
-			];
+			if (!$stone->isDiscountinued()) {
+				$items[] = [
+					'title' => $stone->name,
+					'src' => $stone->image,
+					'href' => '/catalog/'.$stone->id,
+				];
+			}
 		}
 		return $items;
 	}
