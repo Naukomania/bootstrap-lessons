@@ -17,6 +17,10 @@
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
+	<?if (!$stoneId): ?>
+		<div class="alert alert-danger">Необходимо выбрать камень</div>
+	<?endif;?>
+
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
@@ -33,8 +37,8 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'stone_id'); ?>
-		<?php echo $form->textField($model,'stone_id'); ?>
-		<?php echo $form->error($model,'stone_id'); ?>
+		<a href="/stone/<?=$stoneId;?>"><?=$stoneId;?></a>
+		<input type="hidden" name="Product[stone_id]" value="<?=$stoneId;?>">
 	</div>
 
 	<div class="row buttons">

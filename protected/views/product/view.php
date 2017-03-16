@@ -27,3 +27,4 @@ $this->menu=array(
 		'stone_id',
 	),
 )); ?>
+<a href="/catalog/<?=$model->stone_id;?>">Перейти к камню</a>

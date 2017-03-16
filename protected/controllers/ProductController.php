@@ -76,6 +76,7 @@ class ProductController extends Controller
 
 		$this->render('create',array(
 			'model'=>$model,
+			'stoneId'=>Yii::app()->request->getParam('stone_id'),
 		));
 	}
 

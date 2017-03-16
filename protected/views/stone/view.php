@@ -32,3 +32,7 @@ $this->menu=array(
 		'status',
 	),
 )); ?>
+
+<a href="<?= $this->createUrl('product/create',[
+	'stone_id' => $model->id,
+]); ?>" target="_blank">Добавить изделие</a>
