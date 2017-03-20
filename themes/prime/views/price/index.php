@@ -54,7 +54,9 @@ $this->breadcrumbs=array(
   	      </ul>
   	      <br>
        		<div class="tab-content">
-		<? $this->renderPartial('tab1/index'); ?>
+		<? $this->renderPartial('tab1/index', [
+            'brands' => $brands,
+        ]); ?>
                      <? $this->renderPartial('tab2/index'); ?>
                      <? $this->renderPartial('tab3/index'); ?>
                      <? $this->renderPartial('tab4/index'); ?>
@@ -69,6 +71,3 @@ $this->breadcrumbs=array(
 		
         </div>      
  
-<pre>
-    <? print_r($brands); ?>
-</pre>

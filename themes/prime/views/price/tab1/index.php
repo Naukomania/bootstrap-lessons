@@ -1,49 +1,10 @@
+<? $brand = $brands[0]; ?>
 <div class="tab-pane active" id="tab1">
-    <div class="row">
-        <div class="title-price-stone"><a href="/catalog/staron"><img src="/images/price/staron-logo-mini.jpg">Стоимость искусственного камня Samsung Staron</a></div>
-    </div>
-    <div class="price-container">
-        <div class="row">
-            <div class="col-md-12">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Коллекция</th>
-                            <th><i class="fa fa-rub fa-2x"></i>за м.кв</th>
-                            <th>Коллекция</th>
-                            <th><i class="fa fa-rub fa-2x"></i> за м.кв</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="itogo">
-                            <td>Solid&nbsp&nbsp<img src="/images/price/solid.jpg"></a></td>
-                            <td>200</td>
-                            <td class=>Quarry&Mosaic&nbsp&nbsp<img src="/images/price/mosaic.jpg"></td>
-                            <td>2</td>
-                        </tr>
-                        <tr class="itogo">
-                            <td>Super Solid&nbsp&nbsp<img src="/images/price/supersolid.jpg">&nbsp&nbsp/&nbsp&nbsp Sanded&nbsp<img src="/images/price/sanded.jpg"></td>
-                            <td>7</td>
-                            <td>Tempest&nbsp&nbsp<img src="/images/price/tempest.jpg"></td>
-                            <td>8</td>
-                        </tr>
-                        <tr class="itogo">
-                            <td>Aspen &nbsp&nbsp<img src="/images/price/aspen.jpg">&nbsp&nbsp/&nbsp&nbsp Metallic&nbs&nbsp<img src="/images/price/metallic.jpg"></td>
-                            <td>10</td>
-                            <td>Suprime&nbsp&nbsp<img src="/images/price/suprime.jpg"></td>
-                            <td>77</td>
-                        </tr>
-                        <tr class="itogo">
-                            <td>Pebble&nbsp&nbsp<img src="/images/price/pebble.jpg"></td>
-                            <td>555</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
+   <? foreach($brands as $brand): ?>
+    <? $this->renderPartial('tab1/brand-price', [
+        'brand' => $brand,
+    ]); ?>
+<? endforeach; ?>
     <div class="row">
         <div class="title-price-stone"><a href="/catalog/kerrock"><img src="/images/price/kerrock-logo-mini.jpg">Стоимость искусственного камня Kerrock</a></div>
     </div>
@@ -401,4 +362,7 @@
         </div>
     </div>
 </div>
+<pre>
+    <? print_r($brand); ?>
+</pre>
 

@@ -8,6 +8,7 @@ class PriceController extends Controller
 		$this->render('index',[
 			'brands' => $brands,
 		]);
+		
 	}
 
 	// Uncomment the following methods and override them if needed
