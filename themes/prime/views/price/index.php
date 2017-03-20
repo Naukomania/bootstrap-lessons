@@ -901,6 +901,7 @@ $this->breadcrumbs=array(
                            </div>
                            </div>
                             </div>
+                            </div>
                              <div class="row">
                            <div class="title-price-stone"><img src="/images/price/staron-logo-mini.jpg">Стоимость моек производства Samsung Staron</div> 
                            </div>
