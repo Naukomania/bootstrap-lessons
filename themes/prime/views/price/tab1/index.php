@@ -362,7 +362,3 @@
         </div>
     </div>
 </div>
-<pre>
-    <? print_r($brand); ?>
-</pre>
-
