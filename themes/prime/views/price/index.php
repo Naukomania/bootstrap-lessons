@@ -1,5 +1,6 @@
 <?php
 /* @var $this PriceController */
+/* @var $brands array of Brand */
 $this->pageTitle = 'Цены на изделия из искусственного камня - Прайм-Стоун';
 
 $this->breadcrumbs=array(
@@ -1348,4 +1349,6 @@ $this->breadcrumbs=array(
 		
         </div>      
  
-     
+<pre>
+    <? print_r($brands); ?>
+</pre>

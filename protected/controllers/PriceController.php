@@ -4,7 +4,10 @@ class PriceController extends Controller
 {
 	public function actionIndex()
 	{
-		$this->render('index');
+		$brands = Brand::model()->findAll();
+		$this->render('index',[
+			'brands' => $brands,
+		]);
 	}
 
 	// Uncomment the following methods and override them if needed
