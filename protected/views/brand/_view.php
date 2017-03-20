@@ -38,6 +38,10 @@
 	<?php echo CHtml::encode($data->country); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('image_mini')); ?>:</b>
+	<?php echo CHtml::encode($data->image_mini); ?>
+	<br />
+
 	*/ ?>
 
 </div>

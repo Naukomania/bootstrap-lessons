@@ -51,6 +51,9 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'brand_id',
 		'price',
 		'priority',
+		/*
+		'stone_logo',
+		*/
 		array(
 			'class'=>'CButtonColumn',
 		),

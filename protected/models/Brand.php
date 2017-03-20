@@ -12,6 +12,7 @@
  * @property integer $meta_id
  * @property string $title
  * @property integer $country
+ * @property string $image_mini
  *
  * The followings are the available model relations:
  * @property Meta $meta
@@ -61,11 +62,11 @@ class Brand extends CActiveRecord
 		return array(
 			array('name', 'required'),
 			array('meta_id, country', 'numerical', 'integerOnly'=>true),
-			array('name, image, title', 'length', 'max'=>255),
+			array('name, image, title, image_mini', 'length', 'max'=>255),
 			array('description, descriptionCollEx', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, name, image, description, descriptionCollEx, meta_id, title, country', 'safe', 'on'=>'search'),
+			array('id, name, image, description, descriptionCollEx, meta_id, title, country, image_mini', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -96,6 +97,7 @@ class Brand extends CActiveRecord
 			'meta_id' => 'Meta',
 			'title' => 'Title',
 			'country' => 'Country',
+			'image_mini' => 'Image Mini',
 		);
 	}
 
@@ -125,6 +127,7 @@ class Brand extends CActiveRecord
 		$criteria->compare('meta_id',$this->meta_id);
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('country',$this->country);
+		$criteria->compare('image_mini',$this->image_mini,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

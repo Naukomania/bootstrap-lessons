@@ -27,5 +27,6 @@ $this->menu=array(
 		'brand_id',
 		'price',
 		'priority',
+		'stone_logo',
 	),
 )); ?>

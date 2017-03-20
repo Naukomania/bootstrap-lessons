@@ -10,6 +10,7 @@
  * @property integer $brand_id
  * @property integer $price
  * @property integer $priority
+ * @property string $stone_logo
  *
  * The followings are the available model relations:
  * @property Brand $brand
@@ -35,11 +36,11 @@ class Collection extends CActiveRecord
 		return array(
 			array('name, brand_id', 'required'),
 			array('brand_id, price, priority', 'numerical', 'integerOnly'=>true),
-			array('name', 'length', 'max'=>255),
+			array('name, stone_logo', 'length', 'max'=>255),
 			array('description', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, name, description, brand_id, price, priority', 'safe', 'on'=>'search'),
+			array('id, name, description, brand_id, price, priority, stone_logo', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -68,6 +69,7 @@ class Collection extends CActiveRecord
 			'brand_id' => 'Brand',
 			'price' => 'Price',
 			'priority' => 'Priority',
+			'stone_logo' => 'Stone Logo',
 		);
 	}
 
@@ -95,6 +97,7 @@ class Collection extends CActiveRecord
 		$criteria->compare('brand_id',$this->brand_id);
 		$criteria->compare('price',$this->price);
 		$criteria->compare('priority',$this->priority);
+		$criteria->compare('stone_logo',$this->stone_logo,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -112,7 +115,7 @@ class Collection extends CActiveRecord
 		return parent::model($className);
 	}
 
-	public static function getList($brandId = null)
+		public static function getList($brandId = null)
 	{
 		$criteria = new CDbCriteria();
 		if ($brandId) {

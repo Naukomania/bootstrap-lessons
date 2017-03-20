@@ -61,6 +61,12 @@
 		<?php echo $form->error($model,'country'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->labelEx($model,'image_mini'); ?>
+		<?php echo $form->textField($model,'image_mini',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->error($model,'image_mini'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>

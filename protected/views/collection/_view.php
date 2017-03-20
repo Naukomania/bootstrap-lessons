@@ -29,5 +29,9 @@
 	<?php echo CHtml::encode($data->priority); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('stone_logo')); ?>:</b>
+	<?php echo CHtml::encode($data->stone_logo); ?>
+	<br />
+
 
 </div>

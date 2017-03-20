@@ -29,5 +29,6 @@ $this->menu=array(
 		'meta_id',
 		'title',
 		'country',
+		'image_mini',
 	),
 )); ?>
