@@ -1,4 +1,4 @@
-<?= $id; ?> 
+<? $this->pageTitle=$model->name . " - Прайм-Стоун";?>
 <section id="artical">
  <div class="container">
  <br>
@@ -71,7 +71,7 @@
        </div>
        <div class="gallery-kamen">
        <br>
-       <div><h3>Фото столешницы из искусственного камня FR148 Shimmer / Radiance</h3></div>
+       <div><h4>Фото  искусственного камня <?= $model->name; ?></h4></div>
         <? if($model->products): ?>
   <div class="row">
    <? foreach($model->products as $product): ?>
