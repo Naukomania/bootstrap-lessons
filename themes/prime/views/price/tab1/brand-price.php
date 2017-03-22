@@ -19,7 +19,7 @@
                         <? if($i % 2 == 0): ?>
                             <tr class="itogo">
                         <? endif; ?>
-                            <td><?= $collection->name; ?> <img src="<?= $collection->stone_logo; ?>"></td>
+                            <td><a href="/catalog/<?= $brand->name; ?>?activeId=<?= $collection->id; ?>"> <?= $collection->name; ?> <img src="<?= $collection->stone_logo; ?>"></a></td>
                             <td><?= $collection->price; ?></td>
                         <? $i++; ?>
                     <? endforeach; ?>

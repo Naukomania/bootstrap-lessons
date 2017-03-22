@@ -69,9 +69,9 @@
 
           <li><a href="/site/izd">Изделия из искусственного камня</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Столешницы для кухни</a></li>
-            <li><a href="#">Столешницы для ванной комнаты</a></li>
-            <li><a href="#">Подоконники</a></li>
+            <li><a href="/site/kuhnya">Столешницы для кухни</a></li>
+            <li><a href="/site/vanna">Столешницы для ванной комнаты</a></li>
+            <li><a href="/site/pod">Подоконники</a></li>
             <li><a href="#">Барные стойки</a></li>
             <li><a href="#">Ресепшн</a></li>
             <li><a href="#">Столешницы для санузлов</a></li>

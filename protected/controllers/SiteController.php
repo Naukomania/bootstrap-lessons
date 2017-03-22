@@ -31,6 +31,24 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
 	}
+	public function actionKuhnya()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('kuhnya');
+	}
+	public function actionPod()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('pod');
+	}
+	public function actionVanna()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('vanna');
+	}
 	public function actionIzd()
 	{
 		// renders the view file 'protected/views/site/index.php'

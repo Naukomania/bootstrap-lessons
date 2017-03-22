@@ -61,13 +61,8 @@ $this->breadcrumbs=array(
                      <? $this->renderPartial('tab3/index'); ?>
                      <? $this->renderPartial('tab4/index'); ?>
                      <? $this->renderPartial('tab5/index'); ?>
+                     <? $this->renderPartial('tab6/index'); ?>
+                      <? $this->renderPartial('tab7/index'); ?>
 		     
-		      
-		     
-		     
-		       <div class="tab-pane" id="tab6"></div> 
-                            <div class="tab-pane" id="tab7"></div> 
-	 
-		
         </div>      
  
