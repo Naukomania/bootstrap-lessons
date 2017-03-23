@@ -152,4 +152,10 @@ class Collection extends CActiveRecord
 		}
 		return $items;
 	}
+
+
+	public function getRubPrice()
+	{
+		return ceil(($this->price * 62) / 100) * 100;
+	}
 }

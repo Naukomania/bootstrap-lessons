@@ -20,7 +20,10 @@
                             <tr class="itogo">
                         <? endif; ?>
                             <td><a href="/catalog/<?= $brand->name; ?>?activeId=<?= $collection->id; ?>"> <?= $collection->name; ?> <img src="<?= $collection->stone_logo; ?>"></a></td>
-                            <td><?= $collection->price; ?></td>
+                            <td><?= $collection->getRubPrice(); ?></td>
+                        <? if($i % 2 == 1): ?>
+                            <tr class="itogo">
+                        <? endif; ?>
                         <? $i++; ?>
                     <? endforeach; ?>
                     <? if($i % 2 == 1): ?><td></td><td></td></tr><? endif; ?>
