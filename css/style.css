@@ -349,7 +349,13 @@ body {
   #price,
   #kuhnya,
   #vanna,
-  #pod {
+  #pod,
+  #rec,
+  #bar,
+  #san,
+  #moyki,
+  #rac,
+  #lest {
     margin-top: 150px;
   }
   #adress {
@@ -607,4 +613,26 @@ tr.itogo {
   font-weight: 600;
   color: green;
   border-top: 2px solid#ff7538;
+}
+.citata {
+  font-size: 13px;
+  font-style: italic;
+  text-align: right;
+}
+.block-text-izd {
+  border: solid green 1px;
+  padding: 5px;
+  border-radius: 0.5em 2em;
+  padding: 15px;
+  margin: 15px;
+}
+.block-text-izd2 {
+  border: solid purple 1px;
+  padding: 5px;
+  border-radius: 0.5em 2em;
+  padding: 15px;
+  margin: 15px;
+}
+.imgone {
+  padding-top: 15px;
 }

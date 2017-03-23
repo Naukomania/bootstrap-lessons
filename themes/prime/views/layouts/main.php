@@ -72,14 +72,14 @@
             <li><a href="/site/kuhnya">Столешницы для кухни</a></li>
             <li><a href="/site/vanna">Столешницы для ванной комнаты</a></li>
             <li><a href="/site/pod">Подоконники</a></li>
-            <li><a href="#">Барные стойки</a></li>
-            <li><a href="#">Ресепшн</a></li>
-            <li><a href="#">Столешницы для санузлов</a></li>
+            <li><a href="/site/bar">Барные стойки</a></li>
+            <li><a href="/site/rec">Ресепшн</a></li>
+            <li><a href="/site/san">Столешницы для санузлов</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Мойки</a></li>
-            <li><a href="#">Раковины</a></li>
+            <li><a href="/site/moyki">Мойки</a></li>
+            <li><a href="/site/rac">Раковины</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Изделия для лестницы</a></li>
+            <li><a href="/site/lest">Изделия для лестницы</a></li>
           </ul>
         </li>
         <li class="dropdown">

@@ -61,7 +61,42 @@ public function actionFoto()
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('foto');
 	}
-
+	public function actionLest()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('lest');
+	}
+	public function actionBar()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('bar');
+	}
+	public function actionRec()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('rec');
+	}
+	public function actionSan()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('san');
+	}
+	public function actionMoyki()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('moyki');
+	}
+	public function actionRac()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('rac');
+	}
 	/**
 	 * This is the action to handle external exceptions.
 	 */
