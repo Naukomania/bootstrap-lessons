@@ -1,5 +1,5 @@
 <section id="slider">
-  <div class="container-fluid">
+  <div class="container">
     <div id="imgtopslide"></div>
     <div id="carousel" class="carousel slide">
       <!--Индикаторы слайдов-->

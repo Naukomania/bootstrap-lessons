@@ -1,5 +1,5 @@
 <section id="services">
-  <div class="container-fluid">
+  <div class="container">
     <div id="razdel-main">
       <h1>Прайм-Стоун изготовит для вас</h1>
     </div>

@@ -17,7 +17,7 @@
           </thead>
           <tbody>
             <tr>
-              <td rowspan="2"><a class="fancyimage" rel="group" title="Мойка СК-524 из искусственного камня в цвет столешницы" href="/images/price/sk524-2.jpg"><img img class="img-responsive" src="/images/price/sk524.jpg" alt="..."></a></td>
+              <td rowspan="2" id="sk-524" data-koef="912" data-work="12000"><a class="fancyimage" rel="group" title="Мойка СК-524 из искусственного камня в цвет столешницы" href="/images/price/sk524-2.jpg"><img img class="img-responsive" src="/images/price/sk524.jpg" alt="..."></a></td>
               <td><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">
                 Выбрать бренд камня
                 <span class="caret"></span>
