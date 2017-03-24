@@ -1,3 +1,4 @@
+
 <div class="row">
     <div class="title-price-stone"><a href="/catalog/<?=$brand->name; ?>"><img src="<?=$brand->image_mini; ?>">Стоимость искусственного камня <?= $brand->title; ?></a></div>
 </div>

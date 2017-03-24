@@ -8,13 +8,13 @@ $this->breadcrumbs=array(
 );
 ?>
 <div id="price">
-        <div class="container-fluid">
+        <div class="container">
         <br>
         <ul class="breadcrumb">
                          <li><a href="#">Прайм-Стоун</a></li>
                          <li class="active"><a href="#">Цены на изделия из искусственного камня (акрил)</a></li>
         </ul>
-        </div>
+       
          <div class="zagolovok">
         <h1>Цены на изделия из искусственного камня</h1>
         </div>	
@@ -40,7 +40,8 @@ $this->breadcrumbs=array(
                 <p>Средняя стоимость шлифования в Москве - 1500 рублей за метр погонный.</p>
                  </details>
                 </div>
-
+                 </div>
+<div class="container">
 
 	<div class="tabbable tabble-pere"> <!-- Only required for left/right tabs -->
 	      <ul class="nav nav-tabs">
@@ -54,15 +55,15 @@ $this->breadcrumbs=array(
   	      </ul>
   	      <br>
        		<div class="tab-content">
-		<? $this->renderPartial('tab1/index', [
+		<? $this->renderPartial('/price/tab1/index', [
             'brands' => $brands,
         ]); ?>
-                     <? $this->renderPartial('tab2/index'); ?>
-                     <? $this->renderPartial('tab3/index'); ?>
-                     <? $this->renderPartial('tab4/index'); ?>
-                     <? $this->renderPartial('tab5/index'); ?>
-                     <? $this->renderPartial('tab6/index'); ?>
-                      <? $this->renderPartial('tab7/index'); ?>
+                     <? $this->renderPartial('/price/tab2/index'); ?>
+                     <? $this->renderPartial('/price/tab3/index'); ?>
+                     <? $this->renderPartial('/price/tab4/index'); ?>
+                     <? $this->renderPartial('/price/tab5/index'); ?>
+                     <? $this->renderPartial('/price/tab6/index'); ?>
+                      <? $this->renderPartial('/price/tab7/index'); ?>
 		     
         </div>      
- 
+ </div>

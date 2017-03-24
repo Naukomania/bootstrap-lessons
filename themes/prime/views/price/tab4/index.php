@@ -17,7 +17,7 @@
           </thead>
           <tbody>
             <tr>
-              <td rowspan="2" id="sk-524" data-koef="912" data-work="12000"><a class="fancyimage" rel="group" title="Мойка СК-524 из искусственного камня в цвет столешницы" href="/images/price/sk524-2.jpg"><img img class="img-responsive" src="/images/price/sk524.jpg" alt="..."></a></td>
+              <td rowspan="2" id="sk-524" data-koef="760" data-work="12500"><a class="fancyimage" rel="group" title="Мойка СК-524 из искусственного камня в цвет столешницы" href="/images/price/sk524-2.jpg"><img img class="img-responsive" src="/images/price/sk524.jpg" alt="..."></a></td>
               <td><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">
                 Выбрать бренд камня
                 <span class="caret"></span>
@@ -36,7 +36,7 @@
                 <li><a href="#">Grandex</a></li>
 
               </ul></div></td>
-              <td rowspan="2"><a class="fancyimage" rel="group" title="Мойка СК-439 из искусственного камня в цвет столешницы" href="/images/price/sk439-2.jpg"><img img class="img-responsive" src="/images/price/sk439.jpg" alt="..."></a></td>
+              <td rowspan="2"  id="sk-439" data-koef="650" data-work="12500"><a class="fancyimage" rel="group" title="Мойка СК-439 из искусственного камня в цвет столешницы" href="/images/price/sk439-2.jpg"><img img class="img-responsive" src="/images/price/sk439.jpg" alt="..."></a></td>
               <td><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">
                 Выбрать бренд камня
                 <span class="caret"></span>
@@ -90,7 +90,7 @@
             </tr>
           </div>
           <tr>
-            <td rowspan="2"><a class="fancyimage" rel="group" title="Мойка СК-330 из искусственного камня в цвет столешницы" href="/images/price/sk330-2.jpg"><img img class="img-responsive" src="/images/price/sk330.jpg" alt="..."></a></td>
+            <td rowspan="2"  id="sk-330" data-koef="460" data-work="12500"><a class="fancyimage" rel="group" title="Мойка СК-330 из искусственного камня в цвет столешницы" href="/images/price/sk330-2.jpg"><img img class="img-responsive" src="/images/price/sk330.jpg" alt="..."></a></td>
             <td><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">
               Выбрать бренд камня
               <span class="caret"></span>
@@ -109,7 +109,7 @@
               <li><a href="#">Grandex</a></li>
 
             </ul></div></td>
-            <td rowspan="2"><a class="fancyimage" rel="group" title="Мойка СК-449 из искусственного камня в цвет столешницы" href="/images/price/sk449-2.jpg"><img img class="img-responsive" src="/images/price/sk449.jpg" alt="..."></a></td>
+            <td rowspan="2"  id="sk-449" data-koef="650" data-work="12500"><a class="fancyimage" rel="group" title="Мойка СК-449 из искусственного камня в цвет столешницы" href="/images/price/sk449-2.jpg"><img img class="img-responsive" src="/images/price/sk449.jpg" alt="..."></a></td>
             <td><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">
               Выбрать бренд камня
               <span class="caret"></span>
@@ -163,7 +163,7 @@
           </tr>
         </div>
         <tr>
-          <td rowspan="2"><a class="fancyimage" rel="group" title="Мойка СК-414 из искусственного камня в цвет столешницы" href="/images/price/sk414-2.jpg"><img img class="img-responsive" src="/images/price/sk414.jpg" alt="..."></a></td>
+          <td rowspan="2"  id="sk-414" data-koef="670" data-work="12500"><a class="fancyimage" rel="group" title="Мойка СК-414 из искусственного камня в цвет столешницы" href="/images/price/sk414-2.jpg"><img img class="img-responsive" src="/images/price/sk414.jpg" alt="..."></a></td>
           <td><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">
             Выбрать бренд камня
             <span class="caret"></span>
@@ -182,7 +182,7 @@
             <li><a href="#">Grandex</a></li>
 
           </ul></div></td>
-          <td rowspan="2"><a class="fancyimage" rel="group" title="Мойка СК-439П из искусственного камня в цвет столешницы" href="/images/price/sk439p-2.jpg"><img img class="img-responsive" src="/images/price/sk439p.jpg" alt="..."></a></td>
+          <td rowspan="2" id="sk-439p" data-koef="760" data-work="12500"><a class="fancyimage" rel="group" title="Мойка СК-439П из искусственного камня в цвет столешницы" href="/images/price/sk439p-2.jpg"><img img class="img-responsive" src="/images/price/sk439p.jpg" alt="..."></a></td>
           <td><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">
             Выбрать бренд камня
             <span class="caret"></span>
