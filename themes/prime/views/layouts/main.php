@@ -88,9 +88,9 @@
 
           <li><a href="/price/index">Цены на изделия (акрил)</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Цены на изделия (кварц)</a></li>
+            <li><a href="/price/quartz">Цены на изделия (кварц)</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Акции</a></li>
+            <li><a href="/price/skidka">Акции</a></li>
             </ul></li>
         <li  <?if($this->id=='site' && $this->action->id=='foto'):?>class="active"<?endif;?>><a href="/site/foto">Наши работы</a></li>
 
@@ -125,7 +125,8 @@
             <li><a href="#">Scorino</a></li>
           </ul>
         </li>
-        <li><a href="#">Контакты</a></li>
+        <li><a href="/site/kontakty">Контакты</a></li>
+        <!-- 
         <li class="dropdown hidden-sm hidden-md">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Еще<span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -133,10 +134,10 @@
             <li><a href="#">Кромки и бортики для столешниц</a></li>
             <li><a href="#">Стеновые панели</a></li>
             <li><a href="#">Накладки для ванных</a></li>
-            <li><a href="#">Тумбы для ванных комнат</a></li>
+            <li><a href="#">Тумбы для ванных комнат</a></li> 
 
           </ul>
-        </li>
+        </li>-->
 
          <li class="dropdown hidden-sm hidden-md">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Админка<span class="caret"></span></a>
@@ -164,38 +165,38 @@
 <div id="order-form" class="lightbox">
   Сделать расчет
 </div>
-<section id="footer">
+<section id="footer" class="visible-md visible-lg">
 	<div id="imgtopslide"></div>
 	<br>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-2 col-sm-4 col-xs-6"> 
+			<div class="col-md-2"> 
 				<a href="/catalog/staron">
 					<img src="/images/logomini-footer/staron-logo-mini.jpg">
 				</a>
 			</div>
-			<div class="col-md-2 col-sm-4 col-xs-6"> 
-				<a href="#">
+			<div class="col-md-2"> 
+				<a href="/catalog/hanex">
 					<img src="/images/logomini-footer/hanex-logo-mini.jpg">
 				</a>
 			</div>
-			<div class="col-md-2 col-sm-4col-xs-6"> 
-				<a href="#">
+			<div class="col-md-2"> 
+				<a href="/catalog/corian">
 					<img src="/images/logomini-footer/corian-logo-mini.jpg">
 				</a>
 			</div>
-			<div class="col-md-2 col-sm-4 col-xs-6"> 
-				<a href="#">
+			<div class="col-md-2"> 
+				<a href="/catalog/kerrock">
 					<img src="/images/logomini-footer/kerrock-logo-mini.jpg">
 				</a>
 			</div>
-			<div class="col-md-2 col-sm-4 col-xs-6"> 
+			<div class="col-md-2"> 
 				<a href="/catalog/lg_hi_macs">
 					<img src="/images/logomini-footer/lg-himacs-logo-mini.jpg">
 				</a>
 			</div>
-			<div class="col-md-2 col-sm-4 col-xs-6"> 
-				<a href="#">
+			<div class="col-md-2"> 
+				<a href="/catalog/tristone">
 					<img src="/images/logomini-footer/tristone-logo-mini.jpg">
 				</a>
 			</div>
@@ -204,42 +205,46 @@
 
 
 		<div class="row">
-			<div class="col-md-1 col-sm-4 col-xs-6"> 
+			<div class="col-md-1"> 
 				<a href="#">
 					<img src="/images/logomini-footer/plaza-stone-logo-mini.jpg">
 				</a>
+				<a href="#">
+					<img src="/images/logomini-footer/getacore-logo-mini.jpg">
+				</a>
 			</div>
-			<div class="col-md-3 col-sm-4 col-xs-6"> 
-				<div class="footer-text"><h5><a href="#">
+
+			<div class="col-md-3"> 
+				<div class="footer-text"><h5><a href="/site/izd">
 					Изделия из искусственного камня</a></h5>
 					<ul>
-						<li><a href="#">Кухонные столешницы</a></li>
-						<li><a href="#">Столешницы для ванной</a></li>
-						<li><a href="#">Подоконники</a></li>
-						<li><a href="#">Мойки</a></li>
-						<li><a href="#">Раковины</a></li>
-						<li><a href="#">Барные стойки</a></li>
-						<li><a href="#">Столешницы для санузлов</a></li>
-						<li><a href="#">Ресепшен</a></li>
+						<li><a href="/site/kuhnya">Кухонные столешницы</a></li>
+						<li><a href="/site/vanna">Столешницы для ванной</a></li>
+						<li><a href="/site/pod">Подоконники</a></li>
+						<li><a href="/site/moyki">Мойки</a></li>
+						<li><a href="/site/rac">Раковины</a></li>
+						<li><a href="/site/bar">Барные стойки</a></li>
+						<li><a href="/site/san">Столешницы для санузлов</a></li>
+						<li><a href="/site/rec">Ресепшен</a></li>
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-4 col-xs-6"> 
+			<div class="col-md-3"> 
 				<div class="footer-text"><h5><a href="#">
 					Акриловый искусственный камень</a></h5>
 					<ul>
 						<li><a href="/catalog/staron">Samsung Straron (Ю. Корея)</a></li>
 						<li><a href="/catalog/lg_hi_macs">LG HiMacs (Ю. Корея)</a></li>
-						<li><a href="#">Corian (США)</a></li>
-						<li><a href="#">Montelli (США-Китай)</a></li>
-						<li><a href="#">Tristone (Ю. Корея)</a></li>
-						<li><a href="#">Hanex (Ю. Корея)</a></li>
-						<li><a href="#">Grandex (Ю. Корея)</a></li>
-						<li><a href="#">Kerrock (Словения)</a></li>
+						<li><a href="/catalog/corian">Corian (США)</a></li>
+						<li><a href="/catalog/montelli">Montelli (США-Китай)</a></li>
+						<li><a href="/catalog/tristone">Tristone (Ю. Корея)</a></li>
+						<li><a href="/catalog/hanex">Hanex (Ю. Корея)</a></li>
+						<li><a href="/catalog/grandex">Grandex (Ю. Корея)</a></li>
+						<li><a href="/catalog/kerrock">Kerrock (Словения)</a></li>
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-4 col-xs-6"> 
+			<div class="col-md-3"> 
 				<div class="footer-text"><h5><a href="#">
 					Кварцевый камень</a></h5>
 					<ul>
@@ -251,38 +256,38 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-2 col-sm-4 col-xs-6"> 
+			<div class="col-md-2"> 
 				<a  class="order-form-link" data-source="footer" href="#">Сделать расчет</a>
 			</div>
 		</div><!-- end row -->
 		<br>
 		<div class="row">
-			<div class="col-md-2 col-sm-4 col-xs-6"> 
+			<div class="col-md-2"> 
 				<a href="#">
 					<img src="/images/logomini-footer/scorino-logo-mini.jpg">
 				</a>
 			</div>
-			<div class="col-md-2 col-sm-4 col-xs-6"> 
-				<a href="#">
+			<div class="col-md-2"> 
+				<a href="/catalog/grandex">
 					<img src="/images/logomini-footer/grandex-logo-mini.jpg">
 				</a>
 			</div>
-			<div class="col-md-2 col-sm-4 col-xs-6"> 
+			<div class="col-md-2"> 
 				<a href="#">
 					<img src="/images/logomini-footer/caesarstone-logo-mini.jpg">
 				</a>
 			</div>
-			<div class="col-md-2 col-sm-4 col-xs-6"> 
+			<div class="col-md-2"> 
 				<a href="#">
 					<img src="/images/logomini-footer/cambria-log%D0%BE-mini.jpg">
 				</a>
 			</div>
-			<div class="col-md-2 col-sm-4 col-xs-6"> 
-				<a href="#">
+			<div class="col-md-2"> 
+				<a href="/catalog/montelli">
 					<img src="/images/logomini-footer/montelli-logo-mini.jpg">
 				</a>
 			</div>
-			<div class="col-md-2 col-sm-4 col-xs-6"> 
+			<div class="col-md-2"> 
 				<a href="#">
 					<img src="/images/logomini-footer/samsung-radianz-logo-mini.jpg">
 				</a>
@@ -290,18 +295,19 @@
 		</div><!-- end row -->
 	</div><!-- end container -->
 </section>
-<div class="footer-gold">Подвальчик</div>
+<div id="foooter2" class="visible-md visible-lg">
+<div class="footer-gold">&nbsp &nbspМосква, ул. Енисейская д.1 тел 227-21-31</div>
 <div class="footer-green">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 col-sm-6">&nbsp &nbsp2007-<?php echo date('Y'); ?></div>
-			<div class="col-md-4 col-sm-6">
+			<div class="col-md-4">&nbsp &nbsp2007-<?php echo date('Y'); ?></div>
+			<div class="col-md-4">
 				<a href="prime-stone.ru">ПРАЙМ - СТОУН - столешницы из искусственного камня</a>
 			</div>
 		</div>
 	</div>
 </div>
-  
+  </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="<?= Yii::app()->request->baseUrl; ?>/vendor/jquery/jquery.js"></script>
 <script src="<?= Yii::app()->request->baseUrl; ?>/vendor/jquery-ui/jquery-ui.js"></script>

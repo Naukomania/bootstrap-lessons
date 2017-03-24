@@ -318,7 +318,6 @@ body {
   margin-left: 150px;
   width: 80%;
   margin-top: 50px;
-  height: 1500px;
 }
 .shablon-stone {
   height: 137px;
@@ -355,7 +354,11 @@ body {
   #san,
   #moyki,
   #rac,
-  #lest {
+  #lest,
+  #dr,
+  #quartz,
+  #skidka,
+  #kontakty {
     margin-top: 150px;
   }
   #adress {
@@ -635,4 +638,14 @@ tr.itogo {
 }
 .imgone {
   padding-top: 15px;
+}
+p.skidka-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: green;
+}
+p.skidka-summa {
+  font-size: 16px;
+  font-weight: 600;
+  color: red;
 }

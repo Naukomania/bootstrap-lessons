@@ -10,6 +10,23 @@ class PriceController extends Controller
 		]);
 		
 	}
+	public function actionQuartz()
+	{
+		$brands = Brand::model()->findAll();
+		$this->render('quartz',[
+			'brands' => $brands,
+		]);
+		
+	}
+	public function actionSkidka()
+	{
+		$brands = Brand::model()->findAll();
+		$this->render('skidka',[
+			'brands' => $brands,
+		]);
+		
+	}
+
 
 	// Uncomment the following methods and override them if needed
 	/*

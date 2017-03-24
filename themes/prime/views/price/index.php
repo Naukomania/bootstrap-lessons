@@ -12,7 +12,7 @@ $this->breadcrumbs=array(
         <br>
         <ul class="breadcrumb">
                          <li><a href="#">Прайм-Стоун</a></li>
-                         <li class="active"><a href="#">Цены на изделия из искусственного камня</a></li>
+                         <li class="active"><a href="#">Цены на изделия из искусственного камня (акрил)</a></li>
         </ul>
         </div>
          <div class="zagolovok">

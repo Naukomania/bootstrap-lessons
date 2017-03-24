@@ -18,6 +18,7 @@
 </div>
 
             </div>
+
                   <div class="tab-pane" id="tab2">
              <div class="row ajax-foto-wrapper-bacth">
             <? include 'blocks/home/gallery/bacth/page1.php'; ?>

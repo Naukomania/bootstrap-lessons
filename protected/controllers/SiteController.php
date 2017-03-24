@@ -49,6 +49,12 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('vanna');
 	}
+	public function actionKontakty()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('kontakty');
+	}
 	public function actionIzd()
 	{
 		// renders the view file 'protected/views/site/index.php'
@@ -96,6 +102,12 @@ public function actionFoto()
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('rac');
+	}
+	public function actionDr()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('dr');
 	}
 	/**
 	 * This is the action to handle external exceptions.
