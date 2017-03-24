@@ -16,7 +16,7 @@
 
         <tbody>
           <tr>
-            <td rowspan="2"><a class="fancyimage" rel="group" title="Раковина СК-394 из искусственного камня в цвет столешницы" href="/images/price/sk394-2.jpg"><img img class="img-responsive" src="/images/price/sk394.jpg" alt="..."></a></td>
+            <td rowspan="2"  id="sk-394" data-koef="340" data-work="7500"><a class="fancyimage" rel="group" title="Раковина СК-394 из искусственного камня в цвет столешницы" href="/images/price/sk394-2.jpg"><img img class="img-responsive" src="/images/price/sk394.jpg" alt="..."></a></td>
             <td><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">
               Выбрать бренд камня
               <span class="caret"></span>
@@ -35,7 +35,7 @@
               <li><a href="#">Grandex</a></li>
 
             </ul></div></td>
-            <td rowspan="2"><a class="fancyimage" rel="group" title="Раковина СК500 из искусственного камня в цвет столешницы" href="/images/price/sk500-2.jpg"><img img class="img-responsive" src="/images/price/sk500.jpg" alt="..."></a></td>
+            <td rowspan="2"  id="sk-500" data-koef="430" data-work="7500"><a class="fancyimage" rel="group" title="Раковина СК500 из искусственного камня в цвет столешницы" href="/images/price/sk500-2.jpg"><img img class="img-responsive" src="/images/price/sk500.jpg" alt="..."></a></td>
             <td><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">
               Выбрать бренд камня
               <span class="caret"></span>
@@ -89,7 +89,7 @@
           </tr>
         </div>
         <tr>
-          <td rowspan="2"><a class="fancyimage" rel="group" title="Раковина СК494 из искусственного камня в цвет столешницы" href="/images/price/sk494-2.jpg"><img img class="img-responsive" src="/images/price/sk494.jpg" alt="..."></a></td>
+          <td rowspan="2"  id="sk-494" data-koef="430" data-work="7500"><a class="fancyimage" rel="group" title="Раковина СК494 из искусственного камня в цвет столешницы" href="/images/price/sk494-2.jpg"><img img class="img-responsive" src="/images/price/sk494.jpg" alt="..."></a></td>
           <td><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">
             Выбрать бренд камня
             <span class="caret"></span>
@@ -108,7 +108,7 @@
             <li><a href="#">Grandex</a></li>
 
           </ul></div></td>
-          <td rowspan="2"><a class="fancyimage" rel="group" title="Раковина СК-564 из искусственного камня в цвет столешницы" href="/images/price/sk564-2.jpg"><img img class="img-responsive" src="/images/price/sk564.jpg" alt="..."></a></td>
+          <td rowspan="2" id="sk-564" data-koef="430" data-work="7500"><a class="fancyimage" rel="group" title="Раковина СК-564 из искусственного камня в цвет столешницы" href="/images/price/sk564-2.jpg"><img img class="img-responsive" src="/images/price/sk564.jpg" alt="..."></a></td>
           <td><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">
             Выбрать бренд камня
             <span class="caret"></span>
@@ -163,7 +163,7 @@
       </div>
 
       <tr>
-        <td rowspan="2"><a class="fancyimage" rel="group" title="Раковина СК-730 из искусственного камня в цвет столешницы" href="/images/price/sk730-2.jpg"><img img class="img-responsive" src="/images/price/sk730.jpg" alt="..."></a></td>
+        <td rowspan="2"  id="sk-730" data-koef="460" data-work="7500"><a class="fancyimage" rel="group" title="Раковина СК-730 из искусственного камня в цвет столешницы" href="/images/price/sk730-2.jpg"><img img class="img-responsive" src="/images/price/sk730.jpg" alt="..."></a></td>
         <td><div class="btn-group"><button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">
           Выбрать бренд камня
           <span class="caret"></span>
