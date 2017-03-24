@@ -13,6 +13,7 @@
  * @property string $title
  * @property integer $country
  * @property string $image_mini
+ * @property integer $type
  *
  * The followings are the available model relations:
  * @property Meta $meta
@@ -32,6 +33,11 @@ class Brand extends CActiveRecord
 		8=>'Россия',
 		9=>'Китай',
 	];
+	private static $_typeList = [
+		''=>'Тип не выбран',
+		1=>'Акриловый камень',
+		2=>'Кварцевый камень',
+	];
 	public static function getCountriesList()
 	{
 		return self::$_countryList;
@@ -40,6 +46,17 @@ class Brand extends CActiveRecord
 	{
 		if($this->country && self::$_countryList[$this->country]) {
 			return self::$_countryList[$this->country];
+		}
+		return '';
+	}
+	public static function getTypeList()
+	{
+		return self::$_typeList;
+	}
+	public function typeName()
+	{
+		if($this->type && self::$_typeList[$this->type]) {
+			return self::$_typeList[$this->type];
 		}
 		return '';
 	}
@@ -61,12 +78,12 @@ class Brand extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('name', 'required'),
-			array('meta_id, country', 'numerical', 'integerOnly'=>true),
+			array('meta_id, country, type', 'numerical', 'integerOnly'=>true),
 			array('name, image, title, image_mini', 'length', 'max'=>255),
 			array('description, descriptionCollEx', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, name, image, description, descriptionCollEx, meta_id, title, country, image_mini', 'safe', 'on'=>'search'),
+			array('id, name, image, description, descriptionCollEx, meta_id, title, country, image_mini, type', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -98,6 +115,7 @@ class Brand extends CActiveRecord
 			'title' => 'Title',
 			'country' => 'Country',
 			'image_mini' => 'Image Mini',
+			'type' => 'Type',
 		);
 	}
 
@@ -128,6 +146,7 @@ class Brand extends CActiveRecord
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('country',$this->country);
 		$criteria->compare('image_mini',$this->image_mini,true);
+		$criteria->compare('type',$this->type);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

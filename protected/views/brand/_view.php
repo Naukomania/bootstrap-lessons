@@ -42,6 +42,10 @@
 	<?php echo CHtml::encode($data->image_mini); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('type')); ?>:</b>
+	<?php echo CHtml::encode($data->type); ?>
+	<br />
+
 	*/ ?>
 
 </div>

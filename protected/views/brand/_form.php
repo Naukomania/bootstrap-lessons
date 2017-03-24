@@ -67,6 +67,12 @@
 		<?php echo $form->error($model,'image_mini'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->labelEx($model,'type'); ?>
+		<?php echo $form->dropDownList($model, 'type', Brand::getTypeList()); ?>
+		<?php echo $form->error($model,'type'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>
