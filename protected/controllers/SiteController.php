@@ -44,6 +44,12 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('pod');
 	}
+	public function actionRemont()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('remont');	
+	}
 	public function actionVanna()
 	{
 		// renders the view file 'protected/views/site/index.php'

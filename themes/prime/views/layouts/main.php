@@ -126,18 +126,20 @@
           </ul>
         </li>
         <li><a href="/site/kontakty">Контакты</a></li>
-        <!-- 
+        
         <li class="dropdown hidden-sm hidden-md">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Еще<span class="caret"></span></a>
           <ul class="dropdown-menu">
+          <li><a href="/site/remont">Ремонт столешниц / моек</a></li>
+          <!-- 
             <li><a href="#">Наше производство</a></li>
             <li><a href="#">Кромки и бортики для столешниц</a></li>
             <li><a href="#">Стеновые панели</a></li>
             <li><a href="#">Накладки для ванных</a></li>
             <li><a href="#">Тумбы для ванных комнат</a></li> 
-
+  </li>-->
           </ul>
-        </li>-->
+      
 
          <li class="dropdown hidden-sm hidden-md">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Админка<span class="caret"></span></a>
