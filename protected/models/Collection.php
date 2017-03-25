@@ -11,7 +11,6 @@
  * @property integer $price
  * @property integer $priority
  * @property string $stone_logo
- * @property integer $currency
  *
  * The followings are the available model relations:
  * @property Brand $brand
@@ -19,22 +18,6 @@
  */
 class Collection extends CActiveRecord
 {
-	private static $_currencyList = [
-		''=>'Валюта не выбрана',
-		1=>'USD',
-		2=>'EUR',
-	];
-	public static function getCurrencyList()
-	{
-		return self::$_currencyList;
-	}
-	public function currencyName()
-	{
-		if($this->currency && self::$_currencyList[$this->currency]) {
-			return self::$_currencyList[$this->currency];
-		}
-		return '';
-	}
 	/**
 	 * @return string the associated database table name
 	 */
@@ -52,12 +35,12 @@ class Collection extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('name, brand_id', 'required'),
-			array('brand_id, price, priority, currency', 'numerical', 'integerOnly'=>true),
+			array('brand_id, price, priority', 'numerical', 'integerOnly'=>true),
 			array('name, stone_logo', 'length', 'max'=>255),
 			array('description', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, name, description, brand_id, price, priority, stone_logo, currency', 'safe', 'on'=>'search'),
+			array('id, name, description, brand_id, price, priority, stone_logo', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -87,7 +70,6 @@ class Collection extends CActiveRecord
 			'price' => 'Price',
 			'priority' => 'Priority',
 			'stone_logo' => 'Stone Logo',
-			'currency' => 'Currency',
 		);
 	}
 
@@ -116,7 +98,6 @@ class Collection extends CActiveRecord
 		$criteria->compare('price',$this->price);
 		$criteria->compare('priority',$this->priority);
 		$criteria->compare('stone_logo',$this->stone_logo,true);
-		$criteria->compare('currency',$this->currency);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -172,12 +153,14 @@ class Collection extends CActiveRecord
 		return $items;
 	}
 
-
+	/**
+	 * Получать курсы автоматически
+	 */
 	public function getRubPrice()
 	{
-		if ($this->currency == 1) { // USD
+		if ($this->brand->currency == 1) { // USD
 			return ceil(($this->price * 57) / 100) * 100;
-		} elseif ($this->currency == 2) { // EUR
+		} elseif ($this->brand->currency == 2) { // EUR
 			return ceil(($this->price * 62) / 100) * 100;
 		}
 		return $this->price;

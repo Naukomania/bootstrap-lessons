@@ -33,11 +33,5 @@
 	<?php echo CHtml::encode($data->stone_logo); ?>
 	<br />
 
-	<?php /*
-	<b><?php echo CHtml::encode($data->getAttributeLabel('currency')); ?>:</b>
-	<?php echo CHtml::encode($data->currency); ?>
-	<br />
-
-	*/ ?>
 
 </div>

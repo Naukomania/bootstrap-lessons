@@ -73,6 +73,12 @@
 		<?php echo $form->error($model,'type'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->labelEx($model,'currency'); ?>
+		<?php echo $form->dropDownList($model, 'currency', Brand::getCurrencyList()); ?>
+		<?php echo $form->error($model,'currency'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>

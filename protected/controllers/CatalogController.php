@@ -51,15 +51,26 @@ class CatalogController extends Controller
 
 	private function catalogView($brandName)
 	{
+		$model = Brand::model()->findByAttributes(['name' => $brandName]);
+		if ($model->type == Brand::ACRYLIC_TYPE) {
+			$this->activeLink = self::ACRYLIC_LINK;
+		} elseif ($model->type == Brand::QUARTZ_TYPE) {
+			$this->activeLink = self::QUARTZ_LINK;
+		}
 		$this->render('catalog',[
 			'activeCollectionId' => Yii::app()->request->getParam('activeId'),
-			'model' => Brand::model()->findByAttributes(['name' => $brandName]),
+			'model' => $model,
 		]);
 	}
 
 	public function actionView($id)
 	{
         $stoneModel = Stone::model()->findByPk($id);
+        if ($stoneModel->collection->brand->type == Brand::ACRYLIC_TYPE) {
+			$this->activeLink = self::ACRYLIC_LINK;
+		} elseif ($stoneModel->collection->brand->type == Brand::QUARTZ_TYPE) {
+			$this->activeLink = self::QUARTZ_LINK;
+		}
 
         $page = StoneCollection::getItem($id);
 		$this->render('stone', [

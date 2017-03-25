@@ -14,6 +14,7 @@
  * @property integer $country
  * @property string $image_mini
  * @property integer $type
+ * @property integer $currency
  *
  * The followings are the available model relations:
  * @property Meta $meta
@@ -21,6 +22,8 @@
  */
 class Brand extends CActiveRecord
 {
+	const ACRYLIC_TYPE	= 1;
+	const QUARTZ_TYPE	= 2;
 	private static $_countryList = [
 		''=>'Страна не выбрана',
 		1=>'Ю. Корея',
@@ -34,9 +37,14 @@ class Brand extends CActiveRecord
 		9=>'Китай',
 	];
 	private static $_typeList = [
-		''=>'Тип не выбран',
-		1=>'Акриловый камень',
-		2=>'Кварцевый камень',
+		''					=>'Тип не выбран',
+		self::ACRYLIC_TYPE	=>'Акриловый камень',
+		self::QUARTZ_TYPE	=>'Кварцевый камень',
+	];
+	private static $_currencyList = [
+		''=>'Валюта не выбрана',
+		1=>'USD',
+		2=>'EUR',
 	];
 	public static function getCountriesList()
 	{
@@ -60,6 +68,17 @@ class Brand extends CActiveRecord
 		}
 		return '';
 	}
+	public static function getCurrencyList()
+	{
+		return self::$_currencyList;
+	}
+	public function currencyName()
+	{
+		if($this->currency && self::$_currencyList[$this->currency]) {
+			return self::$_currencyList[$this->currency];
+		}
+		return '';
+	}
 
 	/**
 	 * @return string the associated database table name
@@ -78,12 +97,12 @@ class Brand extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('name', 'required'),
-			array('meta_id, country, type', 'numerical', 'integerOnly'=>true),
+			array('meta_id, country, type, currency', 'numerical', 'integerOnly'=>true),
 			array('name, image, title, image_mini', 'length', 'max'=>255),
 			array('description, descriptionCollEx', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, name, image, description, descriptionCollEx, meta_id, title, country, image_mini, type', 'safe', 'on'=>'search'),
+			array('id, name, image, description, descriptionCollEx, meta_id, title, country, image_mini, type, currency', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -116,6 +135,7 @@ class Brand extends CActiveRecord
 			'country' => 'Country',
 			'image_mini' => 'Image Mini',
 			'type' => 'Type',
+			'currency' => 'Currency',
 		);
 	}
 
@@ -147,6 +167,7 @@ class Brand extends CActiveRecord
 		$criteria->compare('country',$this->country);
 		$criteria->compare('image_mini',$this->image_mini,true);
 		$criteria->compare('type',$this->type);
+		$criteria->compare('currency',$this->currency);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

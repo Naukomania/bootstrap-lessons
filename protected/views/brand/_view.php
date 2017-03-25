@@ -46,6 +46,10 @@
 	<?php echo CHtml::encode($data->type); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('currency')); ?>:</b>
+	<?php echo CHtml::encode($data->currency); ?>
+	<br />
+
 	*/ ?>
 
 </div>

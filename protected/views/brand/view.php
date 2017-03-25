@@ -31,5 +31,6 @@ $this->menu=array(
 		'country',
 		'image_mini',
 		'type',
+		'currency',
 	),
 )); ?>

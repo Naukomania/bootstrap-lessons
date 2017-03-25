@@ -95,7 +95,7 @@
         <li  <?if($this->id=='site' && $this->action->id=='foto'):?>class="active"<?endif;?>><a href="/site/foto">Наши работы</a></li>
 
 
-        <li class="dropdown<?if($this->id == 'catalog'):?> active<?endif;?>">
+        <li class="dropdown<?if($this->activeLink == Controller::ACRYLIC_LINK):?> active<?endif;?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Акриловый камень <span class="caret"></span></a>
           <?php $this->widget('zii.widgets.CMenu',array(
               'htmlOptions' => array(
@@ -115,7 +115,7 @@
               ),
           )); ?>
         </li>
-        <li class="dropdown">
+        <li class="dropdown<?if($this->activeLink == Controller::QUARTZ_LINK):?> active<?endif;?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Кварцевый камень <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="/catalog/radianz">Samsung Radianz</a></li>

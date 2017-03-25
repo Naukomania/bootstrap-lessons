@@ -28,6 +28,5 @@ $this->menu=array(
 		'price',
 		'priority',
 		'stone_logo',
-		'currency',
 	),
 )); ?>

@@ -61,6 +61,11 @@
 		<?php echo $form->textField($model,'type'); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->label($model,'currency'); ?>
+		<?php echo $form->textField($model,'currency'); ?>
+	</div>
+
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Search'); ?>
 	</div>

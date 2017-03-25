@@ -54,13 +54,7 @@
 		<?php echo $form->textField($model,'stone_logo',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'stone_logo'); ?>
 	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'currency'); ?>
-		<?php echo $form->dropDownList($model, 'currency', Collection::getCurrencyList()); ?>
-		<?php echo $form->error($model,'currency'); ?>
-	</div>
-
+	
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>
