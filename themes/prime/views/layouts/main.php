@@ -51,7 +51,7 @@
   <div class="container-fluid">
   <div class="row">
     <div class="navbar-header hidden-sm">
-        <a class="navbar-brand" href="/site/index">Прайм-Стоун<span class="sr-only">(current)</span></a>
+        <a class="navbar-brand" href="/">Прайм-Стоун<span class="sr-only">(current)</span></a>
         <button type="button"
                 class="navbar-toggle"
                 data-toggle="collapse"
@@ -63,7 +63,7 @@
         </div>
         <div id="main-menu" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-        <li class="dropdown">
+        <li class="dropdown<?= $this->activeClass(Controller::PRODUCTION_LINK); ?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Продукция <span class="caret"></span></a>
           <ul class="dropdown-menu">
 
@@ -82,7 +82,7 @@
             <li><a href="/site/lest">Изделия для лестницы</a></li>
           </ul>
         </li>
-        <li class="dropdown">
+        <li class="dropdown<?= $this->activeClass(Controller::PRICE_LINK); ?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Цены <span class="caret"></span></a>
           <ul class="dropdown-menu">
 
@@ -92,10 +92,10 @@
             <li role="separator" class="divider"></li>
             <li><a href="/price/skidka">Акции</a></li>
             </ul></li>
-        <li  <?if($this->id=='site' && $this->action->id=='foto'):?>class="active"<?endif;?>><a href="/site/foto">Наши работы</a></li>
+        <li class="<?= $this->activeClass(Controller::WORK_LINK); ?>"><a href="/site/foto">Наши работы</a></li>
 
 
-        <li class="dropdown<?if($this->activeLink == Controller::ACRYLIC_LINK):?> active<?endif;?>">
+        <li class="dropdown<?= $this->activeClass(Controller::ACRYLIC_LINK); ?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Акриловый камень <span class="caret"></span></a>
           <?php $this->widget('zii.widgets.CMenu',array(
               'htmlOptions' => array(
@@ -115,7 +115,7 @@
               ),
           )); ?>
         </li>
-        <li class="dropdown<?if($this->activeLink == Controller::QUARTZ_LINK):?> active<?endif;?>">
+        <li class="dropdown<?= $this->activeClass(Controller::QUARTZ_LINK); ?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Кварцевый камень <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="/catalog/radianz">Samsung Radianz</a></li>
@@ -125,9 +125,9 @@
             <li><a href="#">Scorino</a></li>
           </ul>
         </li>
-        <li><a href="/site/kontakty">Контакты</a></li>
+        <li class="<?= $this->activeClass(Controller::CONTACTS_LINK); ?>"><a href="/site/kontakty">Контакты</a></li>
         
-        <li class="dropdown hidden-sm hidden-md">
+        <li class="dropdown hidden-sm hidden-md<?= $this->activeClass(Controller::ADDITIONAL_LINK); ?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Еще<span class="caret"></span></a>
           <ul class="dropdown-menu">
           <li><a href="/site/remont">Ремонт столешниц / моек</a></li>
@@ -141,7 +141,8 @@
           </ul>
       
 
-         <li class="dropdown hidden-sm hidden-md">
+		<? if(Yii::app()->user->name == 'admin'): ?>
+         <li class="dropdown hidden-sm hidden-md<?= $this->activeClass(Controller::ADMIN_LINK); ?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Админка<span class="caret"></span></a>
           <?php
           $this->widget('zii.widgets.CMenu', array(
@@ -154,6 +155,7 @@
     'htmlOptions'=>array('class'=>'dropdown-menu'),
    ));?>
         </li>
+    	<? endif; ?>
       </ul>
       </div>
     </div>

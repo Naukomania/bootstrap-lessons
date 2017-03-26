@@ -2,6 +2,33 @@
 
 class SiteController extends Controller
 {
+	protected function beforeAction()
+    {
+        switch($this->action->id) {
+        	case 'izd':
+        	case 'kuhnya':
+        	case 'vanna':
+        	case 'pod':
+        	case 'bar':
+        	case 'rec':
+        	case 'san':
+        	case 'moyki':
+        	case 'rac':
+        	case 'lest':
+        		$this->activeLink = self::PRODUCTION_LINK;
+        		break;
+        	case 'foto':
+        		$this->activeLink = self::WORK_LINK;
+        		break;
+        	case 'remont':
+        		$this->activeLink = self::ADDITIONAL_LINK;
+        		break;
+        	case 'kontakty':
+        		$this->activeLink = self::CONTACTS_LINK;
+        		break;
+        }
+        return true;
+    }
 	/**
 	 * Declares class-based actions.
 	 */

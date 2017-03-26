@@ -2,6 +2,7 @@
 
 class PriceController extends Controller
 {
+	public $activeLink = self::PRICE_LINK;
 	public function actionIndex()
 	{
 		$brands = Brand::model()->findAll();

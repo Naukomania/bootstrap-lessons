@@ -7,18 +7,11 @@
 			<?php echo $content; ?>
 		</div><!-- content -->
 		<div class="col-md-4">
+			<hr>
 		<?php
-			$this->widget('zii.widgets.CMenu', array(
-				'items'=>array(
-					array('label'=>'Бренды', 'url'=>array('/brand/index')),
-					array('label'=>'Коллекции', 'url'=>array('/collection/index')),
-					array('label'=>'Камни', 'url'=>array('/stone/index')),
-					array('label'=>'Изделия', 'url'=>array('/product/index')),
-				),
-				'htmlOptions'=>array('class'=>'admin-menu'),
-			));
 			$this->beginWidget('zii.widgets.CPortlet', array(
-				'title'=>'Operations',
+				'title'=>'Действия',
+				'htmlOptions'=>array('class' => 'alert alert-info'),
 			));
 			$this->widget('zii.widgets.CMenu', array(
 				'items'=>$this->menu,

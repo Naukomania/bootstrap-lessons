@@ -5,10 +5,16 @@
  */
 class Controller extends CController
 {
-	const DEFAULT_LINK	= 0;
-	const MAIN_LINK		= 1;
-	const ACRYLIC_LINK	= 2;
-	const QUARTZ_LINK	= 3;
+	const DEFAULT_LINK		= 0;
+	const MAIN_LINK			= 1;
+	const PRODUCTION_LINK 	= 2;
+	const PRICE_LINK		= 3;
+	const WORK_LINK			= 4;
+	const ACRYLIC_LINK		= 5;
+	const QUARTZ_LINK		= 6;
+	const CONTACTS_LINK		= 7;
+	const ADDITIONAL_LINK	= 8;
+	const ADMIN_LINK		= 9;
 
 	/**
 	 * @var string the default layout for the controller view. Defaults to '//layouts/column1',
@@ -27,4 +33,11 @@ class Controller extends CController
 	public $breadcrumbs=array();
 
 	public $activeLink = self::DEFAULT_LINK;
+
+	public function activeClass($checkedType) {
+		if ($this->activeLink == $checkedType) {
+			return ' active';
+		}
+		return '';
+	}
 }
