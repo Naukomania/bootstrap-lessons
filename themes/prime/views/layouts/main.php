@@ -118,7 +118,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Кварцевый камень <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Samsung Radianz</a></li>
+            <li><a href="/catalog/radianz">Samsung Radianz</a></li>
             <li><a href="#">Caesarstone</a></li>
             <li><a href="#">Cambria</a></li>
             <li><a href="#">Plazastone</a></li>
@@ -302,7 +302,7 @@
 <div class="footer-green">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">&nbsp &nbsp2007-<?php echo date('Y'); ?></div>
+			<div class="col-md-4">2007-<?php echo date('Y'); ?></div>
 			<div class="col-md-4">
 				<a href="prime-stone.ru">ПРАЙМ - СТОУН - столешницы из искусственного камня</a>
 			</div>

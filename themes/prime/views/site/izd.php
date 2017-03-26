@@ -50,7 +50,7 @@ $page = [
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Кухонная столешница из искусственного камня" href="/images/izd/izd-kuhnya.jpg"><img class="img-responsive" src="/images/izd/izd-kuhnya.jpg" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Кухонная столешница из искусственного камня" href="/images/izd/izd-kuhnya.jpg"><img class="img-responsive" src="/images/izd/izd-kuhnya-2.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешницы для кухни</h3>
 
@@ -65,7 +65,7 @@ $page = [
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Столешница  для ванной комнаты"  href="/images/izd/izd-vanna.jpg"><img  img class="img-responsive" src="/images/izd/izd-vanna.jpg" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Столешница  для ванной комнаты"  href="/images/izd/izd-vanna.jpg"><img  img class="img-responsive" src="/images/izd/izd-vanna-2.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешницы для ванной</h3>
         <p>Практически в большинстве квартир с современным ремонтом можно увидеть в ванной столешницу из искусственного камня.</p>
@@ -79,7 +79,7 @@ $page = [
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Подоконник из искусственного камня с вырезом под решетку"  href="/images/izd/izd-podok.jpg"><img class="img-responsive" src="/images/izd/izd-podok.jpg" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Подоконник из искусственного камня с вырезом под решетку"  href="/images/izd/izd-podok.jpg"><img class="img-responsive" src="/images/izd/izd-podok-2.jpg" alt="..."></a>
       <div class="caption">
         <h3>Подоконники</h3>
         <p>С приходом  искусственного камня как отделочного интерьерного материала появилась огромная возможность разнообразить цвета, конфигурацию и даже функцию подоконников.</p>
@@ -93,7 +93,7 @@ $page = [
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
    
-      <a class="fancyimage" rel="group"  title="Ресептион с подсветкой из камня LG Hi Macs"  href="/images/izd/izd-rec.jpg"><img class="img-responsive" src="/images/izd/izd-rec.jpg" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Ресептион с подсветкой из камня LG Hi Macs"  href="/images/izd/izd-rec.jpg"><img class="img-responsive" src="/images/izd/izd-rec-2.jpg" alt="..."></a>
       <div class="caption">
         <h3>Ресепшн</h3>
         <p>Ресепшн  или административная стойка – весьма важный элемент обстановки не только таких представительских организаций как банки, фешенебельные гостиницы,  крупные корпорации, головные государственные учреждения, фирмы с мировым брендом. </p>
@@ -106,7 +106,7 @@ $page = [
    <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
   
-      <a class="fancyimage" rel="group"  title="Столешница в санузел с двумя раковинами "  href="/images/izd/izd-sanuz.jpg"><img class="img-responsive"  src="/images/izd/izd-sanuz.jpg" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Столешница в санузел с двумя раковинами "  href="/images/izd/izd-sanuz.jpg"><img class="img-responsive"  src="/images/izd/izd-sanuz-2.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешницы для санузлов</h3>
         <p>Практически любое современное заведение будь то торговый центр, спортивное учреждение,  бизнес-центр, клуб, ресторан, кинотеатр, бар или кафе отдает предпочтение при оборудовании санузлов – столешницам из искусственного камня.  </p>
@@ -120,7 +120,7 @@ $page = [
    <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
        
-      <a class="fancyimage" rel="group"  title="Лестница из искусственного камня"  href="/images/izd/izd-lest.jpg"><img class="img-responsive" src="/images/izd/izd-lest.jpg" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Лестница из искусственного камня"  href="/images/izd/izd-lest.jpg"><img class="img-responsive" src="/images/izd/izd-lest-2.jpg" alt="..."></a>
       <div class="caption">
         <h3>Изделия для лестниц</h3>
         
@@ -134,7 +134,7 @@ $page = [
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
    
-      <a class="fancyimage" rel="group"  title="Кухонная мойка из искусственного камня Corian Clam Shell"  href="/images/izd/izd-moyka.jpg"><img class="img-responsive" src="/images/izd/izd-moyka.jpg" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Кухонная мойка из искусственного камня Corian Clam Shell"  href="/images/izd/izd-moyka.jpg"><img class="img-responsive" src="/images/izd/izd-moyka-2.jpg" alt="..."></a>
       <div class="caption">
         <h3>Мойки для кухни</h3>
         <p>Разнообразие моек в наши дни потрясает. Сейчас покупателю на выбор великое множество моек для кухни из всевозможных материалов. Будь то нержавеющая сталь, специально обработанный метал, медь, фаянс, искусственный гранит, называющийся по бренду производителя или же искусственный камень. Мойки могут быть врезные (накладные) и подстольного монтажа.</p>
@@ -147,7 +147,7 @@ $page = [
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Акриловая раковина для ванной / санузлов"  href="/images/izd/izd-rak.jpg"><img  class="img-responsive" src="/images/izd/izd-rak.jpg" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Акриловая раковина для ванной / санузлов"  href="/images/izd/izd-rak.jpg"><img  class="img-responsive" src="/images/izd/izd-rak-2.jpg" alt="..."></a>
       <div class="caption">
         <h3>Раковины</h3>
         <p>Наша компания изготавливает столешницы в ванную не только под раковины собственного производства, о которых пойдет речь ниже, но и под раковины заказчиков. Поскольку человек, в среднем, заказывает такие изделия один или два раза в жизни,  то нередко допускаются досадные ошибки.</p>
@@ -160,7 +160,7 @@ $page = [
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
     
-      <a class="fancyimage" rel="group"  title="Изделия из камня Kerrock серии Luminate"  href="/images/izd/izd-dr.jpg"><img src="/images/izd/izd-dr.jpg" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Изделия из камня Kerrock серии Luminate"  href="/images/izd/izd-dr.jpg"><img src="/images/izd/izd-dr-2.jpg" alt="..."></a>
       <div class="caption">
         <h3>Прочие изделия</h3>
         <p>Искусственный камень современный материал и по многим показателям превосходит другие.  Такой материал, благодаря своим свойствам, позволяет использовать его в изготовлении изделий интерьера во многих сферах нашей жизни.  Богатая палитра, которая с каждым годом обновляется и пополняется и разрабатываются новые технологии и дизайн текстур.</p>

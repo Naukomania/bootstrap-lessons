@@ -43,6 +43,11 @@ class CatalogController extends Controller
 	{
 		$this->catalogView('getacore');
 	}
+	public function actionRadianz()
+	{
+		$this->catalogView('radianz');
+	}
+
 
 	private function catalogView($brandName)
 	{

@@ -6,7 +6,7 @@
  <div> 
               <ul class="breadcrumb">
                  <li><a href="#">Искусственный камень</a></li>
-                 <li><a href="#">Акриловый камень</a></li>
+                 <li><a href="#"><?= $model->brand->type; ?>"></a></li>
                <li><a href="/catalog/<?= $model->collection->brand->name;?>"><?= $model->collection->brand->title;?></a></li>
                  <li><a href="<?= $this->createUrl('catalog/'.$model->collection->brand->name, [
                     'activeId' => $model->collection->id
