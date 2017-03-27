@@ -10,10 +10,12 @@ $this->breadcrumbs=array(
 <div id="price">
 <div class="container">
     <br>
+    <? if($this->displayBreadcrumbs): ?>
     <ul class="breadcrumb">
         <li><a href="#">Прайм-Стоун</a></li>
         <li class="active"><a href="#">Цены на изделия из искусственного камня (акрил)</a></li>
     </ul>
+    <? endif; ?>
     <div class="zagolovok">
         <h1>Цены на изделия из искусственного камня</h1>
     </div>

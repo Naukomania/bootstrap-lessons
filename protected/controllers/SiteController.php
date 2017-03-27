@@ -100,7 +100,8 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('foto');
+		$activeTab = Yii::app()->request->getParam('activeId') ?: 1;
+		$this->render('foto', array('activeTab' => $activeTab));
 	}
 	public function actionLest()
 	{

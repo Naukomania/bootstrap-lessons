@@ -9,6 +9,11 @@ $(document).ready(function(){
     $('#services .item, #left-menu .item').on('click',function(){
         $(this).parents('li').addClass('active');
         var target = $(this).attr('data-target');
+        if (window.matchMedia("(max-width: 768px)").matches) {
+            // TODO: поправить
+            location = $('#' + target).find('.btn-warning a').attr('href');
+            return true;
+        }
         $('#' + target  +', #background-wrapper' ).fadeIn('slow'); // показываем лайтбокс
         return false; 
     });

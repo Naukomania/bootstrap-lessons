@@ -17,7 +17,7 @@
             <div class="page1"><h4>Столешницы для кухни</h4><img src="/images/imgbig1.jpg"><br><br>
               <div class="text-page">
                 <ul>
-                  <li><button type="button"class="btn btn-warning"><a href="/site/foto">Смотреть фото</a></button></li>
+                  <li><button type="button"class="btn btn-warning"><a href="/site/foto?activeId=1">Смотреть фото</a></button></li>
                   <li><button type="button"class="btn btn-success"><a href="/site/kuhnya">Кухонные столешницы</a></button></li>
                   <li><button type="button"class="btn btn-primary"><a href="#">Расчитать стоимость</a></button></li>
                 </ul>
@@ -74,7 +74,7 @@
             <div class="page1"><h4>Столешницы для ванной</h4><img src="/images/imgbig2.jpg"><br><br>
               <div class="text-page">
                 <ul>
-                  <li><button type="button"class="btn btn-warning"><a href="/site/foto">Смотреть фото</a></button></li>
+                  <li><button type="button"class="btn btn-warning"><a href="/site/foto?activeId=2">Смотреть фото</a></button></li>
                   <li><button type="button"class="btn btn-success"><a href="site/vanna">Столешницы в ванную</a></button></li>
                   <li><button type="button"class="btn btn-primary"><a href="#">Расчитать стоимость</a></button></li>
                 </ul>
@@ -127,7 +127,7 @@
             <div class="page1"><h4>Подоконники</h4><img src="/images/imgbig3.jpg"><br><br>
               <div class="text-page">
                 <ul>
-                  <li><button type="button"class="btn btn-warning"><a href="/site/foto">Смотреть фото</a></button></li>
+                  <li><button type="button"class="btn btn-warning"><a href="/site/foto?activeId=3">Смотреть фото</a></button></li>
                   <li><button type="button"class="btn btn-success"><a href="/site/pod">Подоконники</a></button></li>
                   <li><button type="button"class="btn btn-primary"><a href="#">Расчитать стоимость</a></button></li>
                 </ul>
@@ -178,7 +178,7 @@
           <div class="page1"><h4>Барные стойки</h4><img src="/images/imgbig4.jpg"><br><br>
             <div class="text-page">
               <ul>
-                <li><button type="button"class="btn btn-warning"><a href="/site/foto">Смотреть фото</a></button></li>
+                <li><button type="button"class="btn btn-warning"><a href="/site/foto?activeId=4">Смотреть фото</a></button></li>
                 <li><button type="button"class="btn btn-success"><a href="/site/bar">Барные стойки</a></button></li>
                 <li><button type="button"class="btn btn-primary"><a href="#">Расчитать стоимость</a></button></li>
               </ul>
@@ -224,7 +224,7 @@
             <div class="page1"><h4>Ресепшн</h4><img src="/images/imgbig5.jpg"><br><br>
               <div class="text-page">
                 <ul>
-                  <li><button type="button"class="btn btn-warning"><a href="/site/foto">Смотреть фото</a></button></li>
+                  <li><button type="button"class="btn btn-warning"><a href="/site/foto?activeId=4">Смотреть фото</a></button></li>
                   <li><button type="button"class="btn btn-success"><a href="/site/rec">Ресепшен</a></button></li>
                   <li><button type="button"class="btn btn-primary"><a href="#">Расчитать стоимость</a></button></li>
                 </ul>
@@ -264,7 +264,7 @@
           <div class="page1"><h4>Столешницы для санузлов</h4><img src="/images/imgbig6.jpg"><br><br>
             <div class="text-page">
               <ul>
-                <li><button type="button"class="btn btn-warning"><a href="/site/foto">Смотреть фото</a></button></li>
+                <li><button type="button"class="btn btn-warning"><a href="/site/foto?activeId=5">Смотреть фото</a></button></li>
                 <li><button type="button"class="btn btn-success"><a href="site/san">Столешницы для санузлов</a></button></li>
                 <li><button type="button"class="btn btn-primary"><a href="#">Расчитать стоимость</a></button></li>
               </ul>
