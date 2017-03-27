@@ -2,12 +2,15 @@
 jquery for prime
 */
 $(document).ready(function(){
+    /**
+     * СЕКЦИЯ С КОТАМИ
+     */
     // при клике на кота и на левое меню
     $('#services .item, #left-menu .item').on('click',function(){
         $(this).parents('li').addClass('active');
         var target = $(this).attr('data-target');
-    $('#' + target  +', #background-wrapper' ).fadeIn('slow'); // показываем лайтбокс
-    return false; 
+        $('#' + target  +', #background-wrapper' ).fadeIn('slow'); // показываем лайтбокс
+        return false; 
     });
     // закрываем лайтбокс при клике на крестик
     $('.closeBox').on('click',function(){
@@ -25,7 +28,10 @@ $(document).ready(function(){
             marginLeft: '0px',
         });
     });
-    $("body #accordion").accordion();
+
+    /**
+     * ОСНОВНЫЕ СКРИПТЫ
+     */
     $('body').scrollspy({target: "#left-menu", offset: 180});
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
@@ -34,6 +40,14 @@ $(document).ready(function(){
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
+    $('body').on('click', '.order-form-link', function() {
+        $('#order-form, #background-wrapper').fadeIn('slow');
+        var source = $(this).attr('data-source');
+        alert(source);
+    });
+    /**
+     * ТАБЫ И ПАГИНАЦИЯ
+     */
     $('body').on('click', '.brand-chooser a', function(){
         var brandId = $(this).attr('data-name');
         var me = this;
@@ -44,6 +58,7 @@ $(document).ready(function(){
                 $('#brand-tab-content').html(data);
                 $('.brand-chooser li').removeClass('active');
                 $(me).parents('li').addClass('active');
+                specialBind();
             },
             error: function(data) {
                 console.log(data);
@@ -62,6 +77,7 @@ $(document).ready(function(){
                 $('#collection-content').html(data);
                 $('.collection-chooser li').removeClass('active');
                 $(me).parents('li').addClass('active');
+                specialBind();
             },
             error: function(data) {
                 console.log(data);
@@ -70,53 +86,54 @@ $(document).ready(function(){
         });
         return false;
     });
-    $('body .order-form-link').on('click', function() {
-        $('#order-form, #background-wrapper').fadeIn('slow');
-        var source = $(this).attr('data-source');
-        alert(source);
-    });
-
-    $('body #ajax-foto-pagination a').on('click', function(){
+    $('body').on('click', '#ajax-foto-pagination a', function(){
         $.ajax({
             url: $(this).attr('href'),
             success: function(data){
                 $('.ajax-foto-wrapper').html(data);
+                specialBind();
             }
         });
         return false;
     });
-    $('body #ajax-foto-pagination-bacth a').on('click', function(){
+    $('body').on('click', '#ajax-foto-pagination-bacth a', function(){
         $.ajax({
             url: $(this).attr('href'),
             success: function(data){
                 $('.ajax-foto-wrapper-bacth').html(data);
+                specialBind();
             }
         });
         return false;
     });
-    $('body a.fancyimage').fancybox(); 
-    $('body a.fancyimage-with-title').fancybox({
-        helpers:  {
-            title : {
-                type : 'inside',
+
+    function specialBind() {
+        $("body #accordion").accordion();
+        $('a.fancyimage').fancybox(); 
+        $('a.fancyimage-with-title').fancybox({
+            helpers:  {
+                title : {
+                    type : 'inside',
+                }
+            },
+            beforeShow : function(){
+                this.title =
+                '<div class="fancy-title-link"><a href="'
+                +$(this.element).data("target-url")
+                +'">'
+                +this.title
+                +'</a><br>'
+                +'<a href="#" class="order-form-link" data-source="'
+                +this.title
+                +'">Расчитать</a>'
+                +'</div>';
+                $('.order-form-link').on('click', function() {
+                    $('#order-form, #background-wrapper').fadeIn('slow');
+                    var source = $(this).attr('data-source');
+                    alert(source);
+                });
             }
-        },
-        beforeShow : function(){
-            this.title =
-            '<div class="fancy-title-link"><a href="'
-            +$(this.element).data("target-url")
-            +'">'
-            +this.title
-            +'</a><br>'
-            +'<a href="#" class="order-form-link" data-source="'
-            +this.title
-            +'">Расчитать</a>'
-            +'</div>';
-            $('.order-form-link').on('click', function() {
-                $('#order-form, #background-wrapper').fadeIn('slow');
-                var source = $(this).attr('data-source');
-                alert(source);
-            });
-        }
-    });
+        });
+    }
+    specialBind();
 });
