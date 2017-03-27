@@ -1,6 +1,7 @@
 <section id="staron">
     <div class="container">
         <br>
+        <? if($this->displayBreadcrumbs): ?>
         <div> 
             <ul class="breadcrumb">
                 <li><a href="#">Искусственный камень</a></li>
@@ -8,6 +9,7 @@
                 <li class="active"><?=$model->title;?></li>
             </ul>
         </div>
+        <? endif; ?>
         <div class="row">
             <div class="col-md-3 col-sm-4 col-xs-6"><div id="logostaron">
                 <img src="/images/<?=$model->image;?>">
@@ -46,7 +48,7 @@
         if ($activeCollectionId) {
             $id = $activeCollectionId;
         }
-        $this->renderPartial('_collection',[
+        $this->renderPartial('/catalog/_collection',[
             'brandModel'      => $model,
             'collection'      => Collection::model()->findByPk($id),
             'collectionItems' => Collection::getItemsForCatalog($id),

@@ -25,9 +25,7 @@ $(document).ready(function(){
             marginLeft: '0px',
         });
     });
-    $(function(){
-        $("#accordion").accordion();
-    });
+    $("body #accordion").accordion();
     $('body').scrollspy({target: "#left-menu", offset: 180});
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
@@ -36,17 +34,16 @@ $(document).ready(function(){
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
-    // Выбор коллекции на странице каталога камня
-    $('.collection-chooser a').on('click', function(){
-        var collectionId = $(this).attr('data-id');
+    $('body').on('click', '.brand-chooser a', function(){
+        var brandId = $(this).attr('data-name');
         var me = this;
         $.ajax({
-            url: '/catalog/ajaxcollection/'+collectionId,
+            url: '/catalog/ajaxbrand',
+            data: {brandId: brandId},
             success: function(data){
-                $('#collection-content').html(data);
-                $('.collection-chooser li').removeClass('active');
+                $('#brand-tab-content').html(data);
+                $('.brand-chooser li').removeClass('active');
                 $(me).parents('li').addClass('active');
-                bindAfterAjax();
             },
             error: function(data) {
                 console.log(data);
@@ -55,41 +52,50 @@ $(document).ready(function(){
         });
         return false;
     });
-    var activeMenuLink = $('#menu a[href="'+window.location.pathname.substr(1)+'"]');
-    if (activeMenuLink) {
-        activeMenuLink.parents('li').addClass('active');
-    }
-    bindAfterAjax();
-});
-function bindAfterAjax() {
-    $('.order-form-link').on('click', function() {
+    // Выбор коллекции на странице каталога камня
+    $('body').on('click', '.collection-chooser a', function(){
+        var collectionId = $(this).attr('data-id');
+        var me = this;
+        $.ajax({
+            url: '/catalog/ajaxcollection/'+collectionId,
+            success: function(data){
+                $('#collection-content').html(data);
+                $('.collection-chooser li').removeClass('active');
+                $(me).parents('li').addClass('active');
+            },
+            error: function(data) {
+                console.log(data);
+                alert('Произошла ошибка');
+            }
+        });
+        return false;
+    });
+    $('body .order-form-link').on('click', function() {
         $('#order-form, #background-wrapper').fadeIn('slow');
         var source = $(this).attr('data-source');
         alert(source);
     });
 
-    $('#ajax-foto-pagination a').on('click', function(){
+    $('body #ajax-foto-pagination a').on('click', function(){
         $.ajax({
             url: $(this).attr('href'),
             success: function(data){
                 $('.ajax-foto-wrapper').html(data);
-                bindAfterAjax();
             }
         });
         return false;
     });
-    $('#ajax-foto-pagination-bacth a').on('click', function(){
+    $('body #ajax-foto-pagination-bacth a').on('click', function(){
         $.ajax({
             url: $(this).attr('href'),
             success: function(data){
                 $('.ajax-foto-wrapper-bacth').html(data);
-                bindAfterAjax();
             }
         });
         return false;
     });
-    $('a.fancyimage').fancybox(); 
-    $('a.fancyimage-with-title').fancybox({
+    $('body a.fancyimage').fancybox(); 
+    $('body a.fancyimage-with-title').fancybox({
         helpers:  {
             title : {
                 type : 'inside',
@@ -113,4 +119,4 @@ function bindAfterAjax() {
             });
         }
     });
-}
+});

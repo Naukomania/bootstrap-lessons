@@ -34,10 +34,20 @@ class Controller extends CController
 
 	public $activeLink = self::DEFAULT_LINK;
 
+	public $displayBreadcrumbs = true;
+
 	public function activeClass($checkedType) {
 		if ($this->activeLink == $checkedType) {
 			return ' active';
 		}
 		return '';
+	}
+
+	protected function beforeAction()
+    {
+    	if (Yii::app()->request->isAjaxRequest) {
+    		$this->displayBreadcrumbs = false;
+		}
+    	return true;
 	}
 }

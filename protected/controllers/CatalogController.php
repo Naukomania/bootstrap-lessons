@@ -91,6 +91,15 @@ class CatalogController extends Controller
 		]);
 	}
 
+	public function actionAjaxbrand()
+	{
+		$model = Brand::model()->findByAttributes(['name' => Yii::app()->request->getParam('brandId')]);
+		$this->renderPartial('catalog',[
+			'activeCollectionId' => Yii::app()->request->getParam('activeId'),
+			'model' => $model,
+		]);
+	}
+
 	// Uncomment the following methods and override them if needed
 	/*
 	public function filters()

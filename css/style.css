@@ -315,8 +315,6 @@ body {
   float: left;
 }
 #katalog-kamnya {
-  margin-left: 150px;
-  width: 80%;
   margin-top: 50px;
 }
 .shablon-stone {
@@ -632,4 +630,8 @@ p.skidka-summa {
   font-size: 14px;
   font-weight: 600;
   color: red;
+}
+#main-page .tabbable,
+#footer .container {
+  padding-left: 30px;
 }
