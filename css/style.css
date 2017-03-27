@@ -11,6 +11,11 @@ body {
 }
 .carousel-inner .item img {
   margin: auto;
+  min-height: 100%;
+  max-width: none !important;
+}
+.carousel-inner {
+  overflow: hidden;
 }
 #slider .container-fluid {
   min-height: 350px;
