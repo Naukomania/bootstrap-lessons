@@ -632,6 +632,7 @@ p.skidka-summa {
   color: red;
 }
 #main-page .tabbable,
-#footer .container {
+#footer .container,
+#main-page #map {
   padding-left: 30px;
 }

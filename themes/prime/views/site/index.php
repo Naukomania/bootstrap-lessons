@@ -12,7 +12,7 @@ $this->renderPartial('home/slider');
 $this->renderPartial('home/services');
 $this->renderPartial('home/catalog');
 $this->renderPartial('home/gallery');
-$this->renderPartial('/price/index', ['brands'=>$brands]);
+$this->renderPartial('/price/index', ['brands'=>$brands,'short' => true]);
 $this->renderPartial('home/map');
 ?>
 </div>

@@ -8,23 +8,16 @@ class PriceController extends Controller
 		$brands = Brand::model()->findAll();
 		$this->render('index',[
 			'brands' => $brands,
+			'short' => false,
 		]);
-		
 	}
 	public function actionQuartz()
 	{
-		
-		$this->render('quartz',[
-			
-		]);
-		
+		$this->render('quartz');	
 	}
 	public function actionSkidka()
 	{
-		
-		$this->render('skidka',[
-			
-		]);
+		$this->render('skidka');
 		
 	}
 
