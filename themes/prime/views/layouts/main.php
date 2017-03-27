@@ -250,7 +250,7 @@
 				<div class="footer-text"><h5><a href="#">
 					Кварцевый камень</a></h5>
 					<ul>
-						<li><a href="#">Samsung Radianz (Ю. Корея)</a></li>
+						<li><a href="/catalog/radianz">Samsung Radianz (Ю. Корея)</a></li>
 						<li><a href="#">Scorino (Италия)</a></li>
 						<li><a href="#">Caesarstone (Израиль)</a></li>
 						<li><a href="#">Plaza Stone (Россия)</a></li>
@@ -290,7 +290,7 @@
 				</a>
 			</div>
 			<div class="col-md-2"> 
-				<a href="#">
+				<a href="/catalog/radianz">
 					<img src="/images/logomini-footer/samsung-radianz-logo-mini.jpg">
 				</a>
 			</div>
