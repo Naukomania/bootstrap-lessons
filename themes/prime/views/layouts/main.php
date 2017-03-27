@@ -88,8 +88,9 @@
 
           <li><a href="/price/index">Цены на изделия (акрил)</a></li>
             <li role="separator" class="divider"></li>
+            <!--
             <li><a href="/price/quartz">Цены на изделия (кварц)</a></li>
-            <li role="separator" class="divider"></li>
+            <li role="separator" class="divider"></li>-->
             <li><a href="/price/skidka">Акции</a></li>
             </ul></li>
         <li class="<?= $this->activeClass(Controller::WORK_LINK); ?>"><a href="/site/foto">Наши работы</a></li>
@@ -119,10 +120,11 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Кварцевый камень <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="/catalog/radianz">Samsung Radianz</a></li>
+          <!--
             <li><a href="#">Caesarstone</a></li>
             <li><a href="#">Cambria</a></li>
             <li><a href="#">Plazastone</a></li>
-            <li><a href="#">Scorino</a></li>
+            <li><a href="#">Scorino</a></li> -->
           </ul>
         </li>
         <li class="<?= $this->activeClass(Controller::CONTACTS_LINK); ?>"><a href="/site/kontakty">Контакты</a></li>

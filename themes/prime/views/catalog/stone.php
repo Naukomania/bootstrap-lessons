@@ -31,7 +31,7 @@
 
        <p> Производство:<?=$model->collection->brand->countryName();?></p>
         <p>
-       Цена: <?= $model->collection->price;?> руб
+       Цена: <?= $model->collection->getRubPrice();?> руб
        </p>
          <p>
        Коллекция: <?= $model->collection->name;?>
@@ -46,6 +46,7 @@
        <p>
        Рекомендуемая полировка: глянец / полуглянец
        </p>
+       <? /* ?>
        <p>
        Аналогичные / похожие цвета  других производителей:
        </p>
@@ -67,12 +68,14 @@
 <? endforeach; ?>
 
   </div>
+
 <? endif; ?> 
        </div>
+        <? */ ?>
        <div class="gallery-kamen">
-       <br>
+       <br><? if($model->products): ?>
        <div><h4>Фото  искусственного камня <?= $model->name; ?></h4></div>
-        <? if($model->products): ?>
+        
   <div class="row">
    <? foreach($model->products as $product): ?>
       <div class="col-md-3 col-sm-4 col-xs-6 thumb">
@@ -91,13 +94,3 @@
       </div>
        </section>
 
-<? if($model): ?>
-<div class="container">
- <pre>
-    <? print_r($model->attributes); ?>
- <? foreach($model->products as $product): ?>
-  <? print_r($product->attributes); ?>
- <? endforeach; ?>
-  </pre>
-</div>
-<? endif; ?>
