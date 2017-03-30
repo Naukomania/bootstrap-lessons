@@ -24,7 +24,7 @@
             </tr>
             <tr class="itogo">
               <td >Доставка</td>
-              <td>м.кв</td>
+              <td>раз</td>
               <td>2500</td>
 
             </tr>

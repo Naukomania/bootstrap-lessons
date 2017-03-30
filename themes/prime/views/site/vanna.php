@@ -1,4 +1,3 @@
- 
 <?php
 $this->pageTitle = 'Столешницы для ванной из искусственного камня- Прайм-Стоун';
 $page = [
@@ -49,7 +48,7 @@ $page = [
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Столешница ваннную с интегрированной раковиной и инкрустированной кромкой" href="/images/vanna/vanna-1-2.JPG"><img class="img-responsive" src="/images/vanna/vanna-1.jpg" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Столешница ваннную с интегрированной раковиной и инкрустированной кромкой" href="/images/vanna/vanna-1-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-1.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешница для ванной</h3>
 
@@ -61,7 +60,7 @@ $page = [
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Столешница в ванную подвесная с интегрированной раковиной" href="/images/vanna/vanna-2-2.JPG"><img class="img-responsive" src="/images/vanna/vanna-2.JPG" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Столешница в ванную подвесная с интегрированной раковиной" href="/images/vanna/vanna-2-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-2.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешница в ванную</h3>
 
@@ -73,7 +72,7 @@ $page = [
  <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Столешница в ванную смонтированная на мебель" href="/images/vanna/vanna-3-2.JPG"><img class="img-responsive" src="/images/vanna/vanna-3.JPG" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Столешница в ванную смонтированная на мебель" href="/images/vanna/vanna-3-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-3.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешница радиусная</h3>
 
@@ -85,7 +84,7 @@ $page = [
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Столешница c накладной раковиной, полкой и фартуком" href="/images/vanna/vanna-4-2.JPG"><img class="img-responsive" src="/images/vanna/vanna-4.JPG" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Столешница c накладной раковиной, полкой и фартуком" href="/images/vanna/vanna-4-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-4.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешница с полкой</h3>
 
@@ -97,7 +96,7 @@ $page = [
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Столешница для ванной под стиральную машину" href="/images/vanna/vanna-5-2.JPG"><img class="img-responsive" src="/images/vanna/vanna-5.JPG" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Столешница для ванной под стиральную машину" href="/images/vanna/vanna-5-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-5.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешница белая</h3>
 
@@ -109,7 +108,7 @@ $page = [
    <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Столешница с монтажом на тумбы в ванной комнату" href="/images/vanna/vanna-6-2.JPG"><img class="img-responsive" src="/images/vanna/vanna-6.JPG" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Столешница с монтажом на тумбы в ванной комнату" href="/images/vanna/vanna-6-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-6.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешница для ванной</h3>
         <p>Столешница смонтированная на мебель для ванной</p>
@@ -120,7 +119,7 @@ $page = [
       <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Раковина Staron в столешнице SS042, монтаж под стиральную машину" href="/images/vanna/vanna-7-2.JPG"><img class="img-responsive" src="/images/vanna/vanna-7.JPG" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Раковина Staron в столешнице SS042, монтаж под стиральную машину" href="/images/vanna/vanna-7-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-7.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешница в ванную</h3>
         <p>Столешница с раковиной производства Staron</p>
@@ -131,7 +130,7 @@ $page = [
    <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Столешница на мебели для ванной комнаты" href="/images/vanna/vanna-8-2.JPG"><img class="img-responsive" src="/images/vanna/vanna-8.JPG" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Столешница на мебели для ванной комнаты" href="/images/vanna/vanna-8-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-8.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешница на мебели</h3>
         <p>Столешница с раковиной на мебели с раковиной</p>
@@ -142,7 +141,7 @@ $page = [
    <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Столешница для ванной с настольной раковиной" href="/images/vanna/vanna-9-2.JPG"><img class="img-responsive" src="/images/vanna/vanna-9.JPG" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Столешница для ванной с настольной раковиной" href="/images/vanna/vanna-9-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-9.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешница в ванную</h3>
         <p>Столешница со скосом с настольной раковиной</p>
@@ -153,7 +152,7 @@ $page = [
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Фигурная столешницая с раковиной" href="/images/vanna/vanna-10-2.JPG"><img class="img-responsive" src="/images/vanna/vanna-10.JPG" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Фигурная столешницая с раковиной" href="/images/vanna/vanna-10-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-10.jpg" alt="..."></a>
       <div class="caption">
         <h3>Фигурная столешница</h3>
         <p>Столешница с раковиной сложной формы</p>
@@ -164,7 +163,7 @@ $page = [
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Столешница с раковиной и нишой под стиральную машину" href="/images/vanna/vanna-11-2.JPG"><img class="img-responsive" src="/images/vanna/vanna-11.JPG" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Столешница с раковиной и нишой под стиральную машину" href="/images/vanna/vanna-11-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-11.jpg" alt="..."></a>
       <div class="caption">
         <h3>Подвесная столешница</h3>
         <p>Столешница подвесная для стиральной машины</p>
@@ -175,7 +174,7 @@ $page = [
 <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Столешница под стиральную машину с накладной раковиной" href="/images/vanna/vanna-12-2.JPG"><img class="img-responsive" src="/images/vanna/vanna-12.JPG" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Столешница под стиральную машину с накладной раковиной" href="/images/vanna/vanna-12-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-12.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешница для ванной</h3>
         <p>Столешница в нише под стиральную машину</p>
@@ -186,7 +185,7 @@ $page = [
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Столешница прямая с радиусом монтаж на мебель" href="/images/vanna/vanna-13-2.JPG"><img class="img-responsive" src="/images/vanna/vanna-13.JPG" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Столешница прямая с радиусом монтаж на мебель" href="/images/vanna/vanna-13-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-13.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешница</h3>
         <p>Столешница в ванную комнату прямая с радиусом</p>
@@ -197,7 +196,7 @@ $page = [
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Столешница прямая с фартуком и выемкой под стиральную машину" href="/images/vanna/vanna-14-2.JPG"><img class="img-responsive" src="/images/vanna/vanna-14.JPG" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Столешница прямая с фартуком и выемкой под стиральную машину" href="/images/vanna/vanna-14-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-14.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешница для ванной</h3>
         <p>Столешница с фартуком и вырезом в нем под стиральную машину</p>
@@ -208,7 +207,7 @@ $page = [
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Столешница в ванную комнату из искусственного камня FA159 " href="/images/vanna/vanna-15-2.JPG"><img class="img-responsive" src="/images/vanna/vanna-15.JPG" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Столешница в ванную комнату из искусственного камня FA159 " href="/images/vanna/vanna-15-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-15.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешница  FA159</h3>
         <p>Столешница радиусная из камня старон FA159</p>
@@ -219,7 +218,7 @@ $page = [
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Столешница из искусственного камня LG-Hi_Macs коллекции Marmo" href="/images/vanna/vanna-16-2.JPG"><img class="img-responsive" src="/images/vanna/vanna-16.JPG" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Столешница из искусственного камня LG-Hi_Macs коллекции Marmo" href="/images/vanna/vanna-16-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-16.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешница Marmo</h3>
         <p>Столешница из камня LG Hi Macs серии Marmo</p>

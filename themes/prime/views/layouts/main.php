@@ -88,9 +88,9 @@
 
           <li><a href="/price/index">Цены на изделия (акрил)</a></li>
             <li role="separator" class="divider"></li>
-            <!--
+    
             <li><a href="/price/quartz">Цены на изделия (кварц)</a></li>
-            <li role="separator" class="divider"></li>-->
+            <li role="separator" class="divider"></li>
             <li><a href="/price/skidka">Акции</a></li>
             </ul></li>
         <li class="<?= $this->activeClass(Controller::WORK_LINK); ?>"><a href="/site/foto">Наши работы</a></li>

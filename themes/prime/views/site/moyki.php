@@ -45,7 +45,7 @@ $page = [
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
      
-      <a class="fancyimage" rel="group"  title="Мойка из искусственного камня Staron A1181" href="/images/moyki/a1181-2.JPG"><img class="img-responsive" src="/images/moyki/a1181.JPG" alt="..."></a>
+      <a class="fancyimage" rel="group"  title="Мойка из искусственного камня Staron A1181" href="/images/moyki/a1181-2.jpg"><img class="img-responsive" src="/images/moyki/a1181.jpg" alt="..."></a>
       <div class="caption">
       <h3>Mойка A1181</h3>
       <details>
@@ -56,7 +56,7 @@ $page = [
   </div>
    <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-   <a class="fancyimage" rel="group"  title="Мойка из искусственного камня Staron A 1231" href="/images/moyki/a1231-2.jpg"><img class="img-responsive" src="/images/moyki/a1231.jpg" alt="..."></a>
+   <a class="fancyimage" rel="group"  title="Мойка из искусственного камня Staron A 1231" href="/images/moyki/a1231-2.bacth"><img class="img-responsive" src="/images/moyki/a1231.jpg" alt="..."></a>
       <div class="caption">
       <h3>Mойка A1231</h3>
       <details>
@@ -126,7 +126,7 @@ $page = [
   </div>
    <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня  А-439 цвет столешницы" href="/images/moyki/a439-2.JPG"><img class="img-responsive" src="/images/moyki/a439.JPG" alt="..."></a>
+  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня  А-439 цвет столешницы" href="/images/moyki/a439-2.jpg"><img class="img-responsive" src="/images/moyki/a439.jpg" alt="..."></a>
       <div class="caption">
         <h3>Мойка А-439</h3>
   <details>
@@ -137,7 +137,7 @@ $page = [
   </div>
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня  А-439 цвет столешницы" href="/images/moyki/a439v2-2.JPG"><img class="img-responsive" src="/images/moyki/a439v2.JPG" alt="..."></a>
+  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня  А-439 цвет столешницы" href="/images/moyki/a439v2-2.jpg"><img class="img-responsive" src="/images/moyki/a439v2.jpg" alt="..."></a>
       <div class="caption">
         <h3>Мойка А-439</h3>
   <details>
@@ -148,7 +148,7 @@ $page = [
   </div>
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня  А-439 цвет столешницы" href="/images/moyki/a439v3-2.JPG"><img class="img-responsive" src="/images/moyki/a439v3.JPG" alt="..."></a>
+  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня  А-439 цвет столешницы" href="/images/moyki/a439v3-2.jpg"><img class="img-responsive" src="/images/moyki/a439v3.jpg" alt="..."></a>
       <div class="caption">
         <h3>Мойка А-439</h3>
   <details>
@@ -181,7 +181,7 @@ $page = [
   </div>
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-  <a class="fancyimage" rel="group"  title="Мойки из искусственного камня  СК-449 и СК-330  в цвет столешницы." href="/images/moyki/ck449ck330-2.JPG"><img class="img-responsive" src="/images/moyki/ck449ck330.JPG" alt="..."></a>
+  <a class="fancyimage" rel="group"  title="Мойки из искусственного камня  СК-449 и СК-330  в цвет столешницы." href="/images/moyki/ck449ck330-2.jpg"><img class="img-responsive" src="/images/moyki/ck449ck330.jpg" alt="..."></a>
       <div class="caption">
         <h3>Мойки СК-449 и СК-330</h3>
   <details>
@@ -193,7 +193,7 @@ $page = [
   </div>
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня  СК-524 цвет столешницы." href="/images/moyki/ck524-2.JPG"><img class="img-responsive" src="/images/moyki/ck524.JPG" alt="..."></a>
+  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня  СК-524 цвет столешницы." href="/images/moyki/ck524-2.jpg"><img class="img-responsive" src="/images/moyki/ck524.jpg" alt="..."></a>
       <div class="caption">
         <h3>Мойка СК-524</h3>
   <details>
@@ -204,7 +204,7 @@ $page = [
   </div>
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня  СК-524 цвет столешницы." href="/images/moyki/ck524v2-2.JPG"><img class="img-responsive" src="/images/moyki/ck524v2.JPG" alt="..."></a>
+  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня  СК-524 цвет столешницы." href="/images/moyki/ck524v2-2.jpg"><img class="img-responsive" src="/images/moyki/ck524v2.jpg" alt="..."></a>
       <div class="caption">
         <h3>Мойка СК-524</h3>
   <details>
@@ -215,7 +215,7 @@ $page = [
   </div>
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня  СК-414 цвет столешницы." href="/images/moyki/sk414-2.JPG"><img class="img-responsive" src="/images/moyki/sk414.JPG" alt="..."></a>
+  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня  СК-414 цвет столешницы." href="/images/moyki/sk414-2.jpg"><img class="img-responsive" src="/images/moyki/sk414.jpg" alt="..."></a>
       <div class="caption">
         <h3>Мойка СК-414</h3>
   <details>

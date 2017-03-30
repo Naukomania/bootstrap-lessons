@@ -11,7 +11,7 @@ $page = [
 
 <section id="isdeliya">
 <br>
- <div class="container-fluid">
+ <div class="container">
 
   <div> 
               <ul class="breadcrumb">

@@ -141,7 +141,7 @@ $page = [
                 <div class="col-sm-6 col-md-3">
                   <div class="thumbnail">
 
-                    <a class="fancyimage" rel="group"  title="" href="/images/remont/remont_moyki1.JPG"><img class="img-responsive" src="/images/remont/remont_moyki1-2.JPG" alt="..."></a>
+                    <a class="fancyimage" rel="group"  title="" href="/images/remont/remont_moyki1.jpg"><img class="img-responsive" src="/images/remont/remont_moyki1-2.jpg" alt="..."></a>
                     <div class="caption">
 
 
@@ -153,7 +153,7 @@ $page = [
                 <div class="col-sm-6 col-md-3">
                   <div class="thumbnail">
 
-                    <a class="fancyimage" rel="group"  title="" href="/images/remont/remont_moyki2.JPG"><img class="img-responsive" src="/images/remont/remont_moyki2-2.JPG" alt="..."></a>
+                    <a class="fancyimage" rel="group"  title="" href="/images/remont/remont_moyki2.jpg"><img class="img-responsive" src="/images/remont/remont_moyki2-2.jpg" alt="..."></a>
                     <div class="caption">
                       <br>
                       <br>
@@ -166,7 +166,7 @@ $page = [
                 <div class="col-sm-6 col-md-3">
                   <div class="thumbnail">
 
-                    <a class="fancyimage" rel="group"  title="" href="/images/remont/remont_moyki3.JPG"><img class="img-responsive" src="/images/remont/remont_moyki3-2.JPG" alt="..."></a>
+                    <a class="fancyimage" rel="group"  title="" href="/images/remont/remont_moyki3.jpg"><img class="img-responsive" src="/images/remont/remont_moyki3-2.jpg" alt="..."></a>
                     <div class="caption">
 
 
@@ -178,7 +178,7 @@ $page = [
                 <div class="col-sm-6 col-md-3">
                   <div class="thumbnail">
 
-                    <a class="fancyimage" rel="group"  title="" href="/images/remont/remont_moyki4.JPG"><img class="img-responsive" src="/images/remont/remont_moyki4-2.JPG" alt="..."></a>
+                    <a class="fancyimage" rel="group"  title="" href="/images/remont/remont_moyki4.jpg"><img class="img-responsive" src="/images/remont/remont_moyki4-2.jpg" alt="..."></a>
                     <div class="caption">
                       <br>
 
@@ -191,7 +191,7 @@ $page = [
                 <div class="col-sm-6 col-md-3">
                   <div class="thumbnail">
 
-                    <a class="fancyimage" rel="group"  title="" href="/images/remont/remont_moyki5.JPG"><img class="img-responsive" src="/images/remont/remont_moyki5-2.JPG" alt="..."></a>
+                    <a class="fancyimage" rel="group"  title="" href="/images/remont/remont_moyki5.jpg"><img class="img-responsive" src="/images/remont/remont_moyki5-2.jpg" alt="..."></a>
                     <div class="caption">
 
 
@@ -203,7 +203,7 @@ $page = [
                 <div class="col-sm-6 col-md-3">
                   <div class="thumbnail">
 
-                    <a class="fancyimage" rel="group"  title="" href="/images/remont/remont_moyki7.JPG"><img class="img-responsive" src="/images/remont/remont_moyki7-2.JPG" alt="..."></a>
+                    <a class="fancyimage" rel="group"  title="" href="/images/remont/remont_moyki7.jpg"><img class="img-responsive" src="/images/remont/remont_moyki7-2.jpg" alt="..."></a>
                     <div class="caption">
 
 

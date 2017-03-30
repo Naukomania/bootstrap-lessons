@@ -44,7 +44,7 @@ $page = [
   
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня производства Staron A 3181" href="/images/rac/a3181-2.JPG"><img class="img-responsive" src="/images/rac/a3181.JPG" alt="..."></a>
+  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня производства Staron A 3181" href="/images/rac/a3181-2.jpg"><img class="img-responsive" src="/images/rac/a3181.jpg" alt="..."></a>
       <div class="caption">
         <h3>Раковина A-3181</h3>
   <details>
@@ -56,7 +56,7 @@ $page = [
   </div>
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня производства Staron A 3181" href="/images/rac/a3181v2-2.JPG"><img class="img-responsive" src="/images/rac/a3181v2.JPG" alt="..."></a>
+  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня производства Staron A 3181" href="/images/rac/a3181v2-2.jpg"><img class="img-responsive" src="/images/rac/a3181v2.jpg" alt="..."></a>
       <div class="caption">
         <h3>Раковина A-3181</h3>
   <details>
@@ -68,7 +68,7 @@ $page = [
   </div>
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня производства Staron A 3181" href="/images/rac/a3181v3-2.JPG"><img class="img-responsive" src="/images/rac/a3181v3.JPG" alt="..."></a>
+  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня производства Staron A 3181" href="/images/rac/a3181v3-2.jpg"><img class="img-responsive" src="/images/rac/a3181v3.jpg" alt="..."></a>
       <div class="caption">
         <h3>Раковина A-3181</h3>
   <details>
@@ -80,7 +80,7 @@ $page = [
   </div>
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня производства Staron A 3211" href="/images/rac/a3211-2.JPG"><img class="img-responsive" src="/images/rac/a3211.JPG" alt="..."></a>
+  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня производства Staron A 3211" href="/images/rac/a3211-2.jpg"><img class="img-responsive" src="/images/rac/a3211.jpg" alt="..."></a>
       <div class="caption">
         <h3>Раковина A-3211</h3>
   <details>
@@ -92,7 +92,7 @@ $page = [
   </div>
    <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня производства Staron A 3211" href="/images/rac/a3211v2-2.JPG"><img class="img-responsive" src="/images/rac/a3211v2.JPG" alt="..."></a>
+  <a class="fancyimage" rel="group"  title="Мойка из искусственного камня производства Staron A 3211" href="/images/rac/a3211v2-2.jpg"><img class="img-responsive" src="/images/rac/a3211v2.jpg" alt="..."></a>
       <div class="caption">
         <h3>Раковина A-3211</h3>
   <details>

@@ -581,6 +581,7 @@ a {
   -webkit-border-image: url('/css/images/topslide2.png') 19 0 19 repeat;
   -o-border-image: url('/css/images/topslide2.png') 19 0 19 repeat;
   border-image: url('/css/images/topslide2.png') 19 0 19 fill repeat;
+  height: 650px;
 }
 .stone-name {
   text-align: center;
@@ -609,7 +610,7 @@ a {
 .price-container .table,
 .title-price-stone,
 .tabble-pere {
-  width: 95%;
+  width: 100%;
   margin-left: 2.5%;
 }
 tr.itogo {
@@ -639,6 +640,7 @@ tr.itogo {
 }
 .imgone {
   padding-top: 15px;
+  margin-right: 15px;
 }
 p.skidka-text {
   font-size: 14px;
