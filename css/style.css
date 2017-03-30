@@ -657,3 +657,34 @@ p.skidka-summa {
 #main-page #map {
   padding-left: 30px;
 }
+#feedback-form-container {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+#forma-zakaza .form-horizontal {
+  margin: 20px;
+}
+#pechat {
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-image: url(https://img.clipartfest.com/49cb58b86c2f857c5af86b10e9b78244_-square-squares-icon-stamp-box-clipart_256-256.png);
+  background-size: 100%;
+}
+#forma-zakaza {
+  padding: 0;
+  background-size: 100%;
+  background-image: url(http://st.depositphotos.com/1001069/2915/i/950/depositphotos_29150555-stock-photo-abstract-post-envelope-background.jpg);
+}
+.img-forma-zakaza {
+  min-height: 250px;
+  margin: 30px;
+  background-color: white;
+}
+.img-forma-zakaza,
+#forma-zakaza {
+  border: 1px solid black;
+}

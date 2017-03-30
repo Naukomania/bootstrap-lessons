@@ -301,6 +301,36 @@
 		</div><!-- end row -->
 	</div><!-- end container -->
 </section>
+<div class="container" id="feedback-form-container">
+  <div class="row">
+    <div id="forma-zakaza" class="col-xs-offset-1 col-xs-10">
+      <div class="img-forma-zakaza">
+        <div id="pechat"></div>
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="email">Email</label>
+            <div class="col-xs-9">
+              <input type="email" class="form-control" id="email" placeholder="Ваша почта">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="message">Сообщение</label>
+            <div class="col-xs-9">
+            <textarea class="form-control" id="message" placeholder="Введите сообщение" rows="4"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-offset-3 col-xs-9">
+              <button type="submit" class="btn btn-default">Отправить</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
 <div id="foooter2" class="visible-md visible-lg">
 <div class="footer-gold">&nbsp &nbspМосква, ул. Енисейская д.1 тел 227-21-31</div>
 <div class="footer-green">
