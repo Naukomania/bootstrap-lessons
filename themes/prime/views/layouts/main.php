@@ -303,19 +303,19 @@
 </section>
 <div class="container" id="feedback-form-container">
   <div class="row">
-    <div id="forma-zakaza" class="col-xs-offset-1 col-xs-10">
+    <div id="forma-zakaza" class="col-xs-offset-1 col-xs-10 col-md-6 col-md-offset-3">
       <div class="img-forma-zakaza">
         <div id="pechat"></div>
         <form class="form-horizontal">
           <div class="form-group">
             <label class="control-label col-xs-3" for="email">Email</label>
-            <div class="col-xs-9">
+            <div class="col-xs-9 col-md-8">
               <input type="email" class="form-control" id="email" placeholder="Ваша почта">
             </div>
           </div>
           <div class="form-group">
             <label class="control-label col-xs-3" for="message">Сообщение</label>
-            <div class="col-xs-9">
+            <div class="col-xs-9 col-md-8">
             <textarea class="form-control" id="message" placeholder="Введите сообщение" rows="4"></textarea>
             </div>
           </div>

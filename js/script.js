@@ -46,7 +46,7 @@ $(document).ready(function(){
         event.preventDefault();
     });
     $('body').on('click', '.order-form-link', function() {
-        $('#order-form, #background-wrapper').fadeIn('slow');
+        $('#feedback-form-container, #background-wrapper').fadeIn('slow');
         var source = $(this).attr('data-source');
         alert(source);
     });
