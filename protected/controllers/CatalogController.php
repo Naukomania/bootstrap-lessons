@@ -47,6 +47,14 @@ class CatalogController extends Controller
 	{
 		$this->catalogView('radianz');
 	}
+	public function actionScorino()
+	{
+		$this->catalogView('scorino');
+	}
+	public function actionCaesarstone()
+	{
+		$this->catalogView('caesarstone');
+	}
 
 
 	private function catalogView($brandName)

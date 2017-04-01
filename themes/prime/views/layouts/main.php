@@ -121,9 +121,9 @@
           <ul class="dropdown-menu">
             <li><a href="/catalog/radianz">Samsung Radianz</a></li>
              <li><a href="/catalog/scorino">Scorino</a></li>
-          <!--
-            <li><a href="#">Caesarstone</a></li>
-            <li><a href="#">Cambria</a></li>
+         
+            <li><a href="/catalog/caesarstone">Caesarstone</a></li>
+          <!--   <li><a href="#">Cambria</a></li>
             <li><a href="#">Plazastone</a></li>
             -->
           </ul>
@@ -257,7 +257,7 @@
 					<ul>
 						<li><a href="/catalog/radianz">Samsung Radianz (Ю. Корея)</a></li>
 						<li><a href="/catalog/scorino">Scorino (Ю.Корея)</a></li>
-						<li><a href="#">Caesarstone (Израиль)</a></li>
+						<li><a href="/catalog/caesarstone">Caesarstone (Израиль-США)</a></li>
 						<li><a href="#">Plaza Stone (Россия)</a></li>
 						<li><a href="#">Cambria (США)</a></li>
 					</ul>
@@ -270,7 +270,7 @@
 		<br>
 		<div class="row">
 			<div class="col-md-2"> 
-				<a href="#">
+				<a href="/catalog/scorino">
 					<img src="/images/logomini-footer/scorino-logo-mini.jpg">
 				</a>
 			</div>
@@ -280,7 +280,7 @@
 				</a>
 			</div>
 			<div class="col-md-2"> 
-				<a href="#">
+				<a href="/catalog/caesarstone">
 					<img src="/images/logomini-footer/caesarstone-logo-mini.jpg">
 				</a>
 			</div>
