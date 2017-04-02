@@ -8,7 +8,7 @@
 		<br>
 		<p> Москва, ул. Енисейская 1, территория комбината "Лира"</p>
 		<p> Выписать пропуск на ООО "Маэстро Классик", внутри территории корпус 8 офис 103.</p>
-	<p> тел 495-229-49-19</p>
+	<p> тел 495-227-49-19</p>
 	<div class="mail"><p><img src="/images/message.jpg"><a href="mailto:info@prime-stone.ru" target="_blank">info@prime-stone.ru</a></p>
           </div>
 </div>

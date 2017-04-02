@@ -333,7 +333,7 @@
 </div>
 
 <div id="foooter2" class="visible-md visible-lg">
-<div class="footer-gold">&nbsp &nbspМосква, ул. Енисейская д.1 тел 227-21-31</div>
+<div class="footer-gold">&nbsp &nbspМосква, ул. Енисейская д.1 тел 227-49-19</div>
 <div class="footer-green">
 	<div class="container">
 		<div class="row">
