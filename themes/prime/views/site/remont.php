@@ -139,7 +139,7 @@ $page = [
               <div class="row">
 
                 <div class="col-sm-6 col-md-3">
-                  <div class="thumbnail">
+                  <div class="thumbnail" id="rem-thumbnail">
 
                     <a class="fancyimage" rel="group"  title="" href="/images/remont/remont_moyki1.jpg"><img class="img-responsive" src="/images/remont/remont_moyki1-2.jpg" alt="..."></a>
                     <div class="caption">
@@ -151,20 +151,17 @@ $page = [
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
-                  <div class="thumbnail">
+                  <div class="thumbnail" id="rem-thumbnail">
 
                     <a class="fancyimage" rel="group"  title="" href="/images/remont/remont_moyki2.jpg"><img class="img-responsive" src="/images/remont/remont_moyki2-2.jpg" alt="..."></a>
                     <div class="caption">
-                      <br>
-                      <br>
-
-                      <p>Вид столешницы после демонтажа мойки</p>
+                                            <p>Вид столешницы после демонтажа мойки</p>
 
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
-                  <div class="thumbnail">
+                  <div class="thumbnail" id="rem-thumbnail">
 
                     <a class="fancyimage" rel="group"  title="" href="/images/remont/remont_moyki3.jpg"><img class="img-responsive" src="/images/remont/remont_moyki3-2.jpg" alt="..."></a>
                     <div class="caption">
@@ -176,7 +173,7 @@ $page = [
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
-                  <div class="thumbnail">
+                  <div class="thumbnail" id="rem-thumbnail">
 
                     <a class="fancyimage" rel="group"  title="" href="/images/remont/remont_moyki4.jpg"><img class="img-responsive" src="/images/remont/remont_moyki4-2.jpg" alt="..."></a>
                     <div class="caption">
@@ -189,19 +186,19 @@ $page = [
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
-                  <div class="thumbnail">
+                  <div class="thumbnail" id="rem-thumbnail">
 
                     <a class="fancyimage" rel="group"  title="" href="/images/remont/remont_moyki5.jpg"><img class="img-responsive" src="/images/remont/remont_moyki5-2.jpg" alt="..."></a>
                     <div class="caption">
 
 
-                      <p>Последний этап перешлифовка всей столешницы. Важно чтобы мойка и столешница были одинаково отшлифованы. Шлифует Андрей Александрович..</p>
+                      <p>Последний этап перешлифовка всей столешницы. Важно чтобы мойка и столешница были одинаково отшлифованы. Шлифует Андрей Александрович.</p>
 
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
-                  <div class="thumbnail">
+                  <div class="thumbnail" id="rem-thumbnail">
 
                     <a class="fancyimage" rel="group"  title="" href="/images/remont/remont_moyki7.jpg"><img class="img-responsive" src="/images/remont/remont_moyki7-2.jpg" alt="..."></a>
                     <div class="caption">
@@ -253,24 +250,22 @@ $page = [
               <div class="row">
 
                 <div class="col-sm-6 col-md-3">
-                  <div class="thumbnail">
+                  <div class="thumbnail" id="rem-thumbnail">
 
                     <a class="fancyimage" rel="group"  title="" href="/images/remont/vstavka1.jpg"><img class="img-responsive" src="/images/remont/vstavka1-2.jpg" alt="..."></a>
                     <div class="caption">
-                        <br>
-                        <br>
-
+                        
                       <p>Место где появилась трещина</p>
 
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
-                  <div class="thumbnail">
+                  <div class="thumbnail" id="rem-thumbnail">
 
                     <a class="fancyimage" rel="group"  title="" href="/images/remont/vstavka2.jpg"><img class="img-responsive" src="/images/remont/vstavka2-2.jpg" alt="..."></a>
                     <div class="caption">
-                    <br>
+                  
 
                       <p>Трещина вблизи, если не ремонтировать оперативоно, то пойдет дальше</p>
 
@@ -278,11 +273,11 @@ $page = [
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
-                  <div class="thumbnail">
+                  <div class="thumbnail" id="rem-thumbnail">
 
                     <a class="fancyimage" rel="group"  title="" href="/images/remont/vstavka3.jpg"><img class="img-responsive" src="/images/remont/vstavka3-2.jpg" alt="..."></a>
                     <div class="caption">
-                      <br>
+                     
 
                       <p>Вырез из под мойки, мы их оставляем у клиента на случай ремонта.</p>
 
@@ -290,7 +285,7 @@ $page = [
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
-                  <div class="thumbnail">
+                  <div class="thumbnail" id="rem-thumbnail">
 
                     <a class="fancyimage" rel="group"  title="" href="/images/remont/vstavka4.jpg"><img class="img-responsive" src="/images/remont/vstavka4-2.jpg" alt="..."></a>
                     <div class="caption">
@@ -302,29 +297,22 @@ $page = [
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
-                  <div class="thumbnail">
+                  <div class="thumbnail" id="rem-thumbnail">
 
                     <a class="fancyimage" rel="group"  title="" href="/images/remont/vstavka5.jpg"><img class="img-responsive" src="/images/remont/vstavka5-2.jpg" alt="..."></a>
                     <div class="caption">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-
+                   
                       <p>В пласти камня делаем пропил (либо фрезеровку)</p>
 
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
-                  <div class="thumbnail">
+                  <div class="thumbnail" id="rem-thumbnail">
 
                     <a class="fancyimage" rel="group"  title="" href="/images/remont/vstavka6.jpg"><img class="img-responsive" src="/images/remont/vstavka6-2.jpg" alt="..."></a>
                     <div class="caption">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                    
 
                       <p>Здесь пропил повторяет путь трещин и микротрещин</p>
 
@@ -333,7 +321,7 @@ $page = [
                 </div>
                   
                   <div class="col-sm-6 col-md-3">
-                  <div class="thumbnail">
+                  <div class="thumbnail" id="rem-thumbnail">
 
                     <a class="fancyimage" rel="group"  title="" href="/images/remont/vstavka7.jpg"><img class="img-responsive" src="/images/remont/vstavka7-2.jpg" alt="..."></a>
                     <div class="caption">
@@ -351,7 +339,7 @@ $page = [
                     <div class="caption">
 
 
-                      <p>После того как клей застыл, поверхность зашлифовываем. Получаем гладкую поверхность. На месте трещины, есть небольшой след от вставки. В идеале видно вставки вообще не должно быть видно. В данном случае вставка видна из - за текстуры камня под мрамор. Тут вставка в прерывает рисунок под мрамор на ширину вставки - 3 мм.</p>
+                      <p>После того как клей застыл, поверхность зашлифовываем. Получаем гладкую поверхность. </p><details><br><p>На месте трещины, есть небольшой след от вставки.</p>   <p>В идеале видно вставки вообще не должно быть видно. В данном случае вставка видна из - за текстуры камня под мрамор. Тут вставка в прерывает рисунок под мрамор на ширину вставки - 3 мм.</p></details>
 
                     </div>
                   </div>

@@ -410,10 +410,9 @@ body {
   filter: none;
   /* IE6-9 */
   -webkit-filter: grayscale(0);
-  border-radius: 5px;
   background-color: #fff;
   border: 1px solid #ddd;
-  padding: 5px;
+  border-radius: 5px;
 }
 .thumb img:hover {
   filter: gray;
@@ -642,7 +641,8 @@ tr.itogo {
   padding-top: 15px;
   margin-right: 15px;
 }
-p.skidka-text {
+p.skidka-text,
+a.skidka-text {
   font-size: 14px;
   font-weight: 600;
   color: green;
@@ -686,4 +686,31 @@ p.skidka-summa {
   margin: 34px;
   padding: 10px;
   background-color: #ececec;
+}
+#kuhnya-thumbnail,
+#vanna-thumbnail,
+#pod-thumbnail,
+#bar-thumbnail,
+#rec-thumbnail,
+#san-thumbnail {
+  height: 320px;
+}
+#kuhnya-thumbnail h3,
+#vanna-thumbnail h3,
+#pod-thumbnail h3,
+#bar-thumbnail h3,
+#rec-thumbnail h3,
+#san-thumbnail h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: green;
+}
+#rem-thumbnail {
+  height: 330px;
+}
+.last-price {
+  text-decoration: line-through;
+  font-size: 16px;
+  font-weight: 600;
+  color: red;
 }

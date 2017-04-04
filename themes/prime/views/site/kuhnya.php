@@ -27,6 +27,7 @@ $page = [
 Качество производства камней не перечисленных регионов ), пока оставляют желать лучшего. Стоимость столешницы зависит от  выбранного бренда и цвета и конечно же от гуляющего курса валюты. 
 <details>
   <summary>Читать далее</summary>
+  <br>
 <p>Конечно же на сумму заказа будет влиять объем и сложность работ. Чем сложнее и замысловатее конфигурация, тем дороже.  У каждого производителя камня, в среднем , около сотни цветов. Эти цвета относятся к той, или иной категории,  коллекции, серии и пр.  У каждого производителя камня эти разделения называются по-своему. Смысл в этом разделении один – себестоимость изготовления.</p>
  <p>Чем насыщеннее текстура и цвет, тем больше затрат на производство.  Самыми недорогими цветами являются светлые монотонные цвета, затем яркие монотонные, за ними следуют цвета с песчаной текстурой, потом идет градация по крупности  вкраплений и, наконец завершают ценовую цепочку цветов - камня с мраморной текстурой и / или включением 3D частиц (они же вкрапления, включения, крапушки). </p>
 <p>Производители искусственного акрилового камня не рекомендуют заказывать кухонные столешницы из ярких и темных цветов. Такие цвета не являются износостойкими. При интенсивном использовании появляются царапины, оставляющие светлый след. Можно сравнить, ну очень сравнительно, как с лакированной темной мебелью. </p>
@@ -45,7 +46,7 @@ $page = [
       <div class="row">
   
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="kuhnya-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница радиусная с вырезом под круглую накладную мойку" href="/images/kuhnya/ku1-1-2.jpg"><img class="img-responsive" src="/images/kuhnya/ku1-1.jpg" alt="..."></a>
       <div class="caption">
@@ -57,7 +58,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="kuhnya-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница из искусственного камня с двумя интегрированными мойками" href="/images/kuhnya/ku1-2-2.jpg"><img class="img-responsive" src="/images/kuhnya/ku1-2.jpg" alt="..."></a>
       <div class="caption">
@@ -69,7 +70,7 @@ $page = [
     </div>
   </div>
  <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="kuhnya-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница из искусственного камня Samsung Staron PA860 с радиусом и накладной мойкой" href="/images/kuhnya/ku1-3-2.jpg"><img class="img-responsive" src="/images/kuhnya/ku1-3.jpg" alt="..."></a>
       <div class="caption">
@@ -81,7 +82,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="kuhnya-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница c мойками монтаж под столешницу" href="/images/kuhnya/ku1-4-2.jpg"><img class="img-responsive" src="/images/kuhnya/ku1-4.jpg" alt="..."></a>
       <div class="caption">
@@ -93,7 +94,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="kuhnya-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница из акрилового камня FR148 Staron" href="/images/kuhnya/ku1-5-2.jpg"><img class="img-responsive" src="/images/kuhnya/ku1-5.jpg" alt="..."></a>
       <div class="caption">
@@ -105,7 +106,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="kuhnya-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница с лицевой кромкой антиперелив, материал Samsung" href="/images/kuhnya/ku1-6-2.jpg"><img class="img-responsive" src="/images/kuhnya/ku1-6.jpg" alt="..."></a>
       <div class="caption">
@@ -116,7 +117,7 @@ $page = [
     </div>
   </div>
       <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="kuhnya-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Угловая столешница с кромкй R3 и наладной мойкой" href="/images/kuhnya/ku1-7-2.jpg"><img class="img-responsive" src="/images/kuhnya/ku1-7.jpg" alt="..."></a>
       <div class="caption">
@@ -127,7 +128,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="kuhnya-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Угловая столешница со стеновой панелью" href="/images/kuhnya/ku1-8-2.jpg"><img class="img-responsive" src="/images/kuhnya/ku1-8.jpg" alt="..."></a>
       <div class="caption">
@@ -138,7 +139,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="kuhnya-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница с интегрированной мойкой фрезерованным фартуком для мойки" href="/images/kuhnya/ku1-9-2.jpg"><img class="img-responsive" src="/images/kuhnya/ku1-9.jpg" alt="..."></a>
       <div class="caption">
@@ -148,7 +149,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="kuhnya-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Интегрированная мойка в столешнице из камня Samsung Staron PA860 СК-439П" href="/images/kuhnya/ku1-10-2.jpg"><img class="img-responsive" src="/images/kuhnya/ku1-10.jpg" alt="..."></a>
       <div class="caption">
@@ -158,7 +159,7 @@ $page = [
       </div>
     </div>
   </div>
-  <div class="col-sm-6 col-md-3">
+  <div class="col-sm-6 col-md-3"  id="kuhnya-thumbnail">
     <div class="thumbnail">
      
       <a class="fancyimage" rel="group"  title="Интегрированная мойка с проточками под воду в столешнице искусственного камня" href="/images/kuhnya/ku1-11-2.jpg"><img class="img-responsive" src="/images/kuhnya/ku1-11.jpg" alt="..."></a>
@@ -170,7 +171,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="kuhnya-thumbnail">
            <a class="fancyimage" rel="group"  title="Столешница с порталом, фигурной кромкой и бортиком с галтелью" href="/images/kuhnya/ku1-12-2.jpg"><img class="img-responsive" src="/images/kuhnya/ku1-12.jpg" alt="..."></a>
       <div class="caption">
         <h3>Фигурная кромка</h3>
@@ -179,7 +180,7 @@ $page = [
     </div>
   </div>
 <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="kuhnya-thumbnail">
            <a class="fancyimage" rel="group"  title="Столешница SO446, камень и мойка производства Старон" href="/images/kuhnya/ku1-13-2.jpg"><img class="img-responsive" src="/images/kuhnya/ku1-13.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешница SO446</h3>
@@ -188,7 +189,7 @@ $page = [
     </div>
   </div>
 <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="kuhnya-thumbnail">
            <a class="fancyimage" rel="group"  title="Столешница из камня Staron Tempest FR124 Rattan" href="/images/kuhnya/ku1-14-2.jpg"><img class="img-responsive" src="/images/kuhnya/ku1-14.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешница Tempest</h3>
@@ -197,7 +198,7 @@ $page = [
     </div>
   </div>
 <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="kuhnya-thumbnail">
            <a class="fancyimage" rel="group"  title="Столешница из камня LG Hi Macs коллекции Marmo" href="/images/kuhnya/ku1-15-2.jpg"><img class="img-responsive" src="/images/kuhnya/ku1-15.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешница LG Hi Macs</h3>
@@ -206,7 +207,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="kuhnya-thumbnail">
            <a class="fancyimage" rel="group"  title="Столешница из камня Corian Clam Shell" href="/images/kuhnya/ku1-16-2.jpg"><img class="img-responsive" src="/images/kuhnya/ku1-16.jpg" alt="..."></a>
       <div class="caption">
         <h3>Столешница Corian</h3>

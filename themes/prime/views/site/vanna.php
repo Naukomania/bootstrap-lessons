@@ -27,6 +27,7 @@ $page = [
 
 <details>
   <summary>Читать далее</summary>
+  <br>
 <p>Столешница в ванную может быть любой формы – прямоугольной, радиусной или фигурной. Искусственный камень позволяет изготовить столешницу, которая будет примыкать  не только к прямым стенам, но  и скругленным или состыкованным под любым углом.
 Столешницы в ванную монтируют в разных вариантах: мебель или как отдельный элемент. 
 <p>Самым ходовым вариантом столешницу ставят отдельно.  Обычно в помещениях хватает место только чтобы разместить раковину и стиральную машинку – столешница здесь служит связующим звеном.
@@ -46,7 +47,7 @@ $page = [
       <div class="row">
   
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="vanna-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница ваннную с интегрированной раковиной и инкрустированной кромкой" href="/images/vanna/vanna-1-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-1.jpg" alt="..."></a>
       <div class="caption">
@@ -58,7 +59,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="vanna-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница в ванную подвесная с интегрированной раковиной" href="/images/vanna/vanna-2-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-2.jpg" alt="..."></a>
       <div class="caption">
@@ -70,7 +71,7 @@ $page = [
     </div>
   </div>
  <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="vanna-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница в ванную смонтированная на мебель" href="/images/vanna/vanna-3-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-3.jpg" alt="..."></a>
       <div class="caption">
@@ -82,7 +83,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="vanna-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница c накладной раковиной, полкой и фартуком" href="/images/vanna/vanna-4-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-4.jpg" alt="..."></a>
       <div class="caption">
@@ -94,7 +95,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="vanna-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница для ванной под стиральную машину" href="/images/vanna/vanna-5-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-5.jpg" alt="..."></a>
       <div class="caption">
@@ -106,7 +107,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="vanna-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница с монтажом на тумбы в ванной комнату" href="/images/vanna/vanna-6-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-6.jpg" alt="..."></a>
       <div class="caption">
@@ -117,7 +118,7 @@ $page = [
     </div>
   </div>
       <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="vanna-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Раковина Staron в столешнице SS042, монтаж под стиральную машину" href="/images/vanna/vanna-7-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-7.jpg" alt="..."></a>
       <div class="caption">
@@ -128,7 +129,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="vanna-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница на мебели для ванной комнаты" href="/images/vanna/vanna-8-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-8.jpg" alt="..."></a>
       <div class="caption">
@@ -139,7 +140,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="vanna-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница для ванной с настольной раковиной" href="/images/vanna/vanna-9-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-9.jpg" alt="..."></a>
       <div class="caption">
@@ -150,7 +151,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="vanna-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Фигурная столешницая с раковиной" href="/images/vanna/vanna-10-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-10.jpg" alt="..."></a>
       <div class="caption">
@@ -161,7 +162,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="vanna-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница с раковиной и нишой под стиральную машину" href="/images/vanna/vanna-11-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-11.jpg" alt="..."></a>
       <div class="caption">
@@ -172,7 +173,7 @@ $page = [
     </div>
   </div>
 <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="vanna-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница под стиральную машину с накладной раковиной" href="/images/vanna/vanna-12-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-12.jpg" alt="..."></a>
       <div class="caption">
@@ -183,7 +184,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="vanna-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница прямая с радиусом монтаж на мебель" href="/images/vanna/vanna-13-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-13.jpg" alt="..."></a>
       <div class="caption">
@@ -194,7 +195,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="vanna-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница прямая с фартуком и выемкой под стиральную машину" href="/images/vanna/vanna-14-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-14.jpg" alt="..."></a>
       <div class="caption">
@@ -205,7 +206,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="vanna-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница в ванную комнату из искусственного камня FA159 " href="/images/vanna/vanna-15-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-15.jpg" alt="..."></a>
       <div class="caption">
@@ -216,7 +217,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="vanna-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница из искусственного камня LG-Hi_Macs коллекции Marmo" href="/images/vanna/vanna-16-2.jpg"><img class="img-responsive" src="/images/vanna/vanna-16.jpg" alt="..."></a>
       <div class="caption">

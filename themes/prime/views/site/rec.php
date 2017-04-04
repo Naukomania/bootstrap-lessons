@@ -29,6 +29,7 @@ $page = [
 
 <details>
   <summary>Читать далее</summary>
+  <br>
 <p>Ресепшн – первое место куда обращается вновь пришедший человек и первое, а зачастую и самое значимое  впечатление об организации.  Конечно же тут не обойтись малыми затратами – простеньким столиком с заботливо разложенными на нем визитками.
 <p>В изготовлении ресепшн необходимо использовать стойкий материал, который выдержит поток и интенсивность использования.  Такой материал должен хорошо мыться, ремонтироваться, в случае необходимости, своим видом создавать благоприятное впечатление об успешности организации.</p>
 Ресепшн в самом дорогом варианте – стойка  нестандартной формы, полностью исполненная  из камня, с множеством гнутых элементов, и с применением фрезерования в камне на ЧПУ всевозможных узоров и с подсветкой. 
@@ -49,7 +50,7 @@ $page = [
       <div class="row">
   
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="rec-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Рецепция из искусственного камня старон SP016" href="/images/rec/rec-1-2.jpg"><img class="img-responsive" src="/images/rec/rec-1.jpg" alt="..."></a>
       <div class="caption">
@@ -61,7 +62,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="rec-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Рецепция из искусственного камня старон" href="/images/rec/rec-2-2.jpg"><img class="img-responsive" src="/images/rec/rec-2.jpg" alt="..."></a>
       <div class="caption">
@@ -73,7 +74,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="rec-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Рецепция из искусственного камня старон BW010" href="/images/rec/rec-3-2.jpg"><img class="img-responsive" src="/images/rec/rec-3.jpg" alt="..."></a>
       <div class="caption">
@@ -85,7 +86,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="rec-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Рецепция из искусственного камня старон" href="/images/rec/rec-4-2.jpg"><img class="img-responsive" src="/images/rec/rec-4.jpg" alt="..."></a>
       <div class="caption">
@@ -97,7 +98,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="rec-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Рецепция из искусственного камня для банка старон SP016" href="/images/rec/rec-5-2.jpg"><img class="img-responsive" src="/images/rec/rec-5.jpg" alt="..."></a>
       <div class="caption">
@@ -109,7 +110,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="rec-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Рецепция из искусственного камня старон для стоматологии" href="/images/rec/rec-6-2.jpg"><img class="img-responsive" src="/images/rec/rec-6.jpg" alt="..."></a>
       <div class="caption">
@@ -121,7 +122,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="rec-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Рецепция из искусственного камня для гостиницы" href="/images/rec/rec-7-2.jpg"><img class="img-responsive" src="/images/rec/rec-7.jpg" alt="..."></a>
       <div class="caption">
@@ -133,7 +134,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="rec-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Рецепция из искусственного камня с фрезеровкой" href="/images/rec/rec-8-2.jpg"><img class="img-responsive" src="/images/rec/rec-8.jpg" alt="..."></a>
       <div class="caption">

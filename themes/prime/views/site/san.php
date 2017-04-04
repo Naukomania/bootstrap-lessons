@@ -29,6 +29,7 @@ $page = [
 
 <details>
   <summary>Читать далее</summary>
+  <br>
 <p>Столешницы для санузлов изготовленные из искусственного камня – достаточно прочный и изностойкий вариант, выдерживает высокий трафик и интенсивность эксплуатации.
 В такие столешницы, как правило заказывают врезные раковины или с монтажом под столешницу.</p>
 <p>В качестве крепления столешниц могут использоваться закладные в стене, которые делаются до отделки стен или же кронштейны и  / или ножки.</p>
@@ -44,7 +45,7 @@ $page = [
       <div class="row">
   
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="san-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница в санузел из искусственного камня Samsung Staron PS820" href="/images/san/san-1-2.jpg"><img class="img-responsive" src="/images/san/san-1.jpg" alt="..."></a>
       <div class="caption">
@@ -56,7 +57,7 @@ $page = [
     </div>
   </div>
     <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="san-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница в санузел из искусственного камня Pebble Grey PG810" href="/images/san/san-2-2.jpg"><img class="img-responsive" src="/images/san/san-2.jpg" alt="..."></a>
       <div class="caption">
@@ -68,7 +69,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="san-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница в санузел из искусственного камня Saratoga PS820" href="/images/san/san-3-2.jpg"><img class="img-responsive" src="/images/san/san-3.jpg" alt="..."></a>
       <div class="caption">
@@ -80,7 +81,7 @@ $page = [
     </div>
   </div>
  <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="san-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница в санузел из искусственного камня Pebble Gold  PG840" href="/images/san/san-4-2.jpg"><img class="img-responsive" src="/images/san/san-4.jpg" alt="..."></a>
       <div class="caption">
@@ -92,7 +93,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="san-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница в санузел из искусственного камня Sanded Onyx SO423" href="/images/san/san-5-2.jpg"><img class="img-responsive" src="/images/san/san-5.jpg" alt="..."></a>
       <div class="caption">
@@ -104,7 +105,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="san-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница в санузел из искусственного камня SI040 Ivory" href="/images/san/san-6-2.jpg"><img class="img-responsive" src="/images/san/san-6.jpg" alt="..."></a>
       <div class="caption">
@@ -116,7 +117,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="san-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница в санузел из искусственного камня Sanded Cornmeal SC433" href="/images/san/san-7-2.jpg"><img class="img-responsive" src="/images/san/san-7.jpg" alt="..."></a>
       <div class="caption">
@@ -128,7 +129,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail"  id="san-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Столешница в санузел из искусственного камня LG Hi Macs" href="/images/san/san-8-2.jpg"><img class="img-responsive" src="/images/san/san-8.jpg" alt="..."></a>
       <div class="caption">

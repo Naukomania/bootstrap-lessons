@@ -33,7 +33,7 @@ $page = [
       <div class="row">
   
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="bar-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Барная стойка для кухни из искусственного камня Samsung Staron Tempest" href="/images/bar/bar-1-2.JPG"><img class="img-responsive" src="/images/bar/bar-1.jpg" alt="..."></a>
       <div class="caption">
@@ -45,7 +45,7 @@ $page = [
     </div>
   </div>
   <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="bar-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Барная стойка для кухни из искусственного камня Г-образной формы" href="/images/bar/bar-2-2.JPG"><img class="img-responsive" src="/images/bar/bar-2.jpg" alt="..."></a>
       <div class="caption">
@@ -57,7 +57,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="bar-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Барная стойка для кухни из искусственного камня Г-образной формы" href="/images/bar/bar-3-2.JPG"><img class="img-responsive" src="/images/bar/bar-3.jpg" alt="..."></a>
       <div class="caption">
@@ -69,7 +69,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="bar-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Барная стойка для кухни c каменной ногой" href="/images/bar/bar-4-2.JPG"><img class="img-responsive" src="/images/bar/bar-4.jpg" alt="..."></a>
       <div class="caption">
@@ -81,7 +81,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="bar-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Барная стойка для кухни переходящая в стол" href="/images/bar/bar-5-2.JPG"><img class="img-responsive" src="/images/bar/bar-5.jpg" alt="..."></a>
       <div class="caption">
@@ -93,7 +93,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="bar-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Барная стойка с двумя столешницами" href="/images/bar/bar-6-2.JPG"><img class="img-responsive" src="/images/bar/bar-6.jpg" alt="..."></a>
       <div class="caption">
@@ -105,7 +105,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="bar-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Барная стойка с двумя столешницами" href="/images/bar/bar-7-2.JPG"><img class="img-responsive" src="/images/bar/bar-7.jpg" alt="..."></a>
       <div class="caption">
@@ -117,7 +117,7 @@ $page = [
     </div>
   </div>
    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="thumbnail" id="bar-thumbnail">
      
       <a class="fancyimage" rel="group"  title="Барная стойка для кухни на мебели" href="/images/bar/bar-8-2.JPG"><img class="img-responsive" src="/images/bar/bar-8.jpg" alt="..."></a>
       <div class="caption">

@@ -6,7 +6,7 @@
  <div> 
               <ul class="breadcrumb">
                  <li><a href="#">Искусственный камень</a></li>
-                 <li><a href="#"><?= $model->collection->brand->typeName(); ?>"></a></li>
+                 <li><a href="#"><?= $model->collection->brand->typeName(); ?></a></li>
                <li><a href="/catalog/<?= $model->collection->brand->name;?>"><?= $model->collection->brand->title;?></a></li>
                  <li><a href="<?= $this->createUrl('catalog/'.$model->collection->brand->name, [
                     'activeId' => $model->collection->id
@@ -22,7 +22,7 @@
 
        <img class="img-responsive" <img src="<?= $model->image; ?>"></a>
        </div>
-       <div class="col-md-8 col-sm-6 col-xs-6"> 
+       <div class="col-md-8 col-sm-4 col-xs-6"> 
          <h2><?= $model->collection->brand->title;?>&nbsp<?= $model->name; ?></h2>
          <?if($model->isDiscountinued()):?>
          <div class="alert alert-warning">
