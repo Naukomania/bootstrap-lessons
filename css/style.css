@@ -714,3 +714,6 @@ p.skidka-summa {
   font-weight: 600;
   color: red;
 }
+#collection-content .img-responsive {
+  max-width: none;
+}
