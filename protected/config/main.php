@@ -31,6 +31,9 @@ return array(
 
 	// application components
 	'components'=>array(
+		'errorHandler'=>array(
+            'errorAction' => 'site/error'
+        ),
 		'assetManager' => array(
             'class'			=> 'CAssetManager',
             'linkAssets'    => false,
