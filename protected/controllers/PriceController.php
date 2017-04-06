@@ -5,7 +5,9 @@ class PriceController extends Controller
 	public $activeLink = self::PRICE_LINK;
 	public function actionIndex()
 	{
-		$brands = Brand::model()->findAll();
+		$brands = Brand::model()->findAll(array(
+            'condition'=>'type='.Brand::ACRYLIC_TYPE,
+        ));
 		$this->render('index',[
 			'brands' => $brands,
 			'short' => false,
