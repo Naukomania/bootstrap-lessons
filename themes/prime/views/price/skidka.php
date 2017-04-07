@@ -41,7 +41,7 @@ $page = [
 
 <div class="block-text-izd2">
 
-<p class="skidka-text">Раковина-СК494 з искусственного камня Samsung Staron SO423.</p>
+<p class="skidka-text">Раковина-СК494 из искусственного камня Samsung Staron SO423.</p>
 <p class="skidka-summa">Всего за 3000 рублей!!!</p>
 <p>3 апреля 2017</p>
 </div>
@@ -54,12 +54,13 @@ $page = [
 <p class="skidka-text">Распродажа материала!!!</p>
 <p> Для небольших изделий - столешницы в ванную, подоконники и пр.</p>
 <p> Материал: <a class="skidka-text" href="/catalog/475">Hanex M-002 Fantasia</a></p>
-<p>Pазмер 1840 х760 мм х 12 мм (1.4 м.кв)</p>
+<p>Pазмер материала: 1840 х760 мм х 12 мм (1.4 м.кв)</p>
 <p class="skidka-summa">Всего за 6400 рублей!!! (за кусок)</p>
 <p  class="last-price">10 640 рублей!!!</p>
 <div class="imgone">
       <a class="fancyimage" rel="group"  title="Hanex M-002 Fantasia - распродажа!" href="/images/skidka/hanex_m002_magic_fantasia-1.jpg"><img class="img-responsive" src="/images/skidka/hanex_m002_magic_fantasia.jpg" alt="..."></a>
       </div>
+      
  2 апреля 2017
 </div>
 </div>
@@ -68,7 +69,7 @@ $page = [
 <p class="skidka-text">Распродажа материала!!!</p>
 <p> Для небольших изделий - столешницы в ванную, подоконники и пр.</p>
 <p> Материал: <a class="skidka-text" href="/catalog/524">Hanex T-068 Rice Cookie</a></p>
-<p>Pазмер 1840 х760 мм х 12 мм (1.4 м.кв)</p>
+<p>Pазмер материала: 1840 х760 мм х 12 мм (1.4 м.кв)</p>
 <p class="skidka-summa">Всего за 7 060 рублей!!! (за кусок)</p>
 <p  class="last-price">12 180 рублей!!!</p>
 <div class="imgone">

@@ -31,7 +31,7 @@
 
        <p> Производство:<?=$model->collection->brand->countryName();?></p>
         <p>
-       Цена: <?= $model->collection->getRubPrice();?> руб
+       Цена: <?= $model->collection->getRubPrice();?> руб за м.кв
        </p>
          <p>
        Коллекция: <?= $model->collection->name;?>
