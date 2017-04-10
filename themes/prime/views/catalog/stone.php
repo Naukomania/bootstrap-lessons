@@ -31,7 +31,13 @@
 
        <p> Производство:<?=$model->collection->brand->countryName();?></p>
         <p>
-       Цена: <?= $model->collection->getRubPrice();?> руб за м.кв
+       Цена: <?= $model->collection->getRubPrice();?> руб за лист
+       </p>
+       <p>
+       Размеры листа:  
+       </p>
+       <p>
+       Покупка:  
        </p>
          <p>
        Коллекция: <?= $model->collection->name;?>

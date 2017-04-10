@@ -159,7 +159,7 @@ class Collection extends CActiveRecord
 	public function getRubPrice()
 	{
 		if ($this->brand->currency == 1) { // USD
-			return ceil(($this->price * 57) / 100) * 100;
+			return ceil(($this->price * 58) / 100) * 100;
 		} elseif ($this->brand->currency == 2) { // EUR
 			return ceil(($this->price * 62) / 100) * 100;
 		}

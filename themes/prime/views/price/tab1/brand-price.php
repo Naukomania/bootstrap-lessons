@@ -9,9 +9,9 @@
                 <thead>
                     <tr>
                         <th>Коллекция</th>
-                        <th><i class="fa fa-rub fa-2x"></i>за м.кв</th>
+                        <th><i class="fa fa-rub fa-2x"></i>за за лист</th>
                         <th>Коллекция</th>
-                        <th><i class="fa fa-rub fa-2x"></i> за м.кв</th>
+                        <th><i class="fa fa-rub fa-2x"></i> за лист</th>
                     </tr>
                 </thead>
                 <tbody>

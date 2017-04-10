@@ -51,7 +51,7 @@
   <div class="container-fluid">
   <div class="row">
     <div class="navbar-header hidden-sm">
-        <a class="navbar-brand" href="/">Прайм-Стоун<span class="sr-only">(current)</span></a>
+        <a class="navbar-brand" href="/">Прайм-Стоун<span class="sr-only"></span></a>
         <button type="button"
                 class="navbar-toggle"
                 data-toggle="collapse"
