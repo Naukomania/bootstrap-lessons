@@ -1,0 +1,4 @@
+User-agent: *
+Host: prime-stone.ru
+Disallow: /admin/
+Sitemap: http://prime-stone.ru/sitemap.xml
