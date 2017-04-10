@@ -1,7 +1,8 @@
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.(.*)$
 RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
-
+RewriteCond %{HTTPS} on
+RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 Redirect 301 /podokonnik.htm /site/pod
 Redirect 301 /moyki.htm /site/moyki
 Redirect 301 /cena.htm /price/index
@@ -11,8 +12,7 @@ Redirect 301 /stoleshnica_kuhnya.htm /site/kuhnya
 Redirect 301 /lest.htm /site/lest
 Redirect 301 /rakoviny.htm /site/rac
 Redirect 301 /ras4et.htm /price/index
-
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)\?*$ index.php/$1 [L,QSA]
+RewriteRule ^(.*)\?*$ index.php [L,QSA]
