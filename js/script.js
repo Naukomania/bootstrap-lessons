@@ -18,7 +18,7 @@ $(document).ready(function(){
         return false; 
     });
     // закрываем лайтбокс при клике на крестик
-    $('.closeBox').on('click',function(){
+    $('.lightbox .closeBox').on('click',function(){
         $(this).parents('.lightbox').fadeOut();
         $(' #left-menu .item').parents('li').removeClass('active');
         $(' #background-wrapper' ).fadeOut();
@@ -48,7 +48,9 @@ $(document).ready(function(){
     $('body').on('click', '.order-form-link', function() {
         $('#feedback-form-container, #background-wrapper').fadeIn('slow');
         var source = $(this).attr('data-source');
-        alert(source);
+    });
+    $('#feedback-form-container .closeBox').on('click',function(){
+        $('#feedback-form-container, #background-wrapper').fadeOut('slow');
     });
     /**
      * ТАБЫ И ПАГИНАЦИЯ

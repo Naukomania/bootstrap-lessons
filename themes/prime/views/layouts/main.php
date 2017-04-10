@@ -306,8 +306,9 @@
   <div class="row">
     <div id="forma-zakaza" class="col-xs-offset-1 col-xs-10 col-md-6 col-md-offset-3">
       <div class="img-forma-zakaza">
+        <div class="closeBox"><i class="fa fa-remove fa-2x" aria-hidden="true" style="color: #333"></i></div>
         <div id="pechat"></div>
-        <form class="form-horizontal">
+        <form class="form-horizontal" enctype="multipart/form-data">
           <div class="form-group">
             <label class="control-label col-xs-3" for="email">Email</label>
             <div class="col-xs-9 col-md-8">
@@ -318,6 +319,11 @@
             <label class="control-label col-xs-3" for="message">Сообщение</label>
             <div class="col-xs-9 col-md-8">
             <textarea class="form-control" id="message" placeholder="Введите сообщение" rows="4"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-3 col-xs-9 col-md-8">
+            <input type="file" name="attachment" id="attachment">
             </div>
           </div>
           <div class="form-group">
