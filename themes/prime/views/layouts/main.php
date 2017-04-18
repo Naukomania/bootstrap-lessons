@@ -3,6 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="language" content="ru">
+	<meta name="yandex-verification" content="34820dc623a45ff2" />
 
 	<link rel="stylesheet" href="<?= Yii::app()->request->baseUrl; ?>/vendor/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" href="<?= Yii::app()->request->baseUrl; ?>/vendor/jquery-ui/jquery-ui.css">
@@ -353,30 +354,31 @@
   </div>
   <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
-(function (d, w, c) {
-    (w[c] = w[c] || []).push(function() {
-        try {
-            w.yaCounter12355669 = new Ya.Metrika({id:12355669,
-                    webvisor:true,
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter44143059 = new Ya.Metrika({
+                    id:44143059,
                     clickmap:true,
                     trackLinks:true,
-                    accurateTrackBounce:true});
-        } catch(e) { }
-    });
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
 
-    var n = d.getElementsByTagName("script")[0],
-        s = d.createElement("script"),
-        f = function () { n.parentNode.insertBefore(s, n); };
-    s.type = "text/javascript";
-    s.async = true;
-    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
 
-    if (w.opera == "[object Opera]") {
-        d.addEventListener("DOMContentLoaded", f, false);
-    } else { f(); }
-})(document, window, "yandex_metrika_callbacks");
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="//mc.yandex.ru/watch/12355669" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/44143059" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="<?= Yii::app()->request->baseUrl; ?>/vendor/jquery/jquery.js"></script>

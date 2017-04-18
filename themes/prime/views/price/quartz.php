@@ -32,7 +32,7 @@ $this->breadcrumbs=array(
      <div class="tab-content">
      <div id="tab1" class="tab-pane  fade in active">
       <div class="row">
-                            <div class="title-price-stone"><a href="/catalog/radianz"><img src="/images/price/samsung-radianz-logo-mini.jpg">Стоимость кварцевого камня Samsung Radianz</a></div>
+                            <div class="title-price-stone"><a href="/catalog/radianz"><img src="/images/price/samsung-radianz-logo-mini.jpg">Стоимость кварцевого камня Samsung Radianz (Ю. Корея)</a></div>
                      <!--  Закрытие тега row  -->
                     </div>
                      <div class="price-container">
@@ -43,44 +43,243 @@ $this->breadcrumbs=array(
                                              <tr>
                                                     <th>Коллекция</th>
                                                     <th>Размеры слэба, мм</th>
-                                                    <th>Толщина</th>
+                                                    <th>Толщина, мм</th>
                                                     <th>Цена за слэб <i class="fa fa-rub fa-2x"></i></th>
                                                 </tr>
                                            </thead>
                                            <tbody>
-                                           <tr>
-                                            <td><div class="btn-group">
-                                            <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Выбрать коллекцию <span class="caret"></span></button>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#">Группа G1</a></li>
-                                                <li><a href="#"> Группа G2</a></li>
-                                                <li><a href="#"> Группа G3</a></li>
-                                                <li><a href="#"> Группа G4</a></li>
-                                                <li><a href="#"> Группа G5</a></li> 
-                                            </ul>
-                                        </div></td>
-                                        <td><div class="btn-group">
-                                          <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Выбрать размер слэба <span class="caret"></span></button>
-                                              <ul class="dropdown-menu">
-                                                  <li><a href="#">3000 х 1400 мм</a></li>
-                                                  <li><a href="#"> 3000 х 700 мм</a></li>
-                                              </ul>
-                                          </div></td>
-                                          <td><div class="btn-group">
-                                          <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Выбрать толщину слэба <span class="caret"></span></button>
-                                          <ul class="dropdown-menu">
-                                              <li><a href="#">12 мм</a></li>
-                                              <li><a href="#">20 мм</a></li>
-                                              <li><a href="#">30 мм</a></li>
-                                          </ul>
-                                          </div></td>
-                                          <td>0</td>
-                                           </tr>
+                                           <tr class="itogo">
+        <td rowspan="3"><a href="/catalog/radianz?activeId=69">Группа G1<img src="/images/price/corian3.jpg"</a></td>
+        <td rowspan="3">3000х1400</td>
+        <td>12</td>
+        <td>41 800</td>
+    </tr>
+    <tr class="itogo">
+        <td>20</td>
+        <td>50 300</td>
+    </tr>
+    <tr class="itogo">
+        <td>30</td>
+        <td>65 100</td>
+    </tr>
+    <tr class="itogo">
+        <td rowspan="3"><a href="/catalog/radianz?activeId=70">Группа G2<img src="/images/price/cubic.jpg"</a></td>
+        <td rowspan="3">3000х1400</td>
+        <td>12</td>
+        <td>43 000</td>
+    </tr>
+    <tr class="itogo">
+        <td>20</td>
+        <td>51 800</td>
+    </tr>
+    <tr class="itogo">
+        <td>30</td>
+        <td>67 400</td>
+    </tr>
+    <tr class="itogo">
+        <td rowspan="3"><a href="/catalog/radianz?activeId=71">Группа G3<img src="/images/price/duo.jpg"</a></td>
+        <td rowspan="3">3000x1400</td>
+        <td>12</td>
+        <td>48 900</td>
+    </tr>
+    <tr class="itogo">
+        <td>20</td>
+        <td>59 200</td>
+    </tr>
+    <tr class="itogo">
+        <td>30</td>
+        <td>77 000</td>
+    </tr>
+    <tr class="itogo">
+        <td rowspan="3"><a href="/catalog/radianz?activeId=72">Группа G4<img src="/images/price/galleria.jpg"</a></td>
+        <td rowspan="3">3000x1400</td>
+        <td>12</td>
+        <td>59 200</td>
+    </tr>
+    <tr class="itogo">
+        <td>20</td>
+        <td>68 900</td>
+    </tr>
+    <tr class="itogo">
+        <td>30</td>
+        <td>90 200</td>
+    </tr>
+     <tr class="itogo">
+        <td rowspan="3"><a href="/catalog/radianz?activeId=73">Группа G5<img src="/images/price/getacore3.jpg"</a></td>
+        <td rowspan="3">3000x1400</td>
+        <td>12</td>
+        <td>-</td>
+    </tr>
+    <tr class="itogo">
+        <td>20</td>
+        <td>68 900</td>
+    </tr>
+    <tr class="itogo">
+        <td>30</td>
+        <td>90 200</td>
+    </tr>
                                            </tbody>
                                            </table>
                                     </div><!--  Закрытие тега tcol-md-12 -->
-                      </div><!--  Закрытие row -->
-                      </div><!--  Закрытие price-container -->
+                      </div>
+                       <div class="row">
+                            <div class="title-price-stone"><a href="/catalog/scorino"><img src="/images/price/scorino-logo-mini.jpg">Стоимость кварцевого камня Scorino (Ю. Корея)</a></div>
+                     <!--  Закрытие тега row  -->
+                    </div>
+<div class="row">
+                                    <div class="col-md-12">
+                                        <table class="table">
+                                            <thead>
+                                             <tr>
+                                                    <th>Коллекция</th>
+                                                    <th>Размеры слэба, мм</th>
+                                                    <th>Толщина, мм</th>
+                                                    <th>Цена за слэб <i class="fa fa-rub fa-2x"></i></th>
+                                                </tr>
+                                           </thead>
+                                           <tbody>
+                                           <tr class="itogo">
+        <td rowspan="3"><a href="/catalog/scorino?activeId=74">Scorino Quartz<img src="/images/price/sand-pearl.jpg"</a></td>
+        <td rowspan="3">3000х1400</td>
+        <td>12</td>
+        <td>-</td>
+    </tr>
+    <tr class="itogo">
+        <td>20</td>
+        <td>66 300</td>
+    </tr>
+    <tr class="itogo">
+        <td>30</td>
+        <td>74 000</td>
+   
+    
+   
+                                           </tbody>
+                                           </table>
+                                    </div><!--  Закрытие тега tcol-md-12 -->
+                      </div>
+
+                       <div class="row">
+                            <div class="title-price-stone"><a href="/catalog/caesarstone"><img src="/images/price/caesarstone-logo-mini.jpg">Стоимость кварцевого камня Caesarstone (Израиль)</a></div>
+                     <!--  Закрытие тега row  -->
+                    </div>
+<div class="row">
+                                    <div class="col-md-12">
+                                        <table class="table">
+                                            <thead>
+                                             <tr>
+                                                    <th>Коллекция</th>
+                                                    <th>Размеры слэба, мм</th>
+                                                    <th>Толщина, мм</th>
+                                                    <th>Цена за слэб <i class="fa fa-rub fa-2x"></i></th>
+                                                </tr>
+                                           </thead>
+                                           <tbody>
+                                           <tr class="itogo">
+        <td rowspan="3"><a href="/catalog/caesarstone?activeId=75">Classico(1) склад<img src="/images/price/galleria.jpg"</a></td>
+        <td rowspan="3">3050х1440</td>
+        <td>13</td>
+        <td>48 400</td>
+    </tr>
+    <tr class="itogo">
+        <td>20</td>
+        <td>53 700</td>
+    </tr>
+    <tr class="itogo">
+        <td>30</td>
+        <td>72 000</td></tr>
+         <tr class="itogo">
+        <td rowspan="3"><a href="/catalog/caesarstone?activeId=76">Classico(2) склад<img src="/images/price/corian3.jpg"</a></td>
+        <td rowspan="3">3050х1440</td>
+        <td>13</td>
+        <td>51 000</td>
+    </tr>
+    <tr class="itogo">
+        <td>20</td>
+        <td>56 300</td>
+    </tr>
+    <tr class="itogo">
+        <td>30</td>
+        <td>74 500</td></tr>
+          <tr class="itogo">
+        <td rowspan="3"><a href="/catalog/caesarstone?activeId=77">Classico(3) склад<img src="/images/price/corian2.jpg"</a></td>
+        <td rowspan="3">3050х1440</td>
+        <td>13</td>
+        <td>57 600</td>
+    </tr>
+    <tr class="itogo">
+        <td>20</td>
+        <td>64 100</td>
+    </tr>
+    <tr class="itogo">
+        <td>30</td>
+        <td>83 700</td></tr>
+         <tr class="itogo">
+        <td rowspan="3"><a href="/catalog/caesarstone?activeId=78">Classico(1) заказ<img src="/images/price/galaxy.jpg"</a></td>
+        <td rowspan="3">3050х1440</td>
+        <td>13</td>
+        <td>48 400</td>
+    </tr>
+    <tr class="itogo">
+        <td>20</td>
+        <td>53 700</td>
+    </tr>
+    <tr class="itogo">
+        <td>30</td>
+        <td>72 000</td></tr>
+         <tr class="itogo">
+        <td rowspan="3"><a href="/catalog/caesarstone?activeId=79">Classico(2) заказ<img src="/images/price/galleria.jpg"</a></td>
+        <td rowspan="3">3050х1440</td>
+        <td>13</td>
+        <td>51 000</td>
+    </tr>
+    <tr class="itogo">
+        <td>20</td>
+        <td>56 300</td>
+    </tr>
+    <tr class="itogo">
+        <td>30</td>
+        <td>74 500</td></tr>
+         <tr class="itogo">
+        <td rowspan="3"><a href="/catalog/caesarstone?activeId=80">Classico(3) заказ<img src="/images/price/getacore5.jpg"</a></td>
+        <td rowspan="3">3050х1440</td>
+        <td>13</td>
+        <td>57 600</td>
+    </tr>
+    <tr class="itogo">
+        <td>20</td>
+        <td>64 100</td>
+    </tr>
+    <tr class="itogo">
+        <td>30</td>
+        <td>83 700</td></tr>
+          <tr class="itogo">
+        <td rowspan="3"><a href="/catalog/caesarstone?activeId=81">Motivo заказ<img src="/images/price/getacore5.jpg"</a></td>
+        <td rowspan="3">3050х1440</td>
+        <td>13</td>
+        <td>85 000</td>
+    </tr>
+    <tr class="itogo">
+        <td>20</td>
+        <td>104 600</td>
+    </tr>
+    <tr class="itogo">
+        <td>30</td>
+        <td>-</td></tr>
+         <tr class="itogo">
+        <td rowspan="3"><a href="/catalog/caesarstone?activeId=82">Concetto заказ<img src="/images/price/glittering.jpg"</a></td>
+        <td rowspan="3">3050х1440</td>
+        <td>20-25 </td>
+        <td>718 700 - 1 176 000 </td>
+    </tr>
+   
+   
+                                           </tbody>
+                                           </table>
+                                    </div><!--  Закрытие тега tcol-md-12 -->
+                      </div>
+                      <!--  Закрытие row -->
+                      </div><!--  Закрытие price-c  -->
  
 
 

@@ -1,4 +1,10 @@
-User-agent: *
-Host: prime-stone.ru
-Disallow: /admin/
+User-agent:*
+Disallow: /*?*
+Disallow: /ajaxbacth
+Disallow: /ajaxkitchen
+User-agent: Yandex
+Disallow: /*?*
+Disallow: /ajaxbacth
+Disallow: /ajaxkitchen
 Sitemap: http://prime-stone.ru/sitemap.xml
+Host: prime-stone.ru
