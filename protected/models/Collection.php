@@ -161,7 +161,7 @@ class Collection extends CActiveRecord
 		if ($this->brand->currency == 1) { // USD
 			return ceil(($this->price * 58) / 100) * 100;
 		} elseif ($this->brand->currency == 2) { // EUR
-			return ceil(($this->price * 62) / 100) * 100;
+			return ceil(($this->price * 61) / 100) * 100;
 		}
 		return $this->price;
 	}

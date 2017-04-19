@@ -1,3 +1,4 @@
+<? $this->pageTitle=$model->title . " искусственный камень - Прайм-Стоун";?>
 <section id="staron">
     <div class="container">
         <br>

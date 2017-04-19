@@ -14,6 +14,7 @@
 	<link rel="<?= Yii::app()->request->baseUrl; ?>/favicon.ico">
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+ 	
 </head>
 
 <body>
@@ -217,7 +218,7 @@
 				<a href="#">
 					<img src="/images/logomini-footer/plaza-stone-logo-mini.jpg">
 				</a>
-				<a href="#">
+				<a href="/catalog/getacore">
 					<img src="/images/logomini-footer/getacore-logo-mini.jpg">
 				</a>
 			</div>
@@ -249,6 +250,7 @@
 						<li><a href="/catalog/hanex">Hanex (Ю. Корея)</a></li>
 						<li><a href="/catalog/grandex">Grandex (Ю. Корея)</a></li>
 						<li><a href="/catalog/kerrock">Kerrock (Словения)</a></li>
+						<li><a href="/catalog/getacore">GetaCore (Германия)</a></li>
 					</ul>
 				</div>
 			</div>
